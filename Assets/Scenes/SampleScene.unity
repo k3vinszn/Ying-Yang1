@@ -254,7 +254,7 @@ GameObject:
   - component: {fileID: 2032834561}
   - component: {fileID: 2032834560}
   m_Layer: 0
-  m_Name: Player Manager
+  m_Name: Player Manager 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -285,7 +285,7 @@ MonoBehaviour:
   m_JoinAction:
     m_UseReference: 0
     m_Action:
-      m_Name: 
+      m_Name: Join
       m_Type: 0
       m_ExpectedControlType: 
       m_Id: 16072fd9-c7c3-4c6c-a8a1-145a3001f101
