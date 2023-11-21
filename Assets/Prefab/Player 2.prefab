@@ -46,7 +46,7 @@ GameObject:
   - component: {fileID: 2575311009781671216}
   m_Layer: 0
   m_Name: Player 2
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -208,7 +208,7 @@ MonoBehaviour:
   MoveSpeed: 3
   JumpForce: 5
   playerIndex: 1
-  bulletPrefab: {fileID: 8935627026401508772, guid: 3470ce6c1655d63428a87a09feefd06d, type: 3}
+  bulletPrefab: {fileID: 8935627026401508772, guid: f7d8b6cc982f6364db6790e3af96c725, type: 3}
   firePoint: {fileID: 2323061859830473016}
 --- !u!1 &5516135986751991494
 GameObject:
