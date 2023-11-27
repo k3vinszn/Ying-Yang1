@@ -480,11 +480,33 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player 2
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 2575311009781671216, guid: 564e2be44f356c149ab59e91375ef924, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6722746588213058019, guid: 564e2be44f356c149ab59e91375ef924, type: 3}
+      propertyPath: firePoint
+      value: 
+      objectReference: {fileID: 1738329912}
+    - target: {fileID: 6722746588213058019, guid: 564e2be44f356c149ab59e91375ef924, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6722746588213058019, guid: 564e2be44f356c149ab59e91375ef924, type: 3}
+      propertyPath: bulletPrefab
+      value: 
+      objectReference: {fileID: 8935627026401508772, guid: f7d8b6cc982f6364db6790e3af96c725, type: 3}
+    m_RemovedComponents:
+    - {fileID: 6722746588213058019, guid: 564e2be44f356c149ab59e91375ef924, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 564e2be44f356c149ab59e91375ef924, type: 3}
+--- !u!4 &1738329912 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2323061859830473016, guid: 564e2be44f356c149ab59e91375ef924, type: 3}
+  m_PrefabInstance: {fileID: 1738329911}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2032834559
 GameObject:
   m_ObjectHideFlags: 0

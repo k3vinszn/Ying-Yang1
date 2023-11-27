@@ -179,6 +179,7 @@ MonoBehaviour:
   playerIndex: 0
   bulletPrefab: {fileID: 8935627026401508772, guid: 3470ce6c1655d63428a87a09feefd06d, type: 3}
   firePoint: {fileID: 7463500433653669242}
+  shieldPrefab: {fileID: 8935627026401508772, guid: 3470ce6c1655d63428a87a09feefd06d, type: 3}
 --- !u!1 &8672842655272576589
 GameObject:
   m_ObjectHideFlags: 0
