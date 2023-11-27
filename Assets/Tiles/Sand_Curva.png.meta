@@ -1,0 +1,5395 @@
+fileFormatVersion: 2
+guid: 9e13ea6d59b800146b61a72d94c65b32
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 632715035781152592
+    second: Sand_Curva_0
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sand_Curva_0
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 980
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35bd2ff715d20904398121021a365aec
+      internalID: -1975599304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 980
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c24b09bdf52404478b9469b6a3c7acd
+      internalID: -1029495763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_2
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 980
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7125706071526ad4b9d444e3c7e6f9c4
+      internalID: -1094549545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_3
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 980
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75033c335f2d12040b2c6c0efa370dc8
+      internalID: 921722897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_4
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 980
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 061c1881450dbda47a526c6ddf22d1e0
+      internalID: -1985221926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_5
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 980
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 222068559451c3445b4df662f698571b
+      internalID: -973736043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_6
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 980
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2d3d152866f62a498427bb137cea525
+      internalID: -1844556528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_7
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 980
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f68a85762ebe904d926b2c516d57350
+      internalID: -2020204736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_8
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 980
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1749ddef40333549bff7f10efe3a3a2
+      internalID: 1422267503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_9
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 980
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f34fdb2f24a518c4a90e1e21d30f8061
+      internalID: -301468602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_10
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 980
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2bead1df87dba2419f16a4e24a9448a
+      internalID: 1350556858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_11
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 980
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 466c7146542863541992e97c8bec59a4
+      internalID: -7529180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_12
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 980
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7dbf792e356e724abd9b405f981cb2e
+      internalID: 688079407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_13
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 980
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d5210f6a2a8084392c30478ed547fe
+      internalID: -459746962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_14
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 980
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb3fed034c0a5640a22f7fe0e09b7d8
+      internalID: -1025362495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_15
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 980
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e157b0aca4ffff41a11aaf59f1e5454
+      internalID: -1723999072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_16
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 980
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8f0b2237648f2040acaf764711c72bf
+      internalID: -44093601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_17
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 980
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7967df86cafd6414a8a7d1273b6a9c49
+      internalID: -1786915666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_18
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 980
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ac504f627bd2d2439e30bbce2d5b7cd
+      internalID: 1046375261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_19
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 980
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0a41f6c001c00f498caf92abc7afca4
+      internalID: 360586919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_20
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 980
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8bc3943ca5f9d942bc927513c630ca2
+      internalID: -1596685927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_21
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 980
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f2b7bf1c2cd90247a8273e6da2ee6da
+      internalID: 1795395605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_22
+      rect:
+        serializedVersion: 2
+        x: 2300
+        y: 980
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1542e27d48c1cf845a70edf7539a9ae6
+      internalID: 231724501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_23
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 980
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 854a3ed5631c9804083200eaf11ea266
+      internalID: 345899489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_24
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 880
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 930ed93f820965e448837598c518021d
+      internalID: -737014827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_25
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 880
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aebc3c2e3687d5545b162403dbdec070
+      internalID: 1249668325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_26
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 880
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 769f4654aea04474fa916f74676e71be
+      internalID: -1352021508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_27
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 880
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a734c7b26e74694884db43f40007dcb
+      internalID: 63836811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_28
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 880
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98c65feb22a95c246a41907d64600287
+      internalID: -1083071185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_29
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 880
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5783e5ed90620ba4b8e9cfc8747dfcb4
+      internalID: 104905136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_30
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 880
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f966311ffa65ef45bb02f3630b8586a
+      internalID: -952916966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_31
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 880
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b14f9872878a7341bf91051afc81eb9
+      internalID: -667059366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_32
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 880
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 698693d797fb4dd44886eebda6736cf2
+      internalID: -818167207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_33
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 880
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afa3834623a01ee4da312dd74f29d97d
+      internalID: -272796355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_34
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 880
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb09be417f4038f47aee6b9314715cad
+      internalID: 1874885043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_35
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 880
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3bd18168641cb3499baeb0a7ef2bf0b
+      internalID: 1184868292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_36
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 880
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be48fb86b7a36e34a8578a81031e2185
+      internalID: 1522856198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_37
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 880
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6dff0842af9f63418ffa85d62311ee6
+      internalID: 1671738183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_38
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 880
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37dc4d1084be9f04dbb7543eb55710d4
+      internalID: -217638515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_39
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 880
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63fc867cf671e6646ac7be57838ff64d
+      internalID: 1459868359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_40
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 880
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b22628a935de0b4cbc98a5b9575f120
+      internalID: 1188977723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_41
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 880
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29b275f0a32109347a8e612e5c4e9c85
+      internalID: 1593413134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_42
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 880
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f4d6c9cd7f568a4980ce82aff6426f8
+      internalID: 817617610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_43
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 880
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a302368e9548fd34298871dfa7595139
+      internalID: 856822371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_44
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 880
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e528af4819500b1428239ea793c9cdd8
+      internalID: 1592730860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_45
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 880
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f658470f0bddd9d4f944240d32835ee3
+      internalID: -481987477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_46
+      rect:
+        serializedVersion: 2
+        x: 2300
+        y: 880
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcb89f3085c470344a1601c516fe4922
+      internalID: 886819044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_47
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 880
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59bfabd19f88d404ba4604a422ab969a
+      internalID: 493036709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_48
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 780
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98d86f34c8d9d36449b329690b389708
+      internalID: 1353848013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_49
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 780
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f92d13085d045d742baf487cfe0f22dc
+      internalID: 856681443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_50
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 780
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c512c122b2e84743bfb0fff3a988852
+      internalID: 1860025872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_51
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 780
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e502f58bed582af4a84290b421a858ed
+      internalID: -577988840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_52
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 780
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 340cd1daf8c7d9542acee9f15a600218
+      internalID: 1672388679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_53
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 780
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c689cd60a40d84f987233519a514d7
+      internalID: 565912093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_54
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 780
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06f74fdbcf3d47e43a24f7850c6a7b26
+      internalID: -2138264381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_55
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 780
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95fe5ba282e19ee4e86b7ce91e3a4993
+      internalID: 323679226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_56
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 780
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 506f263569c3cd54abe22cab1d389376
+      internalID: 1639906636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_57
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 780
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60067d51c3026f640813334c60e940ca
+      internalID: 2047617220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_58
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 780
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd86cca572578da4680da88c8aaacd04
+      internalID: 1575501864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_59
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 780
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bc62baa300fe6c41ba961c5ff1d6b51
+      internalID: -1854786156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_60
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 780
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c3d58aba7eef234894a677de497bf2a
+      internalID: -1786779631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_61
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 780
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71ba70d795afcdc47bf399f22c6b42f4
+      internalID: -709099877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_62
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 780
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 689d943c07f35244285bee78ec2aadb5
+      internalID: -542968550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_63
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 780
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee6e3f7228ab5624fb1f4f4ba0397306
+      internalID: 1497773429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_64
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 780
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f129bd6187d267468e4abd79bfd3320
+      internalID: -964971507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_65
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 780
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7b4646832fcb8f4ca1d336a337853e5
+      internalID: -983296193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_66
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 780
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11c5718b3917a4b4cb8220e60a5e3de2
+      internalID: 702551778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_67
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 780
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f44f12c9d99b7247ab9e64c7f418991
+      internalID: 1180382869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_68
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 780
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11f1585d6d2e9f346bfacb0fd91c05c5
+      internalID: -879359752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_69
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 780
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e0806fc73c2c1749a4dbd2215878239
+      internalID: -1482833235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_70
+      rect:
+        serializedVersion: 2
+        x: 2300
+        y: 780
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6ad0306924f6d8419dcfdecf46f8d3d
+      internalID: -2105277835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_71
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 780
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d00a3d85abf4a8d4d8e32fa25b0190fe
+      internalID: 1209383303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_72
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 680
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1e56c916ebfd2043b76b4efad08045b
+      internalID: -1251906063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_73
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 680
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 540f34507e1080c41ba2105648376004
+      internalID: 60813207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_74
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 680
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34da67d14d3a37546a7f06c767068a21
+      internalID: -1875939573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_75
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 680
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d506d058ba94a24a81de21062a194c6
+      internalID: -260477633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_76
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 680
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cfe12a1e74f61d4796e2c2585d93c9b
+      internalID: 833228863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_77
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 680
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53ef42bec6dc3d74bb2cdadc522ea67f
+      internalID: 708465343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_78
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 680
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f99761a4a32390e4690da0af51427b95
+      internalID: 2020130354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_79
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 680
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c21510092a815f4bbe34d4265ee2fb4
+      internalID: -396044502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_80
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 680
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 588bda0d231f7874fa8d5990f06931c3
+      internalID: 732010391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_81
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 680
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc66430f1eecc340b0eaa060af58351
+      internalID: 1869246907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_82
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 680
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f44e78f13b7b1e4e83c969f1795f8c8
+      internalID: -535428291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_83
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 680
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2df51780e922cae49ad5210d4e89cf47
+      internalID: 1821982669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_84
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 680
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c1d48e0dea2e1e438cdcfdb325cdd54
+      internalID: 294196218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_85
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 680
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 381093fd9f7a8884f89af04c59c75f9a
+      internalID: 1288457504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_86
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 680
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b13c42f107844eb47935d91ca9c37c99
+      internalID: 1053655806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_87
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 680
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a2fee2dd083c604bb22696c23b55b0c
+      internalID: 805522178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_88
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 680
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89be304e3710d2740970ab3fe04e6bd3
+      internalID: -697189027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_89
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 680
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa31cad301bea544bb8ddf072b682298
+      internalID: 1001975247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_90
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 680
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3333d2560831e7244946b25bb6f1d038
+      internalID: 6866008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_91
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 680
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e5ce829e2187514aa1dec99aa1ba433
+      internalID: 1580664764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_92
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 680
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be014e06b1b3a5440a07794bae05a0d6
+      internalID: 673718174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_93
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 680
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3550003acadb0542884a5e6803bf5b9
+      internalID: -1717173191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_94
+      rect:
+        serializedVersion: 2
+        x: 2300
+        y: 680
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33baa72a386e4fd4cbf699e8c50d7993
+      internalID: 1038250116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_95
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 680
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcc66e36e2951b14eaf53a65767b9a11
+      internalID: -294218154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_96
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 580
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a3f6a083fdd01e41a41276a47d4fa1f
+      internalID: -1886733082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_97
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 580
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93573de9424ae604d81027587d889434
+      internalID: 166549399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_98
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 580
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c5e6af4d7e786e49acbb4e71fdfac0c
+      internalID: -1499295702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_99
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 580
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50bdf1d958659334188561b11ac2b059
+      internalID: 440591440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_100
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 580
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 511788eace3de17459577271c765f65d
+      internalID: 1453808032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_101
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 580
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d9fc658037411e4b9600b48f1a99eee
+      internalID: -999772319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_102
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 580
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fb96142d381b1d42a110847fa9a4771
+      internalID: -920560838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_103
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 580
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ed458df8baf34e41ae59f23ca269650
+      internalID: 2101111650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_104
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 580
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9e687da31530d64681f6ed7fe5990ca
+      internalID: 286014331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_105
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 580
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72f80e77718ce3c4ab0d3b7fc335c6c1
+      internalID: 1926544946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_106
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 580
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4034f3c65c17beb4cb82361756d11724
+      internalID: -2015810584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_107
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 580
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a1f2bca96910e341a434d063fe43043
+      internalID: -1059462025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_108
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 580
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a7f4ff653da75847bcb8440e6ed0324
+      internalID: 989068089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_109
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 580
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51e24543b3138ce478934f55b9af051b
+      internalID: -1389042950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_110
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 580
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4ba8fa148e4b3f4392d3c009ddc404f
+      internalID: 1124075958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_111
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 580
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36763d4c0baea4741ba77e45762a1943
+      internalID: -1972358443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_112
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 580
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27371520570fd6848b41b7fb3f64edaf
+      internalID: -504818564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_113
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 580
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b447520ef4c8d498af375e765df12a
+      internalID: -1724818479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_114
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 580
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c77e00d1a41dac340b5538414d7136be
+      internalID: -397805518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_115
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 580
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57481f0fd258be844acc545fa25ffb0b
+      internalID: -573739198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_116
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 580
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c6488987fe53b240ab3a1dbd665c2bb
+      internalID: 1408594887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_117
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 580
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9775cabf3747c44d9f75b287a4f6ff6
+      internalID: 358151587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_118
+      rect:
+        serializedVersion: 2
+        x: 2300
+        y: 580
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21779fb8328398a40a27eb048495e592
+      internalID: 1852898009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_119
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 580
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2efcbc2783533c4f806b4579bfd9eae
+      internalID: 1127873491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_120
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 480
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 452d9b62bd9390141941f825ae4fa87b
+      internalID: 330108656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_121
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 480
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7196b16b580060443b969db1ffcb306d
+      internalID: 1127620062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_122
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 480
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 717e60c9822f71f409ec30c25876d359
+      internalID: 800208718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_123
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 480
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adc78f5999faf5a4ea1489a7e1e9af7a
+      internalID: 1694226995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_124
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 480
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afcc2e7821d772d45a8d2b28be3e31eb
+      internalID: -566078550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_125
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 480
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7378662e79cc90d44b7266bc451f57bc
+      internalID: -174044948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_126
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 480
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0285557e4a74724ab7a9591dec56832
+      internalID: -33838752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_127
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 480
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffee16a93413e444dafe4955979e11bf
+      internalID: 1252994752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_128
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 480
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 667b14ea34cb3a94cb216a53fa86965d
+      internalID: -849115106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_129
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 480
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71e0883a471efe54ca510b99621fa906
+      internalID: -199726635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_130
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 480
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee2673344190aba4989bfee761553124
+      internalID: 1751581409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_131
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 480
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eade91a2041b93499ffab1bcc7b37e6
+      internalID: 726257581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_132
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 480
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc73133e5d17852479e59cea8156b37d
+      internalID: 454706733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_133
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 480
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa634213ef31091499db78561001eff5
+      internalID: 1349656417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_134
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 480
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad19e73b1704c443a435fe08b2bc013
+      internalID: -519273192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_135
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 480
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9967a73819d7a214f970c6ed17b4cfa0
+      internalID: -560647826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_136
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 480
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b852dfb821b3e1a438fcddb207683043
+      internalID: -1092627774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_137
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 480
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0af8105672e110c4ab4e265351a185b5
+      internalID: -2031697032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_138
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 480
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 711ea6c7cdc88ee498ed7c5a7a100a05
+      internalID: 1823421629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_139
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 480
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aceb00c45c83944ea6288508582cddc
+      internalID: 611016541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_140
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 480
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b592f0a1a39cd94d9c8eb2bcb747d8b
+      internalID: 973177025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_141
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 480
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8154f5d63f206e9498f3f3dc6ad71ef1
+      internalID: -10283992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_142
+      rect:
+        serializedVersion: 2
+        x: 2300
+        y: 480
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e43e608a826b88b4bae15a92df43cd44
+      internalID: -714812812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_143
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 480
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb8495fa375ce894fa3a132fce9c07a6
+      internalID: 980027072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_144
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 380
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9918339ec56f562409eb0526fb6f781d
+      internalID: -737986194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_145
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 380
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dfb5d67cd45b9f42a8d85301ce02f94
+      internalID: -1296906950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_146
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 380
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27b17f9f4bd5c76429c4abed4dc37ce2
+      internalID: -1689871440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_147
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 380
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac3f8804c51ec2f4195ae08f3e538495
+      internalID: 1397894216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_148
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 380
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4ed1c864f19d2140b6ff7e653d38e4d
+      internalID: 141879959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_149
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 380
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76ddc784baa37604da956c00e0c8b6d5
+      internalID: -1453548329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_150
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 380
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43a7c5d54d6f7f8408c0bcaf51d8d4a2
+      internalID: 1501384293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_151
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 380
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4238ba419439df48a90102221268c07
+      internalID: -1813463295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_152
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 380
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b64c4b66e9885449e6ce930b316871
+      internalID: -605100561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_153
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 380
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9a91f9d378027f4c821d75ad6892000
+      internalID: -129117632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_154
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 380
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5dc93adf7aa33a4a894fd01caba8cd3
+      internalID: 1548133010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_155
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 380
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea6212cae29726444ad52c6f77e40a48
+      internalID: 395392635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_156
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 380
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b98ffef542c38e4b881e00995b1c417
+      internalID: -1378150147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_157
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 380
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a58b297b4f854b344a664769c5d8ee18
+      internalID: 2046924894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_158
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 380
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9b17cc1585df4d4a843c1a1218d1282
+      internalID: 126409622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_159
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 380
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3cb7e5e1219e334597905747aa06f51
+      internalID: -1467525551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_160
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 380
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e8697177821b424ab78c5e156172772
+      internalID: -1226034298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_161
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 380
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4a3993eac0f1834799413f66a1239fd
+      internalID: 1573379740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_162
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 380
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c771819ad4fec4b4faa47935a802ccf0
+      internalID: -598309072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_163
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 380
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08bfd4a0c57a1fb4e97d6af74d6193d6
+      internalID: 40147678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_164
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 380
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6234849d9593f64e8ac7904c6654256
+      internalID: -976881055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_165
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 380
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 534d3cbab9d20ce419ed89be2cc5c39b
+      internalID: 1311808469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_166
+      rect:
+        serializedVersion: 2
+        x: 2300
+        y: 380
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bcac788a49e8c749bc48be23b19620e
+      internalID: -814890857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_167
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 380
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e13a977b8cfd6704e9f7cfbeb5c306ee
+      internalID: -904659437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_168
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 280
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a30db6680e843e4080588fcbf3780f5
+      internalID: 1448595987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_169
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 280
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d3fca034525d5d4db8323949abeb491
+      internalID: -929717980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_170
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 280
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c04a7b2c0d3c70438b420de16a0ec63
+      internalID: 1815698776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_171
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 280
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8fd6a82afa3c5a49a3f463a9b5fa9d7
+      internalID: 1071921473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_172
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 280
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eedfa8e690a4a7428818fd06e583952
+      internalID: -1020711552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_173
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 280
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f839f2d05eed8414980e2ebab171cd97
+      internalID: -467444576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_174
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 280
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78ca4038cea8e1c4faa31293fde0ee0b
+      internalID: -1661994549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_175
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 280
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38ab9b4b68f67504aa4b67cbdd90fb05
+      internalID: 208026630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_176
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 280
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed2a4566a12cb2e4793a03dd320b54b1
+      internalID: -1707588516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_177
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 280
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6faf205688ce7b4aa1845f1d9b00c88
+      internalID: 1721499311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_178
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 280
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de54bd407a919064bbe5be4620f61f72
+      internalID: 1496622731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_179
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 280
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 296998df0de70b5478ad6947407f8fdb
+      internalID: 1515802869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_180
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 280
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd1f7e870efb41c4a952081fd9c9476e
+      internalID: -1214439352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_181
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 280
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b50cf999e7271014d967499a944a1392
+      internalID: -1482390663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_182
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 280
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca0830911418d54eb0b089505c6a4a8
+      internalID: 280602789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_183
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 280
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 675d5061bcf260d449f2874f62a6142f
+      internalID: -1387324729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_184
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 280
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc5a86711d61fcb4793a3eb2f12f9c41
+      internalID: 39551388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_185
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 280
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5545fc10c7763734f93d4408e142aa84
+      internalID: 50961088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_186
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 280
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e53b0182943f5eb48b52c4c3b5cd249d
+      internalID: -501800988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_187
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 280
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6c6e09840ed9254da3d403b525862b1
+      internalID: 1541168532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_188
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 280
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2698db14ae02f04a90399131c5a0056
+      internalID: -769651835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_189
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 280
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b06dcf5e715327b4f9e2d215a27635ab
+      internalID: 1547608273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_190
+      rect:
+        serializedVersion: 2
+        x: 2300
+        y: 280
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68108ed39d4b26e4d9fbf9d66d516f37
+      internalID: 1069843048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_191
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 280
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60aba4b95bc713f48830ee5725d06aa5
+      internalID: -414863463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_192
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 180
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b475acdde4bd8084c914790f4a06b20e
+      internalID: -1818550535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_193
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 180
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64d8c6a704982f24b83c264e84196327
+      internalID: -1248739055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_194
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 180
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f2ed4cc278eedf458cbacb3ae76d40f
+      internalID: -806613969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_195
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 180
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1b71f0b3101c68438c50c09ef2c9fac
+      internalID: 281562376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_196
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 180
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71071339b7235264a96cafd2c428aaa5
+      internalID: -1532827954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_197
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 180
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db56b783d6fb5494e9b101bc5ee5b23a
+      internalID: -328271145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_198
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 180
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08d9e81603fb0344b8e20e3f1f25b2aa
+      internalID: 359085646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_199
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 180
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8441e2c4d63e4bd488f9b4b36df92cab
+      internalID: 2040400931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_200
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 180
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e77e912f61b493f4d93249e123fda53e
+      internalID: -1850228229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_201
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 180
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 795335ba68c13564ebc2020063db96bb
+      internalID: 147190589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_202
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 180
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18622a3000bb04c4f89a771653b137ba
+      internalID: -402416037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_203
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 180
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a29fec19464df4195b1d6ffbd532e4
+      internalID: -2126611383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_204
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 180
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 492ba2dc79cd299468b093bc92dc40f5
+      internalID: 1496442260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_205
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 180
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3506ddf1ff82b9c4cbc653ec85c4a8bb
+      internalID: 1118343772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_206
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 180
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1049ff0b56589f4da6ab8d2d3c36418
+      internalID: 1058287763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_207
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 180
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69f1ef0cc55751444bd1a58f63876fbd
+      internalID: -1677859424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_208
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 180
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46e230b06fc24094e9667508fec06179
+      internalID: -1733324165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_209
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 180
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f51a403ce7b9bd46afe8cf045a09618
+      internalID: -962601092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_210
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 180
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eb510da7e4153747acb7797d4e7dfe1
+      internalID: 833622316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_211
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 180
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6583249c15aaf44084589fc803d372e
+      internalID: -1729739037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_212
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 180
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88e76906ecf28054fa2d6c4d39134f77
+      internalID: 466132574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_213
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 180
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fd406cb26c6ded4284c052568de1510
+      internalID: -2047830757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_214
+      rect:
+        serializedVersion: 2
+        x: 2300
+        y: 180
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 288ccabcb3f9c7f49bde791eed290b46
+      internalID: 925273050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_215
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 180
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 571d61cc07f66cd4bab2de00c908f833
+      internalID: 1767880562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_216
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 80
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 209903bef8f307b42bb83a39cf69df03
+      internalID: -1269975237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_217
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 80
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad18b2c769969064892e04592621e900
+      internalID: 18914910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_218
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 80
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b681eb045d83f7948b84472764d5e99b
+      internalID: 1471848836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_219
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 80
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1edfd24d2476d4a4baeb52e273b6c51c
+      internalID: -1861977569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_220
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 80
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b113657ab080194469451c716db90ae4
+      internalID: -869836036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_221
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 80
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bedb1794ecea3eb4281570ac8cb98170
+      internalID: -2005993941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_222
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 80
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8bd59f9e7280ed489155d70d63b8604
+      internalID: 1676257705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_223
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 80
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ac7b7a9e95db784a9c67cea2b2058fd
+      internalID: -1713405250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_224
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 80
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be59d3df5abb63448b70687ba6a87075
+      internalID: 1477331416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_225
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 80
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9c7e2a29eac9c140991ad44256b0125
+      internalID: 1605775685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_226
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 80
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9017f1ea1c89d0748a4adcbaa120a261
+      internalID: 888724102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_227
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 80
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da1b40b9347b32747a37ee321e1d9eb3
+      internalID: 1708594816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_228
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 80
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34a0b743c596af44aad75ec45b91453c
+      internalID: -136333724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_229
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 80
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 335dd18e5a0836948a664a24ce757789
+      internalID: 1043591894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_230
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 80
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bebcfac215754d74aa9ab76d9f119a27
+      internalID: -554279963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_231
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 80
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34669d97ea32cab48ba44551ea22046b
+      internalID: -107423481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_232
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 80
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aad13fe52190cd542b18a70dcc7e9bb9
+      internalID: 5963158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_233
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 80
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ef24f39185e854fa0f75c3c4332ab2
+      internalID: -228710916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_234
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 80
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b40fbdcfb777934d954a9a3a631a031
+      internalID: -1136002703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_235
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 80
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94a8ba7f909dc9a43965afa260fba353
+      internalID: 1065333909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_236
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 80
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dc9aef8efbb3994fa01ef1dd0abac4e
+      internalID: 424820072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_237
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 80
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c15ccd68f1f7af428d839b9b54a59d8
+      internalID: 1253964977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_238
+      rect:
+        serializedVersion: 2
+        x: 2300
+        y: 80
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 442ffac9594046d438cb1d994a2878bb
+      internalID: 240945970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand_Curva_239
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 80
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ef22b167fd139c48a9eb883d6a84459
+      internalID: 2054006997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 180dc0993965acd45951429a47ed2297
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Sand_Curva_0: -1975599304
+      Sand_Curva_1: -1029495763
+      Sand_Curva_10: 1350556858
+      Sand_Curva_100: 1453808032
+      Sand_Curva_101: -999772319
+      Sand_Curva_102: -920560838
+      Sand_Curva_103: 2101111650
+      Sand_Curva_104: 286014331
+      Sand_Curva_105: 1926544946
+      Sand_Curva_106: -2015810584
+      Sand_Curva_107: -1059462025
+      Sand_Curva_108: 989068089
+      Sand_Curva_109: -1389042950
+      Sand_Curva_11: -7529180
+      Sand_Curva_110: 1124075958
+      Sand_Curva_111: -1972358443
+      Sand_Curva_112: -504818564
+      Sand_Curva_113: -1724818479
+      Sand_Curva_114: -397805518
+      Sand_Curva_115: -573739198
+      Sand_Curva_116: 1408594887
+      Sand_Curva_117: 358151587
+      Sand_Curva_118: 1852898009
+      Sand_Curva_119: 1127873491
+      Sand_Curva_12: 688079407
+      Sand_Curva_120: 330108656
+      Sand_Curva_121: 1127620062
+      Sand_Curva_122: 800208718
+      Sand_Curva_123: 1694226995
+      Sand_Curva_124: -566078550
+      Sand_Curva_125: -174044948
+      Sand_Curva_126: -33838752
+      Sand_Curva_127: 1252994752
+      Sand_Curva_128: -849115106
+      Sand_Curva_129: -199726635
+      Sand_Curva_13: -459746962
+      Sand_Curva_130: 1751581409
+      Sand_Curva_131: 726257581
+      Sand_Curva_132: 454706733
+      Sand_Curva_133: 1349656417
+      Sand_Curva_134: -519273192
+      Sand_Curva_135: -560647826
+      Sand_Curva_136: -1092627774
+      Sand_Curva_137: -2031697032
+      Sand_Curva_138: 1823421629
+      Sand_Curva_139: 611016541
+      Sand_Curva_14: -1025362495
+      Sand_Curva_140: 973177025
+      Sand_Curva_141: -10283992
+      Sand_Curva_142: -714812812
+      Sand_Curva_143: 980027072
+      Sand_Curva_144: -737986194
+      Sand_Curva_145: -1296906950
+      Sand_Curva_146: -1689871440
+      Sand_Curva_147: 1397894216
+      Sand_Curva_148: 141879959
+      Sand_Curva_149: -1453548329
+      Sand_Curva_15: -1723999072
+      Sand_Curva_150: 1501384293
+      Sand_Curva_151: -1813463295
+      Sand_Curva_152: -605100561
+      Sand_Curva_153: -129117632
+      Sand_Curva_154: 1548133010
+      Sand_Curva_155: 395392635
+      Sand_Curva_156: -1378150147
+      Sand_Curva_157: 2046924894
+      Sand_Curva_158: 126409622
+      Sand_Curva_159: -1467525551
+      Sand_Curva_16: -44093601
+      Sand_Curva_160: -1226034298
+      Sand_Curva_161: 1573379740
+      Sand_Curva_162: -598309072
+      Sand_Curva_163: 40147678
+      Sand_Curva_164: -976881055
+      Sand_Curva_165: 1311808469
+      Sand_Curva_166: -814890857
+      Sand_Curva_167: -904659437
+      Sand_Curva_168: 1448595987
+      Sand_Curva_169: -929717980
+      Sand_Curva_17: -1786915666
+      Sand_Curva_170: 1815698776
+      Sand_Curva_171: 1071921473
+      Sand_Curva_172: -1020711552
+      Sand_Curva_173: -467444576
+      Sand_Curva_174: -1661994549
+      Sand_Curva_175: 208026630
+      Sand_Curva_176: -1707588516
+      Sand_Curva_177: 1721499311
+      Sand_Curva_178: 1496622731
+      Sand_Curva_179: 1515802869
+      Sand_Curva_18: 1046375261
+      Sand_Curva_180: -1214439352
+      Sand_Curva_181: -1482390663
+      Sand_Curva_182: 280602789
+      Sand_Curva_183: -1387324729
+      Sand_Curva_184: 39551388
+      Sand_Curva_185: 50961088
+      Sand_Curva_186: -501800988
+      Sand_Curva_187: 1541168532
+      Sand_Curva_188: -769651835
+      Sand_Curva_189: 1547608273
+      Sand_Curva_19: 360586919
+      Sand_Curva_190: 1069843048
+      Sand_Curva_191: -414863463
+      Sand_Curva_192: -1818550535
+      Sand_Curva_193: -1248739055
+      Sand_Curva_194: -806613969
+      Sand_Curva_195: 281562376
+      Sand_Curva_196: -1532827954
+      Sand_Curva_197: -328271145
+      Sand_Curva_198: 359085646
+      Sand_Curva_199: 2040400931
+      Sand_Curva_2: -1094549545
+      Sand_Curva_20: -1596685927
+      Sand_Curva_200: -1850228229
+      Sand_Curva_201: 147190589
+      Sand_Curva_202: -402416037
+      Sand_Curva_203: -2126611383
+      Sand_Curva_204: 1496442260
+      Sand_Curva_205: 1118343772
+      Sand_Curva_206: 1058287763
+      Sand_Curva_207: -1677859424
+      Sand_Curva_208: -1733324165
+      Sand_Curva_209: -962601092
+      Sand_Curva_21: 1795395605
+      Sand_Curva_210: 833622316
+      Sand_Curva_211: -1729739037
+      Sand_Curva_212: 466132574
+      Sand_Curva_213: -2047830757
+      Sand_Curva_214: 925273050
+      Sand_Curva_215: 1767880562
+      Sand_Curva_216: -1269975237
+      Sand_Curva_217: 18914910
+      Sand_Curva_218: 1471848836
+      Sand_Curva_219: -1861977569
+      Sand_Curva_22: 231724501
+      Sand_Curva_220: -869836036
+      Sand_Curva_221: -2005993941
+      Sand_Curva_222: 1676257705
+      Sand_Curva_223: -1713405250
+      Sand_Curva_224: 1477331416
+      Sand_Curva_225: 1605775685
+      Sand_Curva_226: 888724102
+      Sand_Curva_227: 1708594816
+      Sand_Curva_228: -136333724
+      Sand_Curva_229: 1043591894
+      Sand_Curva_23: 345899489
+      Sand_Curva_230: -554279963
+      Sand_Curva_231: -107423481
+      Sand_Curva_232: 5963158
+      Sand_Curva_233: -228710916
+      Sand_Curva_234: -1136002703
+      Sand_Curva_235: 1065333909
+      Sand_Curva_236: 424820072
+      Sand_Curva_237: 1253964977
+      Sand_Curva_238: 240945970
+      Sand_Curva_239: 2054006997
+      Sand_Curva_24: -737014827
+      Sand_Curva_25: 1249668325
+      Sand_Curva_26: -1352021508
+      Sand_Curva_27: 63836811
+      Sand_Curva_28: -1083071185
+      Sand_Curva_29: 104905136
+      Sand_Curva_3: 921722897
+      Sand_Curva_30: -952916966
+      Sand_Curva_31: -667059366
+      Sand_Curva_32: -818167207
+      Sand_Curva_33: -272796355
+      Sand_Curva_34: 1874885043
+      Sand_Curva_35: 1184868292
+      Sand_Curva_36: 1522856198
+      Sand_Curva_37: 1671738183
+      Sand_Curva_38: -217638515
+      Sand_Curva_39: 1459868359
+      Sand_Curva_4: -1985221926
+      Sand_Curva_40: 1188977723
+      Sand_Curva_41: 1593413134
+      Sand_Curva_42: 817617610
+      Sand_Curva_43: 856822371
+      Sand_Curva_44: 1592730860
+      Sand_Curva_45: -481987477
+      Sand_Curva_46: 886819044
+      Sand_Curva_47: 493036709
+      Sand_Curva_48: 1353848013
+      Sand_Curva_49: 856681443
+      Sand_Curva_5: -973736043
+      Sand_Curva_50: 1860025872
+      Sand_Curva_51: -577988840
+      Sand_Curva_52: 1672388679
+      Sand_Curva_53: 565912093
+      Sand_Curva_54: -2138264381
+      Sand_Curva_55: 323679226
+      Sand_Curva_56: 1639906636
+      Sand_Curva_57: 2047617220
+      Sand_Curva_58: 1575501864
+      Sand_Curva_59: -1854786156
+      Sand_Curva_6: -1844556528
+      Sand_Curva_60: -1786779631
+      Sand_Curva_61: -709099877
+      Sand_Curva_62: -542968550
+      Sand_Curva_63: 1497773429
+      Sand_Curva_64: -964971507
+      Sand_Curva_65: -983296193
+      Sand_Curva_66: 702551778
+      Sand_Curva_67: 1180382869
+      Sand_Curva_68: -879359752
+      Sand_Curva_69: -1482833235
+      Sand_Curva_7: -2020204736
+      Sand_Curva_70: -2105277835
+      Sand_Curva_71: 1209383303
+      Sand_Curva_72: -1251906063
+      Sand_Curva_73: 60813207
+      Sand_Curva_74: -1875939573
+      Sand_Curva_75: -260477633
+      Sand_Curva_76: 833228863
+      Sand_Curva_77: 708465343
+      Sand_Curva_78: 2020130354
+      Sand_Curva_79: -396044502
+      Sand_Curva_8: 1422267503
+      Sand_Curva_80: 732010391
+      Sand_Curva_81: 1869246907
+      Sand_Curva_82: -535428291
+      Sand_Curva_83: 1821982669
+      Sand_Curva_84: 294196218
+      Sand_Curva_85: 1288457504
+      Sand_Curva_86: 1053655806
+      Sand_Curva_87: 805522178
+      Sand_Curva_88: -697189027
+      Sand_Curva_89: 1001975247
+      Sand_Curva_9: -301468602
+      Sand_Curva_90: 6866008
+      Sand_Curva_91: 1580664764
+      Sand_Curva_92: 673718174
+      Sand_Curva_93: -1717173191
+      Sand_Curva_94: 1038250116
+      Sand_Curva_95: -294218154
+      Sand_Curva_96: -1886733082
+      Sand_Curva_97: 166549399
+      Sand_Curva_98: -1499295702
+      Sand_Curva_99: 440591440
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
