@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 401294767320826380}
   - component: {fileID: 482668576246218625}
   - component: {fileID: 977802583234449847}
+  - component: {fileID: -3865973102544839013}
   m_Layer: 0
-  m_Name: Bullet 1
+  m_Name: Shield
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -115,7 +116,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -131,3 +132,16 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &-3865973102544839013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8935627026401508772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 629d8d2b4320e3649ae8067731985677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxBlockCount: 3
