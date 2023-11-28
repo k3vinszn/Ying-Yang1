@@ -1,8 +1,8 @@
-// RepeatingDoorBehavior script
+// RepeatingDoorXBehavior script
 using System.Collections;
 using UnityEngine;
 
-public class RepeatingDoorBehavior : MonoBehaviour
+public class RepeatingDoorXBehavior : MonoBehaviour
 {
     private bool isDoorOpen = false;
     private Vector3 doorClosedPos;
@@ -14,7 +14,7 @@ public class RepeatingDoorBehavior : MonoBehaviour
     void Awake()
     {
         doorClosedPos = transform.position;
-        doorOpenPos = new Vector3(transform.position.x, transform.position.y + 15f, transform.position.z);
+        doorOpenPos = new Vector3(transform.position.x - 15f, transform.position.y, transform.position.z);
     }
 
     void Update()

@@ -92,7 +92,7 @@ public class Mover : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (gameObject.layer == LayerMask.NameToLayer("PlayerBranco") && collision.gameObject.layer == LayerMask.NameToLayer("PlataformaBranca"))
+        if (gameObject.layer == LayerMask.NameToLayer("PlayerBranco") && collision.gameObject.layer == LayerMask.NameToLayer("PlataformaPreta"))
         {
             Physics2D.IgnoreCollision(collision.collider, GetComponent<Collider2D>());
         }
@@ -100,13 +100,13 @@ public class Mover : MonoBehaviour
         {
             Physics2D.IgnoreCollision(collision.collider, GetComponent<Collider2D>());
         }
-        else if (gameObject.layer == LayerMask.NameToLayer("PlayerPreto") && collision.gameObject.layer == LayerMask.NameToLayer("PlataformaPreta"))
+        else if (gameObject.layer == LayerMask.NameToLayer("PlayerPreto") && collision.gameObject.layer == LayerMask.NameToLayer("PlataformaBranca"))
         {
             Physics2D.IgnoreCollision(collision.collider, GetComponent<Collider2D>());
         }
         else if (gameObject.layer == LayerMask.NameToLayer("PlayerPreto") && collision.gameObject.layer == LayerMask.NameToLayer("ParedeBranca"))
         {
-            Physics2D.IgnoreCollision(collision.collider, GetComponent<Collider2D>());
+            Physics2D.IgnoreCollision(collision.collider, GetComponent<Collider2D>()); 
         }
         else if (gameObject.layer == LayerMask.NameToLayer("PlayerPreto") && collision.gameObject.layer == LayerMask.NameToLayer("PlayerBranco"))
         {
