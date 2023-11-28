@@ -1,13 +1,13 @@
+// DoubleSwitchBehavior script
 using UnityEngine;
 
 public class DoubleSwitchBehavior : MonoBehaviour
 {
-    [SerializeField] RepeatingDoorBehavior doorBehavior; // Change the type to RepeatingDoorBehavior
+    [SerializeField] RepeatingDoorBehavior doorBehavior;
     [SerializeField] bool isDoorOpenSwitch;
     [SerializeField] bool isDoorClosedSwitch;
 
     bool hasBeenPressed = false;
-
     static int switchesPressedCount = 0;
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -37,13 +37,13 @@ public class DoubleSwitchBehavior : MonoBehaviour
 
     void ToggleDoorState()
     {
-        if (isDoorOpenSwitch && !doorBehavior.isDoorOpen)
+        if (isDoorOpenSwitch)
         {
-            doorBehavior.isDoorOpen = true;
+            doorBehavior.ToggleDoorState();
         }
-        else if (isDoorClosedSwitch && doorBehavior.isDoorOpen)
+        else if (isDoorClosedSwitch)
         {
-            doorBehavior.isDoorOpen = false;
+            doorBehavior.ToggleDoorState();
         }
     }
 }

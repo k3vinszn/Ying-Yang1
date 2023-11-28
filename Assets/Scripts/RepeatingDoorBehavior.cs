@@ -1,13 +1,14 @@
+// RepeatingDoorBehavior script
 using System.Collections;
 using UnityEngine;
 
 public class RepeatingDoorBehavior : MonoBehaviour
 {
-    public bool isDoorOpen = false;
-    Vector3 doorClosedPos;
-    Vector3 doorOpenPos;
+    private bool isDoorOpen = false;
+    private Vector3 doorClosedPos;
+    private Vector3 doorOpenPos;
     public float doorSpeed = 1f;
-    public float doorStayTime = 3f; // Time the door stays open
+    public float doorStayTime = 3f;
     private bool isMoving = false;
 
     void Awake()
@@ -27,6 +28,7 @@ public class RepeatingDoorBehavior : MonoBehaviour
     IEnumerator MoveDoorAndStay()
     {
         isMoving = true;
+
         // Move the door up
         yield return MoveDoor(doorOpenPos);
 
@@ -36,8 +38,12 @@ public class RepeatingDoorBehavior : MonoBehaviour
         // Move the door down
         yield return MoveDoor(doorClosedPos);
 
-        isDoorOpen = false; // Set the door state to closed
-        isMoving = false; // Allow the door to be moved again
+        // Do not set isDoorOpen to false here; keep the door state unchanged
+
+        // Wait for the specified time again before allowing the door to be moved
+        yield return new WaitForSeconds(doorStayTime);
+
+        isMoving = false;
     }
 
     IEnumerator MoveDoor(Vector3 targetPos)
@@ -48,4 +54,12 @@ public class RepeatingDoorBehavior : MonoBehaviour
             yield return null;
         }
     }
+
+    public void ToggleDoorState()
+    {
+        isDoorOpen = !isDoorOpen;
+        StartCoroutine(MoveDoorAndStay());
+    }
+
+    // Add any other methods or events you may need
 }
