@@ -96,7 +96,19 @@ public class Mover : MonoBehaviour
         {
             Physics2D.IgnoreCollision(collision.collider, GetComponent<Collider2D>());
         }
+        else if (gameObject.layer == LayerMask.NameToLayer("PlayerBranco") && collision.gameObject.layer == LayerMask.NameToLayer("ParedePreta"))
+        {
+            Physics2D.IgnoreCollision(collision.collider, GetComponent<Collider2D>());
+        }
         else if (gameObject.layer == LayerMask.NameToLayer("PlayerPreto") && collision.gameObject.layer == LayerMask.NameToLayer("PlataformaPreta"))
+        {
+            Physics2D.IgnoreCollision(collision.collider, GetComponent<Collider2D>());
+        }
+        else if (gameObject.layer == LayerMask.NameToLayer("PlayerPreto") && collision.gameObject.layer == LayerMask.NameToLayer("ParedeBranca"))
+        {
+            Physics2D.IgnoreCollision(collision.collider, GetComponent<Collider2D>());
+        }
+        else if (gameObject.layer == LayerMask.NameToLayer("PlayerPreto") && collision.gameObject.layer == LayerMask.NameToLayer("PlayerBranco"))
         {
             Physics2D.IgnoreCollision(collision.collider, GetComponent<Collider2D>());
         }
@@ -104,10 +116,32 @@ public class Mover : MonoBehaviour
         {
             isGrounded = true;
         }
+        if (collision.collider.CompareTag("Key"))
+        {
+            KeyCollectible key = collision.collider.GetComponent<KeyCollectible>();
+
+            if (key != null)
+            {
+                key.CollectKey();
+
+                // Assuming the final door is tagged as "FinalDoor"
+                GameObject finalDoor = GameObject.FindGameObjectWithTag("FinalDoor");
+
+                if (finalDoor != null)
+                {
+                    FinalDoorBehavior finalDoorBehavior = finalDoor.GetComponent<FinalDoorBehavior>();
+
+                    if (finalDoorBehavior != null)
+                    {
+                        finalDoorBehavior.keysCollected++;
+                    }
+                }
+            }
+        }
     }
 
 
-    private void Flip()
+        private void Flip()
     {
         isFacingRight = !isFacingRight;
 
