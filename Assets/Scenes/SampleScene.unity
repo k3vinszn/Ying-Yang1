@@ -1592,6 +1592,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DoorOpen (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3007423582212815944, guid: c07789f19333c8a41bc2d258c1c026cc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.22
+      objectReference: {fileID: 0}
     - target: {fileID: 4671027273732873735, guid: c07789f19333c8a41bc2d258c1c026cc, type: 3}
       propertyPath: doorBehaviour
       value: 
