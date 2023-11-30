@@ -606,7 +606,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1496988330892048494, guid: e8a546b05b2f578439b36d12f9ceea1a, type: 3}
       propertyPath: m_Name
-      value: Nuvem (3)
+      value: Nuvem Vertical 3
       objectReference: {fileID: 0}
     - target: {fileID: 1496988330892048494, guid: e8a546b05b2f578439b36d12f9ceea1a, type: 3}
       propertyPath: m_TagString
@@ -1028,7 +1028,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.0007679302, y: 0.021127824, z: -0.000016228323, w: 0.9997765}
+  m_LocalRotation: {x: 0.00076795026, y: 0.021127857, z: -0.000016228774, w: 0.9997765}
   m_LocalPosition: {x: -4.67284, y: -0.98462397, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1937,7 +1937,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1496988330892048494, guid: e8a546b05b2f578439b36d12f9ceea1a, type: 3}
       propertyPath: m_Name
-      value: PortaDoubbleSwitch
+      value: PortaDoubbleSwitch 1
       objectReference: {fileID: 0}
     - target: {fileID: 7632440286502852570, guid: e8a546b05b2f578439b36d12f9ceea1a, type: 3}
       propertyPath: doorSpeed
@@ -74319,7 +74319,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1720268688}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.0007679302, y: 0.021127824, z: -0.000016228323, w: 0.9997765}
+  m_LocalRotation: {x: 0.00076795026, y: 0.021127857, z: -0.000016228774, w: 0.9997765}
   m_LocalPosition: {x: -4.67284, y: -0.98462397, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -74971,7 +74971,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1496988330892048494, guid: e8a546b05b2f578439b36d12f9ceea1a, type: 3}
       propertyPath: m_Name
-      value: Nuvem (2)
+      value: Nuvem Vertical 2
       objectReference: {fileID: 0}
     - target: {fileID: 1496988330892048494, guid: e8a546b05b2f578439b36d12f9ceea1a, type: 3}
       propertyPath: m_TagString
@@ -75407,7 +75407,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1496988330892048494, guid: e8a546b05b2f578439b36d12f9ceea1a, type: 3}
       propertyPath: m_Name
-      value: Nuvem
+      value: Nuvem Vertical 1
       objectReference: {fileID: 0}
     - target: {fileID: 1496988330892048494, guid: e8a546b05b2f578439b36d12f9ceea1a, type: 3}
       propertyPath: m_TagString
@@ -75520,7 +75520,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8790333192976859689, guid: 01f236b495801ac4a9c82b8f82f84c0e, type: 3}
       propertyPath: m_Name
-      value: door
+      value: Porta 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
