@@ -27,9 +27,20 @@ public class Mover : MonoBehaviour
 
     private bool isFacingRight = true;
 
+
+    public int maxHealth = 3;
+    public int currentHealth;
+    public int damage = 1;
+    private Vector3 respawnPoint;
+    public GameObject fallDetector;
+
+
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        currentHealth = maxHealth;
+        respawnPoint = transform.position;
     }
 
     public int GetPlayerIndex()
@@ -88,8 +99,24 @@ public class Mover : MonoBehaviour
         {
             currentBullet.transform.position = firePoint.position;
         }
+
+        PlayerDeath();
+
+
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("FallDetector"))
+        {
+            transform.position = respawnPoint;
+        }
+        else if (collision.tag == "Checkpoint")
+        {
+            respawnPoint = transform.position;
+            Debug.Log("Passou pelo checkpoin");
+        }
+    }
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (gameObject.layer == LayerMask.NameToLayer("PlayerBranco") && collision.gameObject.layer == LayerMask.NameToLayer("PlataformaPreta"))
@@ -138,10 +165,18 @@ public class Mover : MonoBehaviour
                 }
             }
         }
+
+
+        if (collision.gameObject.tag == "Enemy")
+        {
+            currentHealth -= damage;
+            Debug.Log("bullet");
+            
+        }
     }
 
 
-        private void Flip()
+    private void Flip()
     {
         isFacingRight = !isFacingRight;
 
@@ -154,5 +189,14 @@ public class Mover : MonoBehaviour
         Vector3 firePointScale = firePoint.localScale;
         firePointScale.x *= -1f;
         firePoint.localScale = firePointScale;
+    }
+
+    private void PlayerDeath()
+    {
+        if (currentHealth <= 0)
+        {
+            Destroy(gameObject);
+        }
+        // Add death animation logic here
     }
 }
