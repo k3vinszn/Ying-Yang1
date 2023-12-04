@@ -13,6 +13,9 @@ public class Mover : MonoBehaviour
     [SerializeField]
     private int playerIndex = 0;
 
+    [SerializeField]
+    private int health = 10;
+
     private Rigidbody2D rb;
 
     private Vector2 moveDirection = Vector2.zero;
@@ -140,8 +143,34 @@ public class Mover : MonoBehaviour
         }
     }
 
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("PlayerBullet")) // Updated tag check
+        {
+            TakeDamage(); // Call the TakeDamage method when hit by a bullet
+            Destroy(other.gameObject); // Destroy the bullet
+        }
+        else if (other.gameObject.CompareTag("Ground"))
+        {
+            isGrounded = true;
+        }
 
-        private void Flip()
+    }
+
+    public void TakeDamage() // Change to public
+    {
+        health -= 1; // Deduct 1 health point
+        Debug.Log("Player Health: " + health);
+
+        if (health <= 0)
+        {
+            // Perform any actions when the player's health reaches zero (e.g., respawn logic)
+            Debug.Log("Player is defeated!");
+            // You can add more logic like respawning the player or triggering a game over screen.
+        }
+    }
+
+    private void Flip()
     {
         isFacingRight = !isFacingRight;
 
