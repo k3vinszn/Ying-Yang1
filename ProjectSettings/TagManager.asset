@@ -9,8 +9,6 @@ TagManager:
   - Bullet
   - Key
   - FinalDoor
-  - FallDetector
-  - CheckPoint
   layers:
   - Default
   - TransparentFX
