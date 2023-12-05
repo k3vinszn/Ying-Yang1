@@ -27,12 +27,16 @@ public class Mover : MonoBehaviour
     public Transform firePoint;
     private GameObject currentBullet;
     private bool isBulletActive = false;
+    private Vector3 respawnPoint;
+    public GameObject fallDetector;
 
     private bool isFacingRight = true;
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        respawnPoint = transform.position;
+
     }
 
     public int GetPlayerIndex()
@@ -74,6 +78,9 @@ public class Mover : MonoBehaviour
         moveDirection.Normalize();
 
         rb.velocity = new Vector2(moveDirection.x * MoveSpeed, rb.velocity.y);
+
+        fallDetector.transform.position = new Vector2(transform.position.x, fallDetector.transform.position.y);
+
 
         // Flip the player and the fire position if moving left
         if (moveDirection.x < 0 && isFacingRight)
@@ -153,6 +160,15 @@ public class Mover : MonoBehaviour
         else if (other.gameObject.CompareTag("Ground"))
         {
             isGrounded = true;
+        }
+
+        if (other.gameObject.CompareTag("Fall Detector"))
+        {
+            transform.position = respawnPoint;
+        }
+        else if (other.tag == "Checkpoint")
+        {
+            respawnPoint = transform.position;
         }
 
     }
