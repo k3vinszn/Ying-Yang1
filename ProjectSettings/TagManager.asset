@@ -10,6 +10,7 @@ TagManager:
   - Key
   - FinalDoor
   - Fall Detector
+  - Checkpoint
   layers:
   - Default
   - TransparentFX
