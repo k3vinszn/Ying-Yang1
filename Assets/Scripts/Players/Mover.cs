@@ -18,6 +18,9 @@ public class Mover : MonoBehaviour
 
     private Rigidbody2D rb;
 
+    public float cooldownTime = 3f; // Cooldown time in seconds
+    private float cooldownTimer = 0f; // Timer to keep track of cooldown
+
     private Vector2 moveDirection = Vector2.zero;
     private Vector2 inputVector = Vector2.zero;
 
@@ -60,15 +63,39 @@ public class Mover : MonoBehaviour
 
     public void Fire(bool isFiring)
     {
-        if (isFiring && !isBulletActive) // Check if the fire button is pressed and no bullet is currently active
+        if (cooldownTimer > 0)
+        {
+            // If cooldown is active, decrement the timer and return without firing
+            cooldownTimer -= Time.deltaTime;
+            return;
+        }
+
+        if (isFiring && !isBulletActive)
         {
             currentBullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
-            isBulletActive = true; // Set the flag to indicate that a bullet is active
+            isBulletActive = true;
         }
-        else if (!isFiring && currentBullet != null) // Check if the fire button is released and there's a bullet active
+        else if (!isFiring && currentBullet != null)
         {
             Destroy(currentBullet);
-            isBulletActive = false; // Reset the flag when the bullet is destroyed
+            isBulletActive = false;
+            StartCooldown(); // Start the cooldown when the bullet is destroyed
+        }
+    }
+
+    void StartCooldown()
+    {
+        cooldownTimer = cooldownTime;
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Bullet") && currentBullet != null)
+        {
+            // If the bullet collides with an object with the "Bullet" tag, start cooldown
+            StartCooldown();
+            Destroy(currentBullet);
+            isBulletActive = false;
         }
     }
 
