@@ -866,7 +866,7 @@ GameObject:
   - component: {fileID: 314311707}
   - component: {fileID: 314311710}
   - component: {fileID: 314311709}
-  - component: {fileID: 314311708}
+  - component: {fileID: 314311711}
   m_Layer: 0
   m_Name: cm
   m_TagString: Untagged
@@ -889,28 +889,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1720268690}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &314311708
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 314311706}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fa7155796051b734daa718462081dc5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_BindingMode: 1
-  m_FollowOffset: {x: 0, y: 0, z: -10}
-  m_XDamping: 1
-  m_YDamping: 1
-  m_ZDamping: 1
-  m_AngularDampingMode: 0
-  m_PitchDamping: 0
-  m_YawDamping: 0
-  m_RollDamping: 0
-  m_AngularDamping: 0
 --- !u!114 &314311709
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -962,6 +940,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &314311711
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 314311706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa7155796051b734daa718462081dc5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_BindingMode: 1
+  m_FollowOffset: {x: 0, y: 0, z: -10}
+  m_XDamping: 1
+  m_YDamping: 1
+  m_ZDamping: 1
+  m_AngularDampingMode: 0
+  m_PitchDamping: 0
+  m_YawDamping: 0
+  m_RollDamping: 0
+  m_AngularDamping: 0
 --- !u!1001 &337241500
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1197,7 +1197,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.0007679795, y: 0.021127868, z: -0.0000162294, w: 0.9997765}
+  m_LocalRotation: {x: 0.00076797954, y: 0.021127868, z: -0.0000162294, w: 0.9997765}
   m_LocalPosition: {x: -1.1728389, y: -1.4846265, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -96342,7 +96342,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1720268688}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.0007679795, y: 0.021127868, z: -0.0000162294, w: 0.9997765}
+  m_LocalRotation: {x: 0.00076797954, y: 0.021127868, z: -0.0000162294, w: 0.9997765}
   m_LocalPosition: {x: -1.1728389, y: -1.4846265, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -96454,6 +96454,10 @@ PrefabInstance:
       propertyPath: TakeDamage
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2575311009781671216, guid: 564e2be44f356c149ab59e91375ef924, type: 3}
+      propertyPath: fallDetector
+      value: 
+      objectReference: {fileID: 1312525685}
     - target: {fileID: 5516135986751991494, guid: 564e2be44f356c149ab59e91375ef924, type: 3}
       propertyPath: m_Layer
       value: 10
