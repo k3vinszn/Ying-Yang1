@@ -7,9 +7,12 @@ public class FinalDoorBehavior : MonoBehaviour
     public bool isDoorOpen = false;
     public int keysCollected = 0;
     public int keysRequired = 2;
+    public float doorSpeed = 10f;
+
+
     Vector3 doorClosedPos;
     Vector3 doorOpenPos;
-    public float doorSpeed = 10f;
+    
 
     // Start is called before the first frame update
     void Awake()

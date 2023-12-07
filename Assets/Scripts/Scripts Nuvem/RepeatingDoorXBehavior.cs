@@ -5,11 +5,13 @@ using UnityEngine;
 public class RepeatingDoorXBehavior : MonoBehaviour
 {
     private bool isDoorOpen = false;
-    private Vector3 doorClosedPos;
-    private Vector3 doorOpenPos;
+    
     public float doorSpeed = 1f;
     public float doorStayTime = 3f;
     private bool isMoving = false;
+    
+    private Vector3 doorClosedPos;
+    private Vector3 doorOpenPos;
 
     void Awake()
     {

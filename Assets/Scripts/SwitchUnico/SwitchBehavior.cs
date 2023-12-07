@@ -8,10 +8,12 @@ public class SwitchBehavior : MonoBehaviour
     [SerializeField] bool isDoorClosedSwitch;
 
     float switchSizeY;
+
+    float switchSpeed = 1f;
+    bool hasBeenPressed = false; 
+    
     Vector3 switchUpPos;
     Vector3 switchDownPos;
-    float switchSpeed = 1f;
-    bool hasBeenPressed = false;
 
     void Awake()
     {

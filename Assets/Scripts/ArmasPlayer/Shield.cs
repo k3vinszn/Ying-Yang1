@@ -1,9 +1,11 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class Shield : MonoBehaviour
 {
     public int maxHits = 3;
-    private int currentHits;
+    public int currentHits; // Made it public so that Mover script can access it
 
     private void Start()
     {
@@ -31,12 +33,5 @@ public class Shield : MonoBehaviour
     private void DisableShield()
     {
         gameObject.SetActive(false);
-        Invoke("EnableShield", 3f); // Enable the shield after 3 seconds
-    }
-
-    private void EnableShield()
-    {
-        gameObject.SetActive(true);
-        currentHits = 0; // Reset hit count
     }
 }

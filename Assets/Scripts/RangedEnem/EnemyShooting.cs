@@ -4,12 +4,14 @@ using UnityEngine;
 
 public class EnemyShooting : MonoBehaviour
 {
+    private float timer;
+    private bool canStartShooting = false;
+
     public GameObject bullet;
     public Transform bulletPos;
-
-    private float timer;
     private GameObject player;
-    private bool canStartShooting = false;
+
+    
 
     // Start is called before the first frame update
     void Start()

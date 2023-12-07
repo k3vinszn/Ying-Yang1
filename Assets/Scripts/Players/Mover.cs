@@ -1,45 +1,50 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Mover : MonoBehaviour
 {
-    [SerializeField]
-    private float MoveSpeed = 3f;
+    [Header("Movement Settings")]
+    [SerializeField] private float moveSpeed = 3f;
+    [SerializeField] private float jumpForce = 5f;
 
-    [SerializeField]
-    private float JumpForce = 5f;
+    [Header("Player Settings")]
+    [SerializeField] private int playerIndex = 0;
+    [SerializeField] private int health = 10;
 
-    [SerializeField]
-    private int playerIndex = 0;
+    [Header("Cooldown Settings")]
+    [SerializeField] private float cooldownTime = 3f;
+    private float cooldownTimer = 0f;
 
-    [SerializeField]
-    private int health = 10;
-
+    [Header("Components")]
     private Rigidbody2D rb;
+    private Shield shield;
 
-    public float cooldownTime = 3f; // Cooldown time in seconds
-    private float cooldownTimer = 0f; // Timer to keep track of cooldown
-
+    [Header("Input and Direction")]
     private Vector2 moveDirection = Vector2.zero;
     private Vector2 inputVector = Vector2.zero;
 
-    private bool isGrounded = true;
-
+    [Header("Bullet Settings")]
     public GameObject bulletPrefab;
     public Transform firePoint;
     private GameObject currentBullet;
     private bool isBulletActive = false;
-    private Vector3 respawnPoint;
-    public GameObject fallDetector;
 
+    [Header("Ground Check")]
+    private bool isGrounded = true;
+
+    [Header("Respawn and Checkpoints")]
+    private Vector3 respawnPoint;
+
+    [Header("Facing Direction")]
     private bool isFacingRight = true;
+
+    [Header("Fall Detection")]
+    public GameObject fallDetector;
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         respawnPoint = transform.position;
-
+        shield = GetComponent<Shield>(); // Get the Shield script component
     }
 
     public int GetPlayerIndex()
@@ -56,16 +61,16 @@ public class Mover : MonoBehaviour
     {
         if (isGrounded)
         {
-            rb.AddForce(Vector2.up * JumpForce, ForceMode2D.Impulse);
+            rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
             isGrounded = false;
         }
     }
 
     public void Fire(bool isFiring)
     {
-        if (cooldownTimer > 0)
+        if (cooldownTimer > 0 || (shield != null && shield.currentHits >= shield.maxHits))
         {
-            // If cooldown is active, decrement the timer and return without firing
+            // If cooldown is active or shield has taken maxHits, decrement the timer and return without firing
             cooldownTimer -= Time.deltaTime;
             return;
         }
@@ -104,10 +109,9 @@ public class Mover : MonoBehaviour
         moveDirection = new Vector2(inputVector.x, inputVector.y);
         moveDirection.Normalize();
 
-        rb.velocity = new Vector2(moveDirection.x * MoveSpeed, rb.velocity.y);
+        rb.velocity = new Vector2(moveDirection.x * moveSpeed, rb.velocity.y);
 
         fallDetector.transform.position = new Vector2(transform.position.x, fallDetector.transform.position.y);
-
 
         // Flip the player and the fire position if moving left
         if (moveDirection.x < 0 && isFacingRight)
@@ -125,6 +129,19 @@ public class Mover : MonoBehaviour
         {
             currentBullet.transform.position = firePoint.position;
         }
+
+        // Check if the shield has taken maxHits
+        if (shield != null && shield.currentHits >= shield.maxHits)
+        {
+            StartCooldown(); // Start the cooldown when the shield has taken maxHits
+        }
+
+        // Check if the cooldown is active
+        if (cooldownTimer > 0)
+        {
+            // Decrement the cooldown timer
+            cooldownTimer = Mathf.Max(0, cooldownTimer - Time.deltaTime);
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -139,7 +156,7 @@ public class Mover : MonoBehaviour
         }
         else if (gameObject.layer == LayerMask.NameToLayer("PlayerPreto") && collision.gameObject.layer == LayerMask.NameToLayer("PlataformaBranca"))
         {
-            Physics2D.IgnoreCollision(collision.collider, GetComponent<Collider2D>()); 
+            Physics2D.IgnoreCollision(collision.collider, GetComponent<Collider2D>());
         }
         else if (gameObject.layer == LayerMask.NameToLayer("PlayerPreto") && collision.gameObject.layer == LayerMask.NameToLayer("ParedeBranca"))
         {
@@ -197,10 +214,9 @@ public class Mover : MonoBehaviour
         {
             respawnPoint = transform.position;
         }
-
     }
 
-    public void TakeDamage() // Change to public
+    public void TakeDamage()
     {
         health -= 1; // Deduct 1 health point
         Debug.Log("Player Health: " + health);

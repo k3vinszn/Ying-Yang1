@@ -9,11 +9,13 @@ public class SingleSwitchVerticallBehavior : MonoBehaviour
 
 
     float switchSizeY;
-    Vector3 switchUpPos;
-    Vector3 switchDownPos;
+    
     float switchSpeed = 1f;
     bool hasBeenPressed = false;
     static int switchesPressedCount = 0;
+    
+    Vector3 switchUpPos;
+    Vector3 switchDownPos;
 
 
     void Awake()

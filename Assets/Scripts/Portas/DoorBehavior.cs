@@ -6,9 +6,11 @@ public class DoorBehavior : MonoBehaviour
 {
 
     public bool isDoorOpen = false;
+    public float doorSpeed = 10f;
+
     Vector3 doorclosedPos;
     Vector3 doorOpenPos;
-    public float doorSpeed = 10f;
+    
 
     // Start is called before the first frame update
     void Awake()
@@ -18,7 +20,6 @@ public class DoorBehavior : MonoBehaviour
 
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (isDoorOpen)
