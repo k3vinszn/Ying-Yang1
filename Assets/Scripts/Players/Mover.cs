@@ -23,10 +23,10 @@ public class Mover : MonoBehaviour
     private Vector2 inputVector = Vector2.zero;
 
     [Header("Bullet Settings")]
-    public GameObject bulletPrefab;
-    public Transform firePoint;
     private GameObject currentBullet;
     private bool isBulletActive = false;
+
+
 
     [Header("Ground Check")]
     private bool isGrounded = true;
@@ -68,37 +68,26 @@ public class Mover : MonoBehaviour
 
     public void Fire(bool isFiring)
     {
-        if (cooldownTimer > 0 || (shield != null && shield.currentHits >= shield.maxHits))
+        // Check if the fire button is being pressed
+        if (isFiring)
         {
-            // If cooldown is active or shield has taken maxHits, decrement the timer and return without firing
-            cooldownTimer -= Time.deltaTime;
-            return;
+            // Activate the bullet prefab
+            gameObject.transform.GetChild(0).gameObject.SetActive(true);
         }
-
-        if (isFiring && !isBulletActive)
+        else
         {
-            currentBullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
-            isBulletActive = true;
-        }
-        else if (!isFiring && currentBullet != null)
-        {
-            Destroy(currentBullet);
-            isBulletActive = false;
-            StartCooldown(); // Start the cooldown when the bullet is destroyed
+            // Deactivate the bullet prefab when the fire button is released
+            gameObject.transform.GetChild(0).gameObject.SetActive(false);
         }
     }
 
-    void StartCooldown()
-    {
-        cooldownTimer = cooldownTime;
-    }
+
 
     void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Bullet") && currentBullet != null)
         {
-            // If the bullet collides with an object with the "Bullet" tag, start cooldown
-            StartCooldown();
+
             Destroy(currentBullet);
             isBulletActive = false;
         }
@@ -124,24 +113,6 @@ public class Mover : MonoBehaviour
             Flip();
         }
 
-        // Set the position of the bullet to the fire point's position if a bullet is active
-        if (currentBullet != null)
-        {
-            currentBullet.transform.position = firePoint.position;
-        }
-
-        // Check if the shield has taken maxHits
-        if (shield != null && shield.currentHits >= shield.maxHits)
-        {
-            StartCooldown(); // Start the cooldown when the shield has taken maxHits
-        }
-
-        // Check if the cooldown is active
-        if (cooldownTimer > 0)
-        {
-            // Decrement the cooldown timer
-            cooldownTimer = Mathf.Max(0, cooldownTimer - Time.deltaTime);
-        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -238,9 +209,6 @@ public class Mover : MonoBehaviour
         localScale.x *= -1f;
         transform.localScale = localScale;
 
-        // Flip the firePoint
-        Vector3 firePointScale = firePoint.localScale;
-        firePointScale.x *= -1f;
-        firePoint.localScale = firePointScale;
+
     }
 }
