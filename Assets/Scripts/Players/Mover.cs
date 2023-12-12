@@ -167,7 +167,7 @@ public class Mover : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("PlayerBullet")) // Updated tag check
+        if (other.gameObject.CompareTag("Bullet")) // Updated tag check
         {
             TakeDamage(); // Call the TakeDamage method when hit by a bullet
             Destroy(other.gameObject); // Destroy the bullet
