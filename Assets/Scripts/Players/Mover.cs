@@ -1,4 +1,6 @@
 using UnityEngine;
+using System.Collections;
+
 
 public class Mover : MonoBehaviour
 {
@@ -26,8 +28,6 @@ public class Mover : MonoBehaviour
     private GameObject currentBullet;
     private bool isBulletActive = false;
 
-
-
     [Header("Ground Check")]
     private bool isGrounded = true;
 
@@ -39,6 +39,9 @@ public class Mover : MonoBehaviour
 
     [Header("Fall Detection")]
     public GameObject fallDetector;
+
+    private bool isFireEnabled = true;
+    private Coroutine fireCooldownCoroutine; // Added coroutine reference
 
     private void Awake()
     {
@@ -68,26 +71,26 @@ public class Mover : MonoBehaviour
 
     public void Fire(bool isFiring)
     {
-        // Check if the fire button is being pressed
-        if (isFiring)
+        if (isFireEnabled)
         {
-            // Activate the bullet prefab
-            gameObject.transform.GetChild(0).gameObject.SetActive(true);
-        }
-        else
-        {
-            // Deactivate the bullet prefab when the fire button is released
-            gameObject.transform.GetChild(0).gameObject.SetActive(false);
+            // Check if the fire button is being pressed
+            if (isFiring)
+            {
+                // Activate the bullet prefab
+                gameObject.transform.GetChild(0).gameObject.SetActive(true);
+            }
+            else
+            {
+                // Deactivate the bullet prefab when the fire button is released
+                gameObject.transform.GetChild(0).gameObject.SetActive(false);
+            }
         }
     }
-
-
 
     void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Bullet") && currentBullet != null)
         {
-
             Destroy(currentBullet);
             isBulletActive = false;
         }
@@ -113,6 +116,11 @@ public class Mover : MonoBehaviour
             Flip();
         }
 
+        if (shield.currentHits <= 0)
+        {
+            // Disable the Fire method when the shield is depleted
+            DisableFire();
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -200,6 +208,25 @@ public class Mover : MonoBehaviour
         }
     }
 
+    public void DisableFire()
+    {
+        isFireEnabled = false;
+        if (fireCooldownCoroutine != null)
+        {
+            StopCoroutine(fireCooldownCoroutine);
+        }
+        fireCooldownCoroutine = StartCoroutine(EnableFireAfterCooldown());
+    }
+
+    private IEnumerator EnableFireAfterCooldown()
+    {
+        float waitTime = 3f; // Store the wait time in a local variable
+        yield return new WaitForSeconds(waitTime);
+
+        isFireEnabled = true;
+        shield.ResetHits(); // Reset shield hits when re-enabling fire
+    }
+
     private void Flip()
     {
         isFacingRight = !isFacingRight;
@@ -208,7 +235,5 @@ public class Mover : MonoBehaviour
         Vector3 localScale = transform.localScale;
         localScale.x *= -1f;
         transform.localScale = localScale;
-
-
     }
 }

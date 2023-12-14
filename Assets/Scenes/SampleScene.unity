@@ -88872,6 +88872,10 @@ PrefabInstance:
       propertyPath: m_GravityScale
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 2329298834837739116, guid: 564e2be44f356c149ab59e91375ef924, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2532131595700067696, guid: 564e2be44f356c149ab59e91375ef924, type: 3}
       propertyPath: m_Name
       value: Player 2
@@ -88942,6 +88946,7 @@ PrefabInstance:
       objectReference: {fileID: 8935627026401508772, guid: f7d8b6cc982f6364db6790e3af96c725, type: 3}
     m_RemovedComponents:
     - {fileID: 6722746588213058019, guid: 564e2be44f356c149ab59e91375ef924, type: 3}
+    - {fileID: 6560448791865581872, guid: 564e2be44f356c149ab59e91375ef924, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
