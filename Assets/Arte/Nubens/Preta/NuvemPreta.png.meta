@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 555b1f2a61ae8784798c7587fb81f9a4
+guid: 0af7af209c53fcb4789fc548215faf10
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6647777498110018232
-    second: NuvemPreta_0
+      213: -4644079160548174698
+    second: NuvemPreta 1_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -106,28 +106,16 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: NuvemPreta_0
+      name: NuvemPreta 1_0
       rect:
         serializedVersion: 2
-        x: 551
+        x: 772
         y: 388
-        width: 684
+        width: 463
         height: 296
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -136,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 84d315f36995eb3a0800000000000000
-      internalID: -6647777498110018232
+      spriteID: 6945bbedb9aec8fb0800000000000000
+      internalID: -4644079160548174698
       vertices: []
       indices: 
       edges: []
@@ -153,7 +141,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      NuvemPreta_0: -6647777498110018232
+      NuvemPreta 1_0: -4644079160548174698
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

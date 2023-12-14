@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: a0b2ecd7f7ff9724ea5c4a57188d0f0f
+guid: c162aba67ff3d0041ac69314fa74ccfa
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 217062904901817318
-    second: NuvemBranca_0
+      213: 5649477150634197169
+    second: NuvemBranca 1_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -106,28 +106,16 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: NuvemBranca_0
+      name: NuvemBranca 1_0
       rect:
         serializedVersion: 2
-        x: 551
+        x: 772
         y: 388
-        width: 684
+        width: 463
         height: 296
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -136,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6e3569cdf89230300800000000000000
-      internalID: 217062904901817318
+      spriteID: 1b0cc3a4989f66e40800000000000000
+      internalID: 5649477150634197169
       vertices: []
       indices: 
       edges: []
@@ -153,7 +141,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      NuvemBranca_0: 217062904901817318
+      NuvemBranca 1_0: 5649477150634197169
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

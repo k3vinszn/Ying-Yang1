@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 02f2b185b51d4fc46a62128f4d52bbee
+guid: 934f1b1dca754094bb21028917abdd8c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1264857314629875267
-    second: NuvemCinza_0
+      213: -4074081360465813760
+    second: NuvemCinza 1_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -106,28 +106,16 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: NuvemCinza_0
+      name: NuvemCinza 1_0
       rect:
         serializedVersion: 2
-        x: 551
+        x: 772
         y: 388
-        width: 684
+        width: 463
         height: 296
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -136,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3467112b60dad8110800000000000000
-      internalID: 1264857314629875267
+      spriteID: 00f156b8694f577c0800000000000000
+      internalID: -4074081360465813760
       vertices: []
       indices: 
       edges: []
@@ -153,7 +141,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      NuvemCinza_0: 1264857314629875267
+      NuvemCinza 1_0: -4074081360465813760
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
