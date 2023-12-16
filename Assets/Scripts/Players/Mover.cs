@@ -116,9 +116,8 @@ public class Mover : MonoBehaviour
             Flip();
         }
 
-        if (shield.currentHits <= 0)
+        if (shield != null && shield.currentHits <= 0)
         {
-            // Disable the Fire method when the shield is depleted
             DisableFire();
         }
     }
