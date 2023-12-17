@@ -107,7 +107,8 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: DefaultTexturePlatform
+<<<<<<< Updated upstream
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -119,6 +120,8 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
+=======
+>>>>>>> Stashed changes
     buildTarget: iPhone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -132,7 +135,112 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: DownBranca_4_0
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 577
+        width: 88
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6c1852925106e780800000000000000
+      internalID: -8654228179791635345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownBranca_4_1
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 721
+        width: 56
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db8eb3e9d5289a050800000000000000
+      internalID: 5812320132696631485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownBranca_4_2
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 723
+        width: 56
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 982fc09df5e409440800000000000000
+      internalID: 4940534964795798153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownBranca_4_3
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 581
+        width: 87
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d88f4cd2d37143e0800000000000000
+      internalID: -2071247004137191212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownBranca_4_4
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 363
+        width: 469
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3dd1e158ef7a53d0800000000000000
+      internalID: -3217118348019901126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -143,7 +251,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      DownBranca_4_0: -8654228179791635345
+      DownBranca_4_1: 5812320132696631485
+      DownBranca_4_2: 4940534964795798153
+      DownBranca_4_3: -2071247004137191212
+      DownBranca_4_4: -3217118348019901126
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
