@@ -834,6 +834,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: NuvemBranca (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 854273199392957155, guid: 0bd23ef5dd26c0f488201120df5eb83d, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 7862614662555936610, guid: 0bd23ef5dd26c0f488201120df5eb83d, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5
@@ -890,6 +894,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8290532153571222697, guid: 0bd23ef5dd26c0f488201120df5eb83d, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -4644079160548174698, guid: 0af7af209c53fcb4789fc548215faf10, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3062,6 +3070,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8290532153571222697, guid: 0bd23ef5dd26c0f488201120df5eb83d, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -4074081360465813760, guid: 934f1b1dca754094bb21028917abdd8c, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4364,6 +4376,10 @@ PrefabInstance:
     - target: {fileID: 854273199392957155, guid: 0bd23ef5dd26c0f488201120df5eb83d, type: 3}
       propertyPath: m_Name
       value: NuvemBranca
+      objectReference: {fileID: 0}
+    - target: {fileID: 854273199392957155, guid: 0bd23ef5dd26c0f488201120df5eb83d, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7862614662555936610, guid: 0bd23ef5dd26c0f488201120df5eb83d, type: 3}
       propertyPath: m_LocalScale.x
