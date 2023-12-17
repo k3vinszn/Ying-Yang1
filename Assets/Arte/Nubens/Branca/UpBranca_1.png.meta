@@ -110,8 +110,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-<<<<<<< Updated upstream
-    buildTarget: Android
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -123,8 +122,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-=======
->>>>>>> Stashed changes
     buildTarget: iPhone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -138,133 +135,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: UpBranca_1_0
-      rect:
-        serializedVersion: 2
-        x: 742
-        y: 250
-        width: 71
-        height: 201
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 26841d40c6680bac0800000000000000
-      internalID: -3841422683651618718
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UpBranca_1_1
-      rect:
-        serializedVersion: 2
-        x: 771
-        y: 407
-        width: 467
-        height: 294
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 98643bb07da9f3480800000000000000
-      internalID: -8917238488765348215
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UpBranca_1_2
-      rect:
-        serializedVersion: 2
-        x: 1193
-        y: 261
-        width: 73
-        height: 196
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b8e6bab3a086d9420800000000000000
-      internalID: 2638379349869031051
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UpBranca_1_3
-      rect:
-        serializedVersion: 2
-        x: 1239
-        y: 450
-        width: 17
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c82b72629a1f857a0800000000000000
-      internalID: -6388090362633145716
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UpBranca_1_4
-      rect:
-        serializedVersion: 2
-        x: 881
-        y: 162
-        width: 62
-        height: 194
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4437f17a3da83da30800000000000000
-      internalID: 4238884315932357444
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UpBranca_1_5
-      rect:
-        serializedVersion: 2
-        x: 1065
-        y: 177
-        width: 62
-        height: 187
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a27c87cf4a63d6330800000000000000
-      internalID: 3705678150634096426
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
@@ -275,13 +146,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      UpBranca_1_0: -3841422683651618718
-      UpBranca_1_1: -8917238488765348215
-      UpBranca_1_2: 2638379349869031051
-      UpBranca_1_3: -6388090362633145716
-      UpBranca_1_4: 4238884315932357444
-      UpBranca_1_5: 3705678150634096426
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
