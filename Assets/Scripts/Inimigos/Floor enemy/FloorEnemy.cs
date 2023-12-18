@@ -59,6 +59,8 @@ public class CustomizableEnemyAttack : MonoBehaviour
         }
     }
 
+
+    /*
     IEnumerator MoveUpAndDown()
     {
         isMoving = true;
@@ -83,4 +85,5 @@ public class CustomizableEnemyAttack : MonoBehaviour
 
         isMoving = false;
     }
+    */
 }
