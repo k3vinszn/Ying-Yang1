@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 62dbfec0ec6b5274f9d487dac8a2d1c5
+guid: 237f0047e16701e48b13eeddee97dd3a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2389375760875106145
-    second: sombra_0
+      213: -4345462867533152315
+    second: shuriken_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -94,29 +94,17 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sombra_0
+      name: shuriken_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1920
-        height: 286
+        x: 16
+        y: 42
+        width: 154
+        height: 156
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,8 +112,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 16fa3e55894c82120800000000000000
-      internalID: 2389375760875106145
+      spriteID: 5cf39049b80d1b3c0800000000000000
+      internalID: -4345462867533152315
       vertices: []
       indices: 
       edges: []
@@ -140,8 +128,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      sombra_0: 2389375760875106145
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
