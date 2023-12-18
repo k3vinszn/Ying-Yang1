@@ -29,7 +29,33 @@ public class CustomizableEnemyAttack : MonoBehaviour
         // Check if the player is within the specified detection range
         if (distanceToPlayer < detectionRange && !isMoving)
         {
-            StartCoroutine(MoveUpAndDown());
+           /*    StartCoroutine(MoveUpAndDown()); */
+            GetComponent<Animator>().SetBool("activatenemy", true);
+            GetComponent<Animator>().SetBool("attack", true);
+            GetComponent<Animator>().SetBool("deactivatenemy", false);
+
+        }
+        else
+        {
+            GetComponent<Animator>().SetBool("deactivatenemy", true);
+            GetComponent<Animator>().SetBool("attack", false);
+            GetComponent<Animator>().SetBool("activatenemy", false);
+        }
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Player") && !other.isTrigger) // Updated tag check and added isTrigger check
+        {
+           bool  hit = GetComponent<Animator>().GetBool("activatenemy");
+
+            if(hit==true)
+            {
+                other.GetComponent<Mover>().TakeDamage(); // Call the TakeDamage method of the player
+                Debug.Log("Worm attack");
+            }
+
+           
         }
     }
 
