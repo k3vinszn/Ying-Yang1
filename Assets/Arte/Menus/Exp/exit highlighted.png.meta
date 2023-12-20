@@ -1,13 +1,19 @@
 fileFormatVersion: 2
-guid: 12c9f9dd75f8cad429d2a34b37372492
+guid: be076eb4eeecfb7468a0539f3e407222
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3785176722193786639
-    second: Grade_1_0
+      213: -2377855318517731074
+    second: exit highlighted_0
   - first:
-      213: 2523046821806253745
-    second: Grade_1_1
+      213: 4139903275777658185
+    second: exit highlighted_1
+  - first:
+      213: 927571533042901685
+    second: exit highlighted_2
+  - first:
+      213: -7518080344533508907
+    second: exit highlighted_3
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -97,29 +103,17 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Grade_1_0
+      name: exit highlighted_0
       rect:
         serializedVersion: 2
-        x: 1731
-        y: 923
-        width: 6
-        height: 25
+        x: 55
+        y: 123
+        width: 953
+        height: 1164
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -127,20 +121,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f0720729c26a78430800000000000000
-      internalID: 3785176722193786639
+      spriteID: ef03a7caf29200fd0800000000000000
+      internalID: -2377855318517731074
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Grade_1_1
+      name: exit highlighted_1
       rect:
         serializedVersion: 2
-        x: 1845
-        y: 329
-        width: 98
-        height: 656
+        x: 1017
+        y: 138
+        width: 1239
+        height: 1145
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -148,8 +142,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1b6a07d77b9a30320800000000000000
-      internalID: 2523046821806253745
+      spriteID: 94d043d5814e37930800000000000000
+      internalID: 4139903275777658185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exit highlighted_2
+      rect:
+        serializedVersion: 2
+        x: 2253
+        y: 150
+        width: 437
+        height: 1172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b269c215656fdc00800000000000000
+      internalID: 927571533042901685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exit highlighted_3
+      rect:
+        serializedVersion: 2
+        x: 2713
+        y: 136
+        width: 1087
+        height: 1144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dcdb3752c96aa790800000000000000
+      internalID: -7518080344533508907
       vertices: []
       indices: 
       edges: []
@@ -164,9 +200,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Grade_1_0: 3785176722193786639
-      Grade_1_1: 2523046821806253745
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

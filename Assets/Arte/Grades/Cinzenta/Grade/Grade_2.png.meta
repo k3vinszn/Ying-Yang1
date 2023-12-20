@@ -212,7 +212,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Grade_2_0: 6818949353001237709
+      Grade_2_1: 7421432541380298805
+      Grade_2_2: 7900091220362826259
+      Grade_2_3: 2169124719220484553
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

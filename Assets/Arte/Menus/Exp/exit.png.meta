@@ -1,13 +1,19 @@
 fileFormatVersion: 2
-guid: 12c9f9dd75f8cad429d2a34b37372492
+guid: 3f5b05fdb398f6142a79c0b0368a6893
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3785176722193786639
-    second: Grade_1_0
+      213: -4781373940957465942
+    second: exit_0
   - first:
-      213: 2523046821806253745
-    second: Grade_1_1
+      213: 2577959780943527813
+    second: exit_1
+  - first:
+      213: -2035945475809686306
+    second: exit_2
+  - first:
+      213: 4081774691252351251
+    second: exit_3
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -49,7 +55,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -97,29 +103,17 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Grade_1_0
+      name: exit_0
       rect:
         serializedVersion: 2
-        x: 1731
-        y: 923
-        width: 6
-        height: 25
+        x: 55
+        y: 123
+        width: 953
+        height: 1164
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -127,20 +121,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f0720729c26a78430800000000000000
-      internalID: 3785176722193786639
+      spriteID: aa2bbe6cbb525adb0800000000000000
+      internalID: -4781373940957465942
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Grade_1_1
+      name: exit_1
       rect:
         serializedVersion: 2
-        x: 1845
-        y: 329
-        width: 98
-        height: 656
+        x: 1017
+        y: 138
+        width: 1239
+        height: 1145
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -148,8 +142,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1b6a07d77b9a30320800000000000000
-      internalID: 2523046821806253745
+      spriteID: 58ff16c13c0c6c320800000000000000
+      internalID: 2577959780943527813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exit_2
+      rect:
+        serializedVersion: 2
+        x: 2253
+        y: 150
+        width: 437
+        height: 1172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edccc4c606edeb3e0800000000000000
+      internalID: -2035945475809686306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exit_3
+      rect:
+        serializedVersion: 2
+        x: 2713
+        y: 136
+        width: 1087
+        height: 1144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 311b64d947065a830800000000000000
+      internalID: 4081774691252351251
       vertices: []
       indices: 
       edges: []
@@ -157,7 +193,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -165,8 +201,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Grade_1_0: 3785176722193786639
-      Grade_1_1: 2523046821806253745
+      exit_0: -4781373940957465942
+      exit_1: 2577959780943527813
+      exit_2: -2035945475809686306
+      exit_3: 4081774691252351251
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

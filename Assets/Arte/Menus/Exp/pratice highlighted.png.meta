@@ -1,19 +1,28 @@
 fileFormatVersion: 2
-guid: e79c77c7f7d38aa439fadb0066e55e02
+guid: fa29b3897ed4d934bb3cfaad183c3bda
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6502943205453903359
-    second: Grade_3_0
+      213: 2526427738148785236
+    second: pratice highlighted_0
   - first:
-      213: -8005261233299739503
-    second: Grade_3_1
+      213: 5323364130820052604
+    second: pratice highlighted_1
   - first:
-      213: -6111360469245875593
-    second: Grade_3_2
+      213: -1660267533424413690
+    second: pratice highlighted_2
   - first:
-      213: 4980267851473640593
-    second: Grade_3_3
+      213: 5546046414496898239
+    second: pratice highlighted_3
+  - first:
+      213: 7720942324444717376
+    second: pratice highlighted_4
+  - first:
+      213: -4410515147509666513
+    second: pratice highlighted_5
+  - first:
+      213: 2417776816424108472
+    second: pratice highlighted_6
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -103,29 +112,17 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Grade_3_0
+      name: pratice highlighted_0
       rect:
         serializedVersion: 2
-        x: 1731
-        y: 1160
-        width: 6
-        height: 7
+        x: 108
+        y: 137
+        width: 881
+        height: 1197
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -133,20 +130,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 10a4164db97e0c5a0800000000000000
-      internalID: -6502943205453903359
+      spriteID: 45c4d0b64acaf0320800000000000000
+      internalID: 2526427738148785236
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Grade_3_1
+      name: pratice highlighted_1
       rect:
         serializedVersion: 2
-        x: 1851
-        y: 1117
-        width: 64
-        height: 67
+        x: 994
+        y: 136
+        width: 948
+        height: 1186
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,20 +151,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 19ca6fe625997e090800000000000000
-      internalID: -8005261233299739503
+      spriteID: c76d59bf87360e940800000000000000
+      internalID: 5323364130820052604
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Grade_3_2
+      name: pratice highlighted_2
       rect:
         serializedVersion: 2
-        x: 1928
-        y: 1015
-        width: 12
-        height: 14
+        x: 1973
+        y: 130
+        width: 986
+        height: 1200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -175,20 +172,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 77a2c385806103ba0800000000000000
-      internalID: -6111360469245875593
+      spriteID: 604bf1e897b85f8e0800000000000000
+      internalID: -1660267533424413690
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Grade_3_3
+      name: pratice highlighted_3
       rect:
         serializedVersion: 2
-        x: 1845
-        y: 548
-        width: 98
-        height: 437
+        x: 2958
+        y: 136
+        width: 1087
+        height: 1144
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -196,8 +193,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 19c526d69377d1540800000000000000
-      internalID: 4980267851473640593
+      spriteID: fbc9aeb64d387fc40800000000000000
+      internalID: 5546046414496898239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pratice highlighted_4
+      rect:
+        serializedVersion: 2
+        x: 4003
+        y: 150
+        width: 437
+        height: 1172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0416ec3032c462b60800000000000000
+      internalID: 7720942324444717376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pratice highlighted_5
+      rect:
+        serializedVersion: 2
+        x: 4481
+        y: 95
+        width: 1015
+        height: 1160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2de43c57d3bac2c0800000000000000
+      internalID: -4410515147509666513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pratice highlighted_6
+      rect:
+        serializedVersion: 2
+        x: 5522
+        y: 123
+        width: 953
+        height: 1164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b14221643bad8120800000000000000
+      internalID: 2417776816424108472
       vertices: []
       indices: 
       edges: []
@@ -212,11 +272,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Grade_3_0: -6502943205453903359
-      Grade_3_1: -8005261233299739503
-      Grade_3_2: -6111360469245875593
-      Grade_3_3: 4980267851473640593
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

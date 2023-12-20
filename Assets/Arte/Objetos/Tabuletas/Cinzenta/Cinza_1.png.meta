@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Cinza_1_0: -7214049116859642198
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

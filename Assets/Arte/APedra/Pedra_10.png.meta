@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Pedra_10_0: 5358820800593865839
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

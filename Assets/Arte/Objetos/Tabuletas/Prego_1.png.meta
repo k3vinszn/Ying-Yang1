@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Prego_1_0: -2622359498351722073
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

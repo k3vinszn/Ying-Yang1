@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      YinYang_3_0: 884787772804987278
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
