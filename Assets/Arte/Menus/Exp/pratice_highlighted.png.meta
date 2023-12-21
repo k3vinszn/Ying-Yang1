@@ -1,28 +1,31 @@
 fileFormatVersion: 2
-guid: fa29b3897ed4d934bb3cfaad183c3bda
+guid: f777b9818797fee4fb5a7740cc4d5867
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2526427738148785236
-    second: pratice highlighted_0
+      213: -8954226803974389442
+    second: pratice_highlighted_0
   - first:
-      213: 5323364130820052604
-    second: pratice highlighted_1
+      213: 5926591949306264860
+    second: pratice_highlighted_1
   - first:
-      213: -1660267533424413690
-    second: pratice highlighted_2
+      213: 2129822767713906523
+    second: pratice_highlighted_2
   - first:
-      213: 5546046414496898239
-    second: pratice highlighted_3
+      213: 8783235073025665297
+    second: pratice_highlighted_3
   - first:
-      213: 7720942324444717376
-    second: pratice highlighted_4
+      213: 8864253414426430253
+    second: pratice_highlighted_4
   - first:
-      213: -4410515147509666513
-    second: pratice highlighted_5
+      213: 1260438786222886219
+    second: pratice_highlighted_5
   - first:
-      213: 2417776816424108472
-    second: pratice highlighted_6
+      213: 1906785954138969440
+    second: pratice_highlighted_6
+  - first:
+      213: 6719247218485947070
+    second: pratice_highlighted_7
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -128,13 +131,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pratice highlighted_0
+      name: pratice_highlighted_0
       rect:
         serializedVersion: 2
-        x: 108
-        y: 137
-        width: 881
-        height: 1197
+        x: 24
+        y: 113
+        width: 882
+        height: 1196
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -142,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 45c4d0b64acaf0320800000000000000
-      internalID: 2526427738148785236
+      spriteID: e3143dec9223cb380800000000000000
+      internalID: -8954226803974389442
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pratice highlighted_1
+      name: pratice_highlighted_1
       rect:
         serializedVersion: 2
-        x: 994
-        y: 136
-        width: 948
-        height: 1186
+        x: 906
+        y: 111
+        width: 949
+        height: 1187
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,18 +166,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c76d59bf87360e940800000000000000
-      internalID: 5323364130820052604
+      spriteID: c1df61b3afb7f3250800000000000000
+      internalID: 5926591949306264860
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pratice highlighted_2
+      name: pratice_highlighted_2
       rect:
         serializedVersion: 2
-        x: 1973
-        y: 130
+        x: 1886
+        y: 104
         width: 986
         height: 1200
       alignment: 0
@@ -184,60 +187,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 604bf1e897b85f8e0800000000000000
-      internalID: -1660267533424413690
+      spriteID: b5f6020e586ae8d10800000000000000
+      internalID: 2129822767713906523
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pratice highlighted_3
+      name: pratice_highlighted_3
       rect:
         serializedVersion: 2
-        x: 2958
-        y: 136
-        width: 1087
-        height: 1144
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fbc9aeb64d387fc40800000000000000
-      internalID: 5546046414496898239
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pratice highlighted_4
-      rect:
-        serializedVersion: 2
-        x: 4003
-        y: 150
-        width: 437
-        height: 1172
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0416ec3032c462b60800000000000000
-      internalID: 7720942324444717376
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pratice highlighted_5
-      rect:
-        serializedVersion: 2
-        x: 4481
-        y: 95
+        x: 2888
+        y: 117
         width: 1015
         height: 1160
       alignment: 0
@@ -247,18 +208,81 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f2de43c57d3bac2c0800000000000000
-      internalID: -4410515147509666513
+      spriteID: 119627a63c154e970800000000000000
+      internalID: 8783235073025665297
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pratice highlighted_6
+      name: pratice_highlighted_4
       rect:
         serializedVersion: 2
-        x: 5522
-        y: 123
+        x: 3892
+        y: 135
+        width: 1087
+        height: 1144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2b4eedf387240b70800000000000000
+      internalID: 8864253414426430253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pratice_highlighted_5
+      rect:
+        serializedVersion: 2
+        x: 4936
+        y: 126
+        width: 437
+        height: 1172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4d80f1e56afd7110800000000000000
+      internalID: 1260438786222886219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pratice_highlighted_6
+      rect:
+        serializedVersion: 2
+        x: 5412
+        y: 117
+        width: 1015
+        height: 1160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 065582309b3467a10800000000000000
+      internalID: 1906785954138969440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pratice_highlighted_7
+      rect:
+        serializedVersion: 2
+        x: 6453
+        y: 147
         width: 953
         height: 1164
       alignment: 0
@@ -268,8 +292,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8b14221643bad8120800000000000000
-      internalID: 2417776816424108472
+      spriteID: ebae2efbebf8f3d50800000000000000
+      internalID: 6719247218485947070
       vertices: []
       indices: 
       edges: []
@@ -285,13 +309,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      pratice highlighted_0: 2526427738148785236
-      pratice highlighted_1: 5323364130820052604
-      pratice highlighted_2: -1660267533424413690
-      pratice highlighted_3: 5546046414496898239
-      pratice highlighted_4: 7720942324444717376
-      pratice highlighted_5: -4410515147509666513
-      pratice highlighted_6: 2417776816424108472
+      pratice_highlighted_0: -8954226803974389442
+      pratice_highlighted_1: 5926591949306264860
+      pratice_highlighted_2: 2129822767713906523
+      pratice_highlighted_3: 8783235073025665297
+      pratice_highlighted_4: 8864253414426430253
+      pratice_highlighted_5: 1260438786222886219
+      pratice_highlighted_6: 1906785954138969440
+      pratice_highlighted_7: 6719247218485947070
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
