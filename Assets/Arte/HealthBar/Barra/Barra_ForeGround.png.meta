@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Barra_ForeGround_0: -871211096981906014
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
