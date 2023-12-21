@@ -112,6 +112,18 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -272,7 +284,14 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      pratice highlighted_0: 2526427738148785236
+      pratice highlighted_1: 5323364130820052604
+      pratice highlighted_2: -1660267533424413690
+      pratice highlighted_3: 5546046414496898239
+      pratice highlighted_4: 7720942324444717376
+      pratice highlighted_5: -4410515147509666513
+      pratice highlighted_6: 2417776816424108472
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
