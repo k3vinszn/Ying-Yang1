@@ -1535,10 +1535,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 346702899874578921, guid: 3bd8a06b391af924f9a861f4da2b94e7, type: 3}
-      propertyPath: mainCamera
-      value: 
-      objectReference: {fileID: 519420031}
     - target: {fileID: 1014111585801333112, guid: 3bd8a06b391af924f9a861f4da2b94e7, type: 3}
       propertyPath: fallDetector
       value: 
@@ -1599,7 +1595,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 5404160260612663020, guid: 3bd8a06b391af924f9a861f4da2b94e7, type: 3}
@@ -3252,11 +3249,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectsToDisable:
-  - {fileID: 0}
-  - {fileID: 728371507}
   - {fileID: 769348944}
+  - {fileID: 728371507}
+  - {fileID: 1977025464}
   objectsToEnable:
-  - {fileID: 0}
+  - {fileID: 1592367795}
   - {fileID: 2130902240}
   - {fileID: 1239898934}
 --- !u!114 &752451693
@@ -90677,20 +90674,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 2.0345945, y: 3.6375747}
   m_EdgeRadius: 0
---- !u!114 &1709377278
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1709377268}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cf1c06953cbc8164a8bb5397b94de7a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mainCamera: {fileID: 519420031}
-  padding: 1
 --- !u!95 &1709377279
 Animator:
   serializedVersion: 7
@@ -91017,9 +91000,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2532131595700067696, guid: 564e2be44f356c149ab59e91375ef924, type: 3}
       insertIndex: 4
       addedObject: {fileID: 1709377273}
-    - targetCorrespondingSourceObject: {fileID: 2532131595700067696, guid: 564e2be44f356c149ab59e91375ef924, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1709377278}
     - targetCorrespondingSourceObject: {fileID: 2532131595700067696, guid: 564e2be44f356c149ab59e91375ef924, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1709377279}
