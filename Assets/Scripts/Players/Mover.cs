@@ -40,6 +40,16 @@ public class Mover : MonoBehaviour
     [Header("Fall Detection")]
     public GameObject fallDetector;
 
+    [Header("Animation")]
+    private Animator animator;
+    private bool isRunning = false;
+    private static readonly int isDead = Animator.StringToHash("isDead"); // Added Animator parameter hash
+    private static readonly int isJumping = Animator.StringToHash("isJumping"); // Added Animator parameter hash
+
+    [Header("Player Life")]
+    [SerializeField] private int maxHealth = 10;
+    [SerializeField] private int currentHealth;
+
     private bool isFireEnabled = true;
     private Coroutine fireCooldownCoroutine; // Added coroutine reference
 
@@ -48,6 +58,8 @@ public class Mover : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         respawnPoint = transform.position;
         shield = GetComponent<Shield>(); // Get the Shield script component
+        animator = GetComponent<Animator>(); // Get the Animator component
+        currentHealth = maxHealth;
     }
 
     public int GetPlayerIndex()
@@ -66,6 +78,9 @@ public class Mover : MonoBehaviour
         {
             rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
             isGrounded = false;
+
+            // Set the "isJumping" parameter to true in the Animator
+            animator.SetBool(isJumping, true);
         }
     }
 
@@ -103,7 +118,14 @@ public class Mover : MonoBehaviour
 
         rb.velocity = new Vector2(moveDirection.x * moveSpeed, rb.velocity.y);
 
+        // Set the isRunning boolean based on whether the player is moving or not
+        isRunning = Mathf.Abs(moveDirection.x) > 0.1f;
+
+        // Update the animator parameter for the run animation
+        animator.SetBool("isRunning", isRunning);
+
         fallDetector.transform.position = new Vector2(transform.position.x, fallDetector.transform.position.y);
+
 
         // Flip the player and the fire position if moving left
         if (moveDirection.x < 0 && isFacingRight)
@@ -147,6 +169,9 @@ public class Mover : MonoBehaviour
         else if (collision.gameObject.CompareTag("Ground"))
         {
             isGrounded = true;
+
+            // Set the "isJumping" parameter to false in the Animator
+            animator.SetBool(isJumping, false);
         }
         if (collision.collider.CompareTag("Key"))
         {
@@ -196,12 +221,13 @@ public class Mover : MonoBehaviour
 
     public void TakeDamage()
     {
-        health -= 1; // Deduct 1 health point
-        Debug.Log("Player Health: " + health);
+        currentHealth -= 1; // Deduct 1 health point
+        Debug.Log("Player Health: " + currentHealth);
 
-        if (health <= 0)
+        // Set the "isDead" parameter to true when the player's health reaches zero
+        if (currentHealth <= 0)
         {
-            // Perform any actions when the player's health reaches zero (e.g., respawn logic)
+            animator.SetBool(isDead, true);
             Debug.Log("Player is defeated!");
             // You can add more logic like respawning the player or triggering a game over screen.
         }
