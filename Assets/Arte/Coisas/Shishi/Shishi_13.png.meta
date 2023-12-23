@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: c32bc9ad646e1d549a1edda67cd67971
+guid: a138e29d78abf2f429e5d576f455dfb6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3332178688766962461
-    second: AsBarras_0
+      213: -9117602515011870668
+    second: Shishi_13_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -110,22 +110,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: AsBarras_0
+      name: Shishi_13_0
       rect:
         serializedVersion: 2
-        x: 668
-        y: 440
-        width: 514
-        height: 188
+        x: 1070
+        y: 318
+        width: 255
+        height: 206
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3e41bef1329b1c1d0800000000000000
-      internalID: -3332178688766962461
+      spriteID: 4306289d1d4c77180800000000000000
+      internalID: -9117602515011870668
       vertices: []
       indices: 
       edges: []
@@ -133,14 +133,15 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: cec9e02b8de9e2e45a990c7fa113d653
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Shishi_13_0: -9117602515011870668
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
