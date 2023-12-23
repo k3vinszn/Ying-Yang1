@@ -113,10 +113,10 @@ TextureImporter:
       name: Shishi_4_0
       rect:
         serializedVersion: 2
-        x: 1070
-        y: 318
-        width: 255
-        height: 206
+        x: 1078
+        y: 322
+        width: 240
+        height: 197
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -133,7 +133,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 6208f57fbd12ce741a5feee11cf76877
+    spriteID: 5a36992f3352f9a4db3ac5ff5be3e3dc
     internalID: 0
     vertices: []
     indices: 
