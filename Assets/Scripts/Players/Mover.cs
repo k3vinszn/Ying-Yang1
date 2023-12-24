@@ -94,11 +94,17 @@ public class Mover : MonoBehaviour
             {
                 // Activate the bullet prefab
                 gameObject.transform.GetChild(0).gameObject.SetActive(true);
+
+                animator.SetBool("isFiring", true);
+
             }
             else
             {
                 // Deactivate the bullet prefab when the fire button is released
                 gameObject.transform.GetChild(0).gameObject.SetActive(false);
+
+                animator.SetBool("isFiring", false);
+
             }
         }
     }
