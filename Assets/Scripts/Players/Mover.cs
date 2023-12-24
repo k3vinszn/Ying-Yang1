@@ -44,7 +44,6 @@ public class Mover : MonoBehaviour
     private Animator animator;
     private bool isRunning = false;
     private static readonly int isDead = Animator.StringToHash("isDead"); // Added Animator parameter hash
-    private static readonly int isJumping = Animator.StringToHash("isJumping"); // Added Animator parameter hash
 
     [Header("Player Life")]
     [SerializeField] private int maxHealth = 10;
@@ -79,8 +78,10 @@ public class Mover : MonoBehaviour
             rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
             isGrounded = false;
 
-            // Set the "isJumping" parameter to true in the Animator
-            animator.SetBool(isJumping, true);
+            // Trigger the jump animation
+            animator.SetBool("isJumping", true);
+
+
         }
     }
 
@@ -170,8 +171,8 @@ public class Mover : MonoBehaviour
         {
             isGrounded = true;
 
-            // Set the "isJumping" parameter to false in the Animator
-            animator.SetBool(isJumping, false);
+            animator.SetBool("isJumping", false);
+
         }
         if (collision.collider.CompareTag("Key"))
         {
