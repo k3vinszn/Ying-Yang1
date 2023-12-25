@@ -14,17 +14,12 @@ public class TimerScript : MonoBehaviour
 
     void Update()
     {
-        if (timer < totalTime)
-        {
+       
             timer += Time.deltaTime;
             float percentage = Mathf.Clamp01(timer / totalTime);
             int progressPercentage = Mathf.RoundToInt(percentage * 100);
             loadingText.text = progressPercentage + "%";
-        }
-        else
-        {
-            loadingText.gameObject.SetActive(false); // Disable loading text
-            otherGameObjectToEnable.SetActive(true); // Enable another GameObject
-        }
+     
+        
     }
 }
