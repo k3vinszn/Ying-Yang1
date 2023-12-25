@@ -91296,6 +91296,7 @@ GameObject:
   - component: {fileID: 1704462124}
   - component: {fileID: 1704462123}
   - component: {fileID: 1704462126}
+  - component: {fileID: 1704462127}
   m_Layer: 0
   m_Name: Sapo
   m_TagString: Untagged
@@ -91438,6 +91439,22 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 4.28, y: 3.16}
   m_EdgeRadius: 0
+--- !u!114 &1704462127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1704462122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34558f3f6a43f2648802ab7448f9a87d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  detectionRange: 5
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &1709377268 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2532131595700067696, guid: 564e2be44f356c149ab59e91375ef924, type: 3}
