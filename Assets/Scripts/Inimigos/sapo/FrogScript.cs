@@ -7,19 +7,14 @@ public class FrogScript : MonoBehaviour
     public float Range = 10.0f;
     public float PlayerDistance = 8.0f;
     private Animator animator;
-    public DetectionZone attackZone;
 
-    private void Update()
-    {
-        
-    }
-   public void HandlePlayerDistance()
+    private void HandlePlayerDistance()
     {
         if (PlayerDistance <= Range)
         {
             if (isAwake==false) // enemy is not awake
             {
-                animator.SetBool("HasTarget", true); // range detected animation
+                animator.SetBool("triggerpar", true); // range detected animation
                 StartCoroutine(Wait2Seconds()); // triggers courotine to wait 2 seconds
                 animator.SetBool("slapattack", true);
                 isAwake = true;
