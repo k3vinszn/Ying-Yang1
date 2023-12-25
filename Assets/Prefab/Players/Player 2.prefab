@@ -212,8 +212,6 @@ MonoBehaviour:
   health: 10
   cooldownTime: 3
   fallDetector: {fileID: 0}
-  maxHealth: 10
-  currentHealth: 0
 --- !u!1 &5251324301239285824
 GameObject:
   m_ObjectHideFlags: 0
