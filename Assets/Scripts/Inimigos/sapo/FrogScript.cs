@@ -3,58 +3,37 @@ using System.Collections;
 
 public class FrogScript : MonoBehaviour
 {
-    public float detectionRange = 5f;
-    public LayerMask playerLayer;
+    private bool isAwake = false;
+    public float Range = 10.0f;
+    public float PlayerDistance = 8.0f;
+    private Animator animator;
 
-    private Transform player;
-    private bool isPlayerDetected = false;
-
-    void Update()
+    private void HandlePlayerDistance()
     {
-        DetectPlayer();
-
-        if (isPlayerDetected)
+        if (PlayerDistance <= Range)
         {
-            // Perform actions when the player is detected
-            // For example, you can call a method to attack the player
-            AttackPlayer();
-        }
-    }
-
-    void DetectPlayer()
-    {
-        Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, detectionRange, playerLayer);
-
-        // Check if any of the colliders belong to the player
-        foreach (var collider in colliders)
-        {
-            if (collider.CompareTag("Player"))
+            if (isAwake==false) // enemy is not awake
             {
-                // Player detected
-                isPlayerDetected = true;
-                player = collider.transform;
-                return;
+                animator.SetBool("triggerpar", true); // range detected animation
+                StartCoroutine(Wait2Seconds()); // triggers courotine to wait 2 seconds
+                animator.SetBool("slapattack", true);
+                isAwake = true;
+            }
+            else
+            {
+                animator.SetBool("slapattack", true);
             }
         }
-
-        // Player not detected
-        isPlayerDetected = false;
-        player = null;
-    }
-
-    void AttackPlayer()
-    {
-        // Implement your logic to attack the player here
-        // For example, you can reduce the player's health or perform any other action
-        Debug.Log("Player in range! Attack!");
-    }
-
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.gameObject.CompareTag("Player") && !other.isTrigger) // Updated tag check and added isTrigger check
+        else
         {
-            other.GetComponent<Mover>().TakeDamage(); // Call the TakeDamage method of the player
-            Destroy(gameObject); // Destroy the bullet
+            animator.SetBool("idlepar", true);
+            isAwake = false;
         }
+    }
+
+    IEnumerator Wait2Seconds() // courotine to wait 2 seconds
+    {
+        yield return new WaitForSeconds(2.0f);
+   
     }
 }
