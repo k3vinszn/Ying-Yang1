@@ -248,7 +248,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      level 1_0: -3151992594959185564
+      level 1_1: 7043959285007283438
+      level 1_2: 6177994717755976120
+      level 1_3: -8117751541967945312
+      level 1_4: 6975329863593691111
+      level 1_5: -8063989173607936713
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
