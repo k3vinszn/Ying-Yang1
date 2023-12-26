@@ -236,6 +236,7 @@ public class Mover : MonoBehaviour
         {
             animator.SetBool(isDead, true);
             Debug.Log("Player is defeated!");
+            transform.position = respawnPoint;
             // You can add more logic like respawning the player or triggering a game over screen.
         }
     }
