@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 1c1496ddcafc9ce45a5ab236114896ea
+guid: 0d5fadd3347943b44a01c0f07187b4cf
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8722233930360164287
-    second: sem volume_0
-  - first:
-      213: -2783002581003068535
-    second: sem volume_1
+      213: 6545382614753218560
+    second: bush_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -113,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sem volume_0
+      name: bush_0
       rect:
         serializedVersion: 2
-        x: 293
-        y: 342
-        width: 160
-        height: 375
+        x: 495
+        y: 263
+        width: 788
+        height: 687
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -127,29 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 140f505e37664f680800000000000000
-      internalID: -8722233930360164287
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sem volume_1
-      rect:
-        serializedVersion: 2
-        x: 460
-        y: 60
-        width: 373
-        height: 986
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 98b1156c5e9c069d0800000000000000
-      internalID: -2783002581003068535
+      spriteID: 00012672fced5da50800000000000000
+      internalID: 6545382614753218560
       vertices: []
       indices: 
       edges: []
@@ -165,8 +141,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      sem volume_0: -8722233930360164287
-      sem volume_1: -2783002581003068535
+      bush_0: 6545382614753218560
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
