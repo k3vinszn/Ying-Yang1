@@ -120,36 +120,48 @@ public class Mover : MonoBehaviour
 
     void Update()
     {
-        moveDirection = new Vector2(inputVector.x, inputVector.y);
-        moveDirection.Normalize();
-
-        rb.velocity = new Vector2(moveDirection.x * moveSpeed, rb.velocity.y);
-
-        // Set the isRunning boolean based on whether the player is moving or not
-        isRunning = Mathf.Abs(moveDirection.x) > 0.1f;
-
-        // Update the animator parameter for the run animation
-        animator.SetBool("isRunning", isRunning);
-
-        fallDetector.transform.position = new Vector2(transform.position.x, fallDetector.transform.position.y);
-
-
-        // Flip the player and the fire position if moving left
-        if (moveDirection.x < 0 && isFacingRight)
+        // Check if the player is firing
+        if (!animator.GetBool("isFiring"))
         {
-            Flip();
+            // Player can move only if not firing
+            moveDirection = new Vector2(inputVector.x, inputVector.y);
+            moveDirection.Normalize();
+
+            // Set the velocity only along the Y-axis to allow jumping
+            rb.velocity = new Vector2(moveDirection.x * moveSpeed, rb.velocity.y);
+
+            // Set the isRunning boolean based on whether the player is moving or not
+            isRunning = Mathf.Abs(moveDirection.x) > 0.1f;
+
+            // Update the animator parameter for the run animation
+            animator.SetBool("isRunning", isRunning);
+
+            fallDetector.transform.position = new Vector2(transform.position.x, fallDetector.transform.position.y);
+
+            // Flip the player and the fire position if moving left
+            if (moveDirection.x < 0 && isFacingRight)
+            {
+                Flip();
+            }
+            // Flip back if moving right
+            else if (moveDirection.x > 0 && !isFacingRight)
+            {
+                Flip();
+            }
+
+            if (shield != null && shield.currentHits <= 0)
+            {
+                DisableFire();
+            }
         }
-        // Flip back if moving right
-        else if (moveDirection.x > 0 && !isFacingRight)
+        else
         {
-            Flip();
-        }
-
-        if (shield != null && shield.currentHits <= 0)
-        {
-            DisableFire();
+            // If firing animation is playing, freeze the X-axis movement
+            rb.velocity = new Vector2(0f, rb.velocity.y);
         }
     }
+
+
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
