@@ -95349,6 +95349,10 @@ PrefabInstance:
       propertyPath: doorBehaviour
       value: 
       objectReference: {fileID: 368722224}
+    - target: {fileID: 4671027273732873735, guid: c07789f19333c8a41bc2d258c1c026cc, type: 3}
+      propertyPath: isDoorOpenSwitch
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6580875717343458072, guid: c07789f19333c8a41bc2d258c1c026cc, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.66
@@ -95367,7 +95371,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6580875717343458072, guid: c07789f19333c8a41bc2d258c1c026cc, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.77
+      value: -1.8
       objectReference: {fileID: 0}
     - target: {fileID: 6580875717343458072, guid: c07789f19333c8a41bc2d258c1c026cc, type: 3}
       propertyPath: m_ConstrainProportionsScale
