@@ -6,12 +6,13 @@ public class EnemyShooting : MonoBehaviour
 {
     private float timer;
     private bool canStartShooting = false;
+    private int shotsFired = 0; // Track the number of shots fired
+    public int maxShots = 3; // Maximum number of shots before cooldown
+    public float cooldownTime = 5f; // Cooldown time in seconds
 
     public GameObject bullet;
     public Transform bulletPos;
-    private GameObject player;
-
-    
+    private GameObject[] players; // Array of players
 
     // Start is called before the first frame update
     void Start()
@@ -22,8 +23,7 @@ public class EnemyShooting : MonoBehaviour
     IEnumerator DelayedStart()
     {
         yield return new WaitForSeconds(10f);
-        // Find the player object with the "Player" tag dynamically
-        player = GameObject.FindGameObjectWithTag("Player");
+        players = GameObject.FindGameObjectsWithTag("Player"); // Find all game objects with the tag
         canStartShooting = true;
     }
 
@@ -33,17 +33,19 @@ public class EnemyShooting : MonoBehaviour
         if (!canStartShooting)
             return;
 
-        float distance = Vector2.Distance(transform.position, player.transform.position);
-        Debug.Log(distance);
-
-        if (distance < 20)
+        foreach (GameObject player in players)
         {
-            timer += Time.deltaTime;
+            float distance = Vector2.Distance(transform.position, player.transform.position);
 
-            if (timer > 2)
+            if (distance < 20)
             {
-                timer = 0;
-                Shoot();
+                timer += Time.deltaTime;
+
+                if (timer > 2)
+                {
+                    timer = 0;
+                    Shoot();
+                }
             }
         }
     }
@@ -51,5 +53,19 @@ public class EnemyShooting : MonoBehaviour
     void Shoot()
     {
         Instantiate(bullet, bulletPos.position, Quaternion.identity);
+        shotsFired++;
+
+        if (shotsFired >= maxShots)
+        {
+            StartCoroutine(StartCooldown());
+        }
+    }
+
+    IEnumerator StartCooldown()
+    {
+        canStartShooting = false; // Disable shooting during cooldown
+        yield return new WaitForSeconds(cooldownTime);
+        shotsFired = 0; // Reset the shot counter after the cooldown
+        canStartShooting = true; // Enable shooting after cooldown
     }
 }
