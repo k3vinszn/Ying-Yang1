@@ -15,6 +15,9 @@ public class Mover : MonoBehaviour
     [Header("Cooldown Settings")]
     [SerializeField] private float cooldownTime = 3f;
     private float cooldownTimer = 0f;
+    [SerializeField] private float fireCooldownDuration = 2f; // Default duration for firing cooldown
+    [SerializeField] private float postFireCooldownDuration = 1f; // Default duration after stopping firing
+
 
     [Header("Components")]
     private Rigidbody2D rb;
@@ -97,6 +100,12 @@ public class Mover : MonoBehaviour
 
                 animator.SetBool("isFiring", true);
 
+                // Start a coroutine to disable firing after the specified duration
+                if (fireCooldownCoroutine != null)
+                {
+                    StopCoroutine(fireCooldownCoroutine);
+                }
+                fireCooldownCoroutine = StartCoroutine(DisableFireAfterDuration(fireCooldownDuration));
             }
             else
             {
@@ -104,9 +113,43 @@ public class Mover : MonoBehaviour
                 gameObject.transform.GetChild(0).gameObject.SetActive(false);
 
                 animator.SetBool("isFiring", false);
-
             }
         }
+    }
+
+    private IEnumerator DisableFireAfterDuration(float duration)
+    {
+        yield return new WaitForSeconds(duration);
+
+        // Deactivate firing after the specified duration
+        gameObject.transform.GetChild(0).gameObject.SetActive(false);
+
+        animator.SetBool("isFiring", false);
+
+        // Wait for an additional duration before enabling fire again
+        yield return new WaitForSeconds(postFireCooldownDuration);
+
+        isFireEnabled = true;
+    }
+
+
+    public void DisableFire()
+    {
+        isFireEnabled = false;
+        if (fireCooldownCoroutine != null)
+        {
+            StopCoroutine(fireCooldownCoroutine);
+        }
+        fireCooldownCoroutine = StartCoroutine(EnableFireAfterCooldown());
+    }
+
+    private IEnumerator EnableFireAfterCooldown()
+    {
+        float waitTime = 3f; // Store the wait time in a local variable
+        yield return new WaitForSeconds(waitTime);
+
+        isFireEnabled = true;
+        shield.ResetHits(); // Reset shield hits when re-enabling fire
     }
 
     void OnTriggerEnter(Collider other)
@@ -242,6 +285,7 @@ public class Mover : MonoBehaviour
     {
         currentHealth -= 1; // Deduct 1 health point
         Debug.Log("Player Health: " + currentHealth);
+        animator.SetTrigger("takingDamage");
 
         // Set the "isDead" parameter to true when the player's health reaches zero
         if (currentHealth <= 0)
@@ -249,27 +293,12 @@ public class Mover : MonoBehaviour
             animator.SetBool(isDead, true);
             Debug.Log("Player is defeated!");
             transform.position = respawnPoint;
+
+            // Reset health to maxHealth when respawning
+            currentHealth = maxHealth;
+
             // You can add more logic like respawning the player or triggering a game over screen.
         }
-    }
-
-    public void DisableFire()
-    {
-        isFireEnabled = false;
-        if (fireCooldownCoroutine != null)
-        {
-            StopCoroutine(fireCooldownCoroutine);
-        }
-        fireCooldownCoroutine = StartCoroutine(EnableFireAfterCooldown());
-    }
-
-    private IEnumerator EnableFireAfterCooldown()
-    {
-        float waitTime = 3f; // Store the wait time in a local variable
-        yield return new WaitForSeconds(waitTime);
-
-        isFireEnabled = true;
-        shield.ResetHits(); // Reset shield hits when re-enabling fire
     }
 
     private void Flip()
