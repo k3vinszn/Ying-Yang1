@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 0111b5ad5377c074d836155a5ab2db90
+guid: e86d3568635ef4d4295655d0f17b1f79
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4072665357056345260
-    second: YinYang_2_0
+      213: 8719164378686404718
+    second: AsBarras (1)_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -95,7 +95,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: iPhone
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: YinYang_2_0
+      name: AsBarras (1)_0
       rect:
         serializedVersion: 2
-        x: 719
-        y: 487
-        width: 149
-        height: 146
+        x: 35
+        y: 49
+        width: 365
+        height: 181
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ca402687093058830800000000000000
-      internalID: 4072665357056345260
+      spriteID: e68b7d96ec1b00970800000000000000
+      internalID: 8719164378686404718
       vertices: []
       indices: 
       edges: []
@@ -140,8 +140,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      YinYang_2_0: 4072665357056345260
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
