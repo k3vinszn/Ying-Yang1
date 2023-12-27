@@ -72,7 +72,6 @@ public class FrogScript : MonoBehaviour
         if (other.gameObject.CompareTag("Player") && !other.isTrigger) // Updated tag check and added isTrigger check
         {
             other.GetComponent<Mover>().TakeDamage(); // Call the TakeDamage method of the player
-          
         }
     }
 
