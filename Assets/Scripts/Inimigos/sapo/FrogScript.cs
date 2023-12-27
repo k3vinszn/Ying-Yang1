@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
 public class FrogScript : MonoBehaviour
 {
     private bool isAwake = false;
@@ -15,43 +14,36 @@ public class FrogScript : MonoBehaviour
     {
         player = GameObject.FindWithTag("Player");
         animator = GetComponent<Animator>();
-
     }
 
     private void Update()
     {
         HandlePlayerDistance();
+        CalculateDirection();
     }
+
     private void HandlePlayerDistance()
     {
-        float PlayerDistance;
+        float playerDistance = Vector3.Distance(transform.position, player.transform.position);
+        Debug.Log("PLAYER DISTANCE IS:" + playerDistance);
 
-        PlayerDistance = Vector3.Distance(transform.position, player.transform.position);
-        Debug.Log("PLAYER DISTANCE IS:");
-        Debug.Log(PlayerDistance);
-
-
-        if (PlayerDistance <= Range) // when player in range for the attack
+        if (playerDistance <= Range)
         {
-            Debug.Log("player in range");
-            if (isAwake == false) // enemy is not awake
+            if (!isAwake)
             {
-                animator.SetBool("activated", true); // range detect animation
-                StartCoroutine(Wait2Seconds()); // trigger courotine to wait for 2 seconds
+                animator.SetBool("activated", true);
+                StartCoroutine(Wait2Seconds());
                 animator.SetBool("slapattack", true);
                 isAwake = true;
-
             }
             else
             {
                 animator.SetBool("slapattack", true);
             }
         }
-
-        else // when out of range
+        else
         {
-
-            if (PlayerDistance <= triggerRange) // range for the red eyes animation
+            if (playerDistance <= triggerRange)
             {
                 animator.SetBool("activated", true);
                 animator.SetBool("slapattack", false);
@@ -67,16 +59,29 @@ public class FrogScript : MonoBehaviour
             }
         }
     }
-    void OnTriggerEnter2D(Collider2D other)
+
+    void CalculateDirection()
     {
-        if (other.gameObject.CompareTag("Player") && !other.isTrigger) // Updated tag check and added isTrigger check
+        float playerDistance = Vector3.Distance(transform.position, player.transform.position);
+        if (playerDistance <= triggerRange)
         {
-            return;
+            Vector2 direction = player.transform.position - transform.position;
+
+            if (direction.x > 0)
+            {
+                // Flip frog to the right
+                transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
+            }
+            else if (direction.x < 0)
+            {
+                // Flip frog to the left
+                transform.localScale = new Vector3(-Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
+            }
+            // If direction.x is 0, do nothing (preserving the current scale)
         }
     }
 
-
-    IEnumerator Wait2Seconds()// waits 2 seconds
+    IEnumerator Wait2Seconds()
     {
         yield return new WaitForSeconds(2.0f);
     }
