@@ -10,7 +10,7 @@ public class Mover : MonoBehaviour
 
     [Header("Player Settings")]
     [SerializeField] private int playerIndex = 0;
-    [SerializeField] private int health = 10;
+    [SerializeField] private int health = 9;
 
     [Header("Cooldown Settings")]
     [SerializeField] private float cooldownTime = 3f;
@@ -54,6 +54,7 @@ public class Mover : MonoBehaviour
 
     private bool isFireEnabled = true;
     private Coroutine fireCooldownCoroutine; // Added coroutine reference
+    public HealthBarScript healthBar;
 
     private void Awake()
     {
@@ -62,6 +63,7 @@ public class Mover : MonoBehaviour
         shield = GetComponent<Shield>(); // Get the Shield script component
         animator = GetComponent<Animator>(); // Get the Animator component
         currentHealth = maxHealth;
+        healthBar.setMaxHealth(maxHealth);
     }
 
     public int GetPlayerIndex()
@@ -299,6 +301,7 @@ public class Mover : MonoBehaviour
 
             // You can add more logic like respawning the player or triggering a game over screen.
         }
+        healthBar.SetHealth(currentHealth);
     }
 
     private void Flip()
