@@ -10,14 +10,12 @@ public class Mover : MonoBehaviour
 
     [Header("Player Settings")]
     [SerializeField] private int playerIndex = 0;
-    [SerializeField] private int health = 3;
 
     [Header("Cooldown Settings")]
     [SerializeField] private float cooldownTime = 3f;
     private float cooldownTimer = 0f;
     [SerializeField] private float fireCooldownDuration = 2f; // Default duration for firing cooldown
     [SerializeField] private float postFireCooldownDuration = 1f; // Default duration after stopping firing
-
 
     [Header("Components")]
     private Rigidbody2D rb;
@@ -48,11 +46,10 @@ public class Mover : MonoBehaviour
     private bool isRunning = false;
     private static readonly int isDead = Animator.StringToHash("isDead"); // Added Animator parameter hash
 
-    [Header("Player Life")]
-    [SerializeField] private int maxHealth = 10;
-    [SerializeField] private int currentHealth;
-
     private bool isFireEnabled = true;
+
+    private bool isFiring = false;
+
     private Coroutine fireCooldownCoroutine; // Added coroutine reference
     public HealthBarScript healthBar;
 
@@ -62,8 +59,6 @@ public class Mover : MonoBehaviour
         respawnPoint = transform.position;
         shield = GetComponent<Shield>(); // Get the Shield script component
         animator = GetComponent<Animator>(); // Get the Animator component
-        currentHealth = maxHealth;
-        healthBar.setMaxHealth(maxHealth);
     }
 
     public int GetPlayerIndex()
@@ -92,7 +87,10 @@ public class Mover : MonoBehaviour
 
     public void Fire(bool isFiring)
     {
-        if (isFireEnabled)
+        this.isFiring = isFiring;
+
+        // Check if the player is grounded before allowing firing
+        if (isGrounded && isFireEnabled)
         {
             // Check if the fire button is being pressed
             if (isFiring)
@@ -118,6 +116,7 @@ public class Mover : MonoBehaviour
             }
         }
     }
+
 
     private IEnumerator DisableFireAfterDuration(float duration)
     {
@@ -166,9 +165,14 @@ public class Mover : MonoBehaviour
     void Update()
     {
         // Check if the player is firing
-        if (!animator.GetBool("isFiring"))
+        if (isFiring && isFireEnabled)
         {
-            // Player can move only if not firing
+            // If firing animation is playing, freeze the X-axis movement
+            rb.velocity = new Vector2(0f, rb.velocity.y);
+        }
+        else
+        {
+            // Player can move if not firing
             moveDirection = new Vector2(inputVector.x, inputVector.y);
             moveDirection.Normalize();
 
@@ -194,17 +198,12 @@ public class Mover : MonoBehaviour
                 Flip();
             }
 
-            if (shield != null && shield.currentHits <= 0)
-            {
-                DisableFire();
-            }
-        }
-        else
-        {
-            // If firing animation is playing, freeze the X-axis movement
-            rb.velocity = new Vector2(0f, rb.velocity.y);
+            // If not firing or fire is disabled, set firing animation to false
+            animator.SetBool("isFiring", false);
         }
     }
+
+
 
 
 
@@ -263,10 +262,13 @@ public class Mover : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("Bullet")) // Updated tag check
+        if (other.CompareTag("Bullet")) // Updated tag check
         {
-            TakeDamage(); // Call the TakeDamage method when hit by a bullet
-            Destroy(other.gameObject); // Destroy the bullet
+            // Destroy the bullet
+            Destroy(other.gameObject);
+
+            // Handle bullet destruction and shield interaction
+            HandleBulletInteraction();
         }
         else if (other.gameObject.CompareTag("Ground"))
         {
@@ -283,26 +285,15 @@ public class Mover : MonoBehaviour
         }
     }
 
-    public void TakeDamage()
+    private void HandleBulletInteraction()
     {
-        currentHealth -= 1; // Deduct 1 health point
-        Debug.Log("Player Health: " + currentHealth);
-        animator.SetTrigger("takingDamage");
-
-        // Set the "isDead" parameter to true when the player's health reaches zero
-        if (currentHealth <= 0)
+        if (shield != null && shield.currentHits > 0)
         {
-            animator.SetBool(isDead, true);
-            Debug.Log("Player is defeated!");
-            transform.position = respawnPoint;
-
-            // Reset health to maxHealth when respawning
-            currentHealth = maxHealth;
-
-            // You can add more logic like respawning the player or triggering a game over screen.
+            // Bullet hit the shield
+            shield.HandleBulletHit();
         }
-        healthBar.SetHealth(currentHealth);
     }
+
 
     private void Flip()
     {

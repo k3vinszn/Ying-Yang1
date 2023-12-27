@@ -9,11 +9,11 @@ public class EnemyBulletScript : MonoBehaviour
 
     private GameObject player;
     private Rigidbody2D rb;
-    
+
     // Start is called before the first frame update
     void Start()
     {
-        rb= GetComponent<Rigidbody2D>();
+        rb = GetComponent<Rigidbody2D>();
 
         player = GameObject.FindGameObjectWithTag("Player");
 
@@ -31,19 +31,18 @@ public class EnemyBulletScript : MonoBehaviour
     {
         timer += Time.deltaTime;
 
-        if( timer >10)
+        if (timer > 10)
         {
-            Destroy(gameObject); // destroi o projetil depois de um determinado tempo na cena
-
+            Destroy(gameObject); // destroy the projectile after a certain time in the scene
         }
     }
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("Player") && !other.isTrigger) // Updated tag check and added isTrigger check
+        if (other.gameObject.CompareTag("Player") && !other.isTrigger)
         {
-            other.GetComponent<Mover>().TakeDamage(); // Call the TakeDamage method of the player
-            Destroy(gameObject); // Destroy the bullet
+            Destroy(gameObject); // destroy the bullet
         }
+        
     }
 }
