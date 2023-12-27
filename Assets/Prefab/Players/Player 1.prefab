@@ -312,7 +312,11 @@ MonoBehaviour:
   playerIndex: 0
   health: 10
   cooldownTime: 3
+  fireCooldownDuration: 2
+  postFireCooldownDuration: 1
   fallDetector: {fileID: 0}
+  maxHealth: 10
+  currentHealth: 0
 --- !u!95 &8254223576773277284
 Animator:
   serializedVersion: 7
