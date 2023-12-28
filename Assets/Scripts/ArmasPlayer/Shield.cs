@@ -16,12 +16,10 @@ public class Shield : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("Shield OnTriggerEnter2D");
 
         if (other.CompareTag("Bullet"))
         {
-            Debug.Log("Shield handles Bullet collision");
-            // Handle bullet hit and shield interaction
+            Debug.Log("Shield TAKE HIT ");
             HandleBulletHit();
             Destroy(other.gameObject);
             Debug.Log("Bullet destroyed by PlayerShield");
