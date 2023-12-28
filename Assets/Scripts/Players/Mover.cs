@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using static HealthSystem;
 
 
 public class Mover : MonoBehaviour
@@ -51,7 +52,9 @@ public class Mover : MonoBehaviour
     private bool isFiring = false;
 
     private Coroutine fireCooldownCoroutine; // Added coroutine reference
+
     public HealthBarScript healthBar;
+    public HealthSystem healthsystem = new HealthSystem();
 
     private void Awake()
     {
@@ -264,6 +267,7 @@ public class Mover : MonoBehaviour
     {
         if (other.CompareTag("Bullet")) // Updated tag check
         {
+            TakeDamage();
             // Destroy the bullet
             Destroy(other.gameObject);
 
@@ -282,6 +286,26 @@ public class Mover : MonoBehaviour
         else if (other.tag == "Checkpoint")
         {
             respawnPoint = transform.position;
+        }
+    }
+
+    public void TakeDamage()
+    {
+        //currentHealth -= 1; // Deduct 1 health point
+
+
+        healthsystem.setcurrentHealth();
+
+        animator.SetTrigger("takingDamage");
+
+        // Set the "isDead" parameter to true when the player's health reaches zero
+        if (healthsystem.getcurrentHealth() <= 0)
+        {
+            animator.SetBool(isDead, true);
+            transform.position = respawnPoint;
+            healthsystem.resethealth();
+
+            // You can add more logic like respawning the player or triggering a game over screen.
         }
     }
 

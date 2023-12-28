@@ -5,14 +5,11 @@ using UnityEngine;
 public class Spike : MonoBehaviour
 {
 
-    private void OnTriggerEnter2D(Collider2D other)
+    void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Player") && !other.isTrigger) // Updated tag check and added isTrigger check
         {
-            
-
-            // Debug statement to verify the trigger
-            Debug.Log("Player entered the spike trigger!");
+            other.GetComponent<Mover>().TakeDamage(); // Call the TakeDamage method of the player
         }
     }
 }

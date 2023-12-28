@@ -4,17 +4,17 @@ using UnityEngine;
 
 public class EnemyShooting : MonoBehaviour
 {
-    private float timer;
-    private bool canStartShooting = false;
-    private int shotsFired = 0; // Track the number of shots fired
-    public int maxShots = 3; // Maximum number of shots before cooldown
-    public float cooldownTime = 5f; // Cooldown time in seconds
-
     public GameObject bullet;
     public Transform bulletPos;
-    private GameObject[] players; // Array of players
+    private GameObject[] players;
+    private int currentPlayerIndex = 0;
 
-    // Start is called before the first frame update
+    public int maxShots = 3;
+    public float shotInterval = 2f;
+    public float cooldownTime = 5f;
+
+    private bool canStartShooting = false;
+
     void Start()
     {
         StartCoroutine(DelayedStart());
@@ -23,49 +23,36 @@ public class EnemyShooting : MonoBehaviour
     IEnumerator DelayedStart()
     {
         yield return new WaitForSeconds(10f);
-        players = GameObject.FindGameObjectsWithTag("Player"); // Find all game objects with the tag
+        players = GameObject.FindGameObjectsWithTag("Player");
         canStartShooting = true;
+
+        StartCoroutine(ShootLoop());
     }
 
-    // Update is called once per frame
-    void Update()
+    IEnumerator ShootLoop()
     {
-        if (!canStartShooting)
-            return;
-
-        foreach (GameObject player in players)
+        while (canStartShooting)
         {
-            float distance = Vector2.Distance(transform.position, player.transform.position);
-
-            if (distance < 20)
+            for (int shotsFired = 0; shotsFired < maxShots; shotsFired++)
             {
-                timer += Time.deltaTime;
-
-                if (timer > 2)
-                {
-                    timer = 0;
-                    Shoot();
-                }
+                Shoot();
+                yield return new WaitForSeconds(shotInterval);
             }
+
+            yield return new WaitForSeconds(cooldownTime);
+
+            // Switch to the next player
+            currentPlayerIndex = (currentPlayerIndex + 1) % players.Length;
         }
     }
 
     void Shoot()
     {
-        Instantiate(bullet, bulletPos.position, Quaternion.identity);
-        shotsFired++;
+        float distance = Vector2.Distance(transform.position, players[currentPlayerIndex].transform.position);
 
-        if (shotsFired >= maxShots)
+        if (distance < 20)
         {
-            StartCoroutine(StartCooldown());
+            Instantiate(bullet, bulletPos.position, Quaternion.identity);
         }
-    }
-
-    IEnumerator StartCooldown()
-    {
-        canStartShooting = false; // Disable shooting during cooldown
-        yield return new WaitForSeconds(cooldownTime);
-        shotsFired = 0; // Reset the shot counter after the cooldown
-        canStartShooting = true; // Enable shooting after cooldown
     }
 }
