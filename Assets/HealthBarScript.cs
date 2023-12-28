@@ -15,7 +15,6 @@ public class HealthBarScript : MonoBehaviour
     }
     public void SetHealth( int health)
     {
-        Debug.Log("HEALTH BAR SCRIPT TRIGGERED");
         slider.value = health;
     }
 }
