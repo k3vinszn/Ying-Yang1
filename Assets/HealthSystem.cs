@@ -5,11 +5,13 @@ using UnityEngine;
 public class HealthSystem : MonoBehaviour
 {
 
-    public  int health = 3;
+    
     public int maxHealth = 3;
     public  int currentHealth;
 
-    public HealthBarScript healthBar;
+    public HealthBarScript healthBar; // referrence to the health bar script
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -17,6 +19,8 @@ public class HealthSystem : MonoBehaviour
         healthBar.setMaxHealth(maxHealth);
     }
 
-    // Update is called once per frame
-    
+    public void UpdateHealthBar()
+    {
+        healthBar.SetHealth(currentHealth);
+    }
 }
