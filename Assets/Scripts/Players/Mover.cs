@@ -13,8 +13,6 @@ public class Mover : MonoBehaviour
     [SerializeField] private int playerIndex = 0;
 
     [Header("Cooldown Settings")]
-    [SerializeField] private float cooldownTime = 3f;
-    private float cooldownTimer = 0f;
     [SerializeField] private float fireCooldownDuration = 2f; // Default duration for firing cooldown
     [SerializeField] private float postFireCooldownDuration = 1f; // Default duration after stopping firing
 
@@ -27,8 +25,12 @@ public class Mover : MonoBehaviour
     private Vector2 inputVector = Vector2.zero;
 
     [Header("Bullet Settings")]
-    private GameObject currentBullet;
-    private bool isBulletActive = false;
+    public GameObject bulletObject; // Reference to the bullet GameObject in the Inspector
+    public Transform bulletSpawnPoint; // Reference to the spawn point of the bullet
+    public float fireDuration = 2f; // Duration for which the player can fire
+    private GameObject currentBullet; // Reference to the currently spawned bullet
+    private bool isFiring = false;
+
 
     [Header("Ground Check")]
     private bool isGrounded = true;
@@ -45,12 +47,12 @@ public class Mover : MonoBehaviour
     [Header("Animation")]
     private Animator animator;
     private bool isRunning = false;
-    private static readonly int isDead = Animator.StringToHash("isDead"); // Added Animator parameter hash
 
     private bool isFireEnabled = true;
 
-    private bool isFiring = false;
 
+
+    private Coroutine fireDurationCoroutine; // Added coroutine reference for fire duration
     private Coroutine fireCooldownCoroutine; // Added coroutine reference
 
     public HealthBarScript healthBar;
@@ -83,8 +85,6 @@ public class Mover : MonoBehaviour
 
             // Trigger the jump animation
             animator.SetBool("isJumping", true);
-
-
         }
     }
 
@@ -98,35 +98,57 @@ public class Mover : MonoBehaviour
             // Check if the fire button is being pressed
             if (isFiring)
             {
-                // Activate the bullet prefab
-                gameObject.transform.GetChild(0).gameObject.SetActive(true);
-
-                animator.SetBool("isFiring", true);
-
-                // Start a coroutine to disable firing after the specified duration
-                if (fireCooldownCoroutine != null)
+                // Check if there is no currentBullet and the player is not already firing
+                if (currentBullet == null && fireDurationCoroutine == null)
                 {
-                    StopCoroutine(fireCooldownCoroutine);
+                    // Enable the existing bullet
+                    currentBullet = bulletObject;
+                    currentBullet.transform.position = bulletSpawnPoint.position;
+
+                    // Set the scale of the bullet based on the player's facing direction
+                    Vector3 bulletScale = currentBullet.transform.localScale;
+                    bulletScale.x = isFacingRight ? Mathf.Abs(bulletScale.x) : -Mathf.Abs(bulletScale.x);
+                    currentBullet.transform.localScale = bulletScale;
+
+                    currentBullet.SetActive(true);
+
+                    animator.SetBool("isFiring", true);
+
+                    // Start a coroutine to disable firing after the specified duration
+                    fireDurationCoroutine = StartCoroutine(DisableFireAfterDuration(fireCooldownDuration));
                 }
-                fireCooldownCoroutine = StartCoroutine(DisableFireAfterDuration(fireCooldownDuration));
             }
             else
             {
-                // Deactivate the bullet prefab when the fire button is released
-                gameObject.transform.GetChild(0).gameObject.SetActive(false);
-
                 animator.SetBool("isFiring", false);
+
+                // Check if there is a currentBullet and disable it
+                if (currentBullet != null)
+                {
+                    currentBullet.SetActive(false);
+                    currentBullet = null;
+                }
+
+                // Stop the fire duration coroutine if it's running
+                if (fireDurationCoroutine != null)
+                {
+                    StopCoroutine(fireDurationCoroutine);
+                    fireDurationCoroutine = null;
+                }
             }
         }
     }
-
 
     private IEnumerator DisableFireAfterDuration(float duration)
     {
         yield return new WaitForSeconds(duration);
 
-        // Deactivate firing after the specified duration
-        gameObject.transform.GetChild(0).gameObject.SetActive(false);
+        // Disable firing after the specified duration
+        if (currentBullet != null)
+        {
+            currentBullet.SetActive(false);
+            currentBullet = null;
+        }
 
         animator.SetBool("isFiring", false);
 
@@ -134,8 +156,8 @@ public class Mover : MonoBehaviour
         yield return new WaitForSeconds(postFireCooldownDuration);
 
         isFireEnabled = true;
+        fireDurationCoroutine = null;
     }
-
 
     public void DisableFire()
     {
@@ -147,22 +169,17 @@ public class Mover : MonoBehaviour
         fireCooldownCoroutine = StartCoroutine(EnableFireAfterCooldown());
     }
 
+    public void EnableFire()
+    {
+        isFireEnabled = true;
+    }
+
     private IEnumerator EnableFireAfterCooldown()
     {
         float waitTime = 3f; // Store the wait time in a local variable
         yield return new WaitForSeconds(waitTime);
 
         isFireEnabled = true;
-        shield.ResetHits(); // Reset shield hits when re-enabling fire
-    }
-
-    void OnTriggerEnter(Collider other)
-    {
-        if (other.CompareTag("Bullet") && currentBullet != null)
-        {
-            Destroy(currentBullet);
-            isBulletActive = false;
-        }
     }
 
     void Update()
@@ -205,8 +222,6 @@ public class Mover : MonoBehaviour
             animator.SetBool("isFiring", false);
         }
     }
-
-
 
 
 
@@ -271,8 +286,6 @@ public class Mover : MonoBehaviour
             // Destroy the bullet
             Destroy(other.gameObject);
 
-            // Handle bullet destruction and shield interaction
-            HandleBulletInteraction();
         }
         else if (other.gameObject.CompareTag("Ground"))
         {
@@ -293,15 +306,14 @@ public class Mover : MonoBehaviour
     {
         //currentHealth -= 1; // Deduct 1 health point
 
-
         healthsystem.setcurrentHealth();
 
         animator.SetTrigger("takingDamage");
 
         // Set the "isDead" parameter to true when the player's health reaches zero
-        if (healthsystem.getcurrentHealth() <= 0)
+        if (healthsystem.getcurrentHealth() < 1)  // Change the condition here
         {
-            animator.SetBool(isDead, true);
+            animator.SetTrigger("isDead");
             transform.position = respawnPoint;
             healthsystem.resethealth();
 
@@ -309,14 +321,6 @@ public class Mover : MonoBehaviour
         }
     }
 
-    private void HandleBulletInteraction()
-    {
-        if (shield != null && shield.currentHits > 0)
-        {
-            // Bullet hit the shield
-            shield.HandleBulletHit();
-        }
-    }
 
 
     private void Flip()

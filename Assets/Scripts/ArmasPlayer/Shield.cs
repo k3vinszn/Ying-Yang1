@@ -16,36 +16,13 @@ public class Shield : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-
         if (other.CompareTag("Bullet"))
         {
             Debug.Log("Shield TAKE HIT ");
-            HandleBulletHit();
             Destroy(other.gameObject);
             Debug.Log("Bullet destroyed by PlayerShield");
         }
     }
 
-
-    public void HandleBulletHit()
-    {
-        currentHits++;
-
-        if (currentHits >= maxHits)
-        {
-            DisableShield();
-            ResetHits();
-        }
-    }
-
-    private void DisableShield()
-    {
-        gameObject.SetActive(false);
-        mover.DisableFire();
-    }
-
-    public void ResetHits()
-    {
-        currentHits = 0;
-    }
+    
 }
