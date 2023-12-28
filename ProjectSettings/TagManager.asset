@@ -12,6 +12,7 @@ TagManager:
   - Fall Detector
   - Checkpoint
   - Shield
+  - Spike
   layers:
   - Default
   - TransparentFX
