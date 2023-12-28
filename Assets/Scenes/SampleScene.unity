@@ -1760,6 +1760,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1023333037}
     - target: {fileID: 1014111585801333112, guid: 3bd8a06b391af924f9a861f4da2b94e7, type: 3}
+      propertyPath: healthsystem
+      value: 
+      objectReference: {fileID: 1646867441}
+    - target: {fileID: 1014111585801333112, guid: 3bd8a06b391af924f9a861f4da2b94e7, type: 3}
       propertyPath: currentHealth
       value: 3
       objectReference: {fileID: 0}
@@ -1835,7 +1839,10 @@ PrefabInstance:
     - {fileID: 0}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7776991070202963909, guid: 3bd8a06b391af924f9a861f4da2b94e7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1450886213}
   m_SourcePrefab: {fileID: 100100000, guid: 3bd8a06b391af924f9a861f4da2b94e7, type: 3}
 --- !u!4 &334177532 stripped
 Transform:
@@ -5572,6 +5579,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1312525685}
     - target: {fileID: 6186275042597225144, guid: 7df74425a80d4ce489e0891dcef969ff, type: 3}
+      propertyPath: healthsystem
+      value: 
+      objectReference: {fileID: 1646867441}
+    - target: {fileID: 6186275042597225144, guid: 7df74425a80d4ce489e0891dcef969ff, type: 3}
       propertyPath: currentHealth
       value: 3
       objectReference: {fileID: 0}
@@ -8711,6 +8722,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1442449771}
   m_CullTransparentMesh: 1
+--- !u!1 &1450886206 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7776991070202963909, guid: 3bd8a06b391af924f9a861f4da2b94e7, type: 3}
+  m_PrefabInstance: {fileID: 334177531}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1450886213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1450886206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b29456e00883004488bafd70f0071a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 10
+  damagenumber: 1
+  currentHealth: 0
+  healthBar: {fileID: 0}
 --- !u!1 &1452445711
 GameObject:
   m_ObjectHideFlags: 0
@@ -91556,6 +91588,54 @@ Transform:
   - {fileID: 367498222}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1646867440
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1646867442}
+  - component: {fileID: 1646867441}
+  m_Layer: 0
+  m_Name: HealthSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1646867441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1646867440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b29456e00883004488bafd70f0071a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 3
+  damagenumber: 1
+  currentHealth: 3
+  healthBar: {fileID: 1900188050}
+--- !u!4 &1646867442
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1646867440}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 93.71371, y: 17.311356, z: 0.074023366}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1652145892
 GameObject:
   m_ObjectHideFlags: 0
@@ -93459,9 +93539,9 @@ MonoBehaviour:
   m_HandleRect: {fileID: 0}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 10
+  m_MaxValue: 3
   m_WholeNumbers: 1
-  m_Value: 10
+  m_Value: 3
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -96226,6 +96306,7 @@ SceneRoots:
   - {fileID: 1400936881}
   - {fileID: 334177531}
   - {fileID: 961295749}
+  - {fileID: 1646867442}
   - {fileID: 284583496}
   - {fileID: 404928908}
   - {fileID: 574869272673842821}

@@ -27,13 +27,11 @@ public class FrogScript : MonoBehaviour
         float PlayerDistance;
 
         PlayerDistance = Vector3.Distance(transform.position, player.transform.position);
-        Debug.Log("PLAYER DISTANCE IS:");
-        Debug.Log(PlayerDistance);
-
+       
 
         if (PlayerDistance <= Range) // when player in range for the attack
         {
-            Debug.Log("player in range");
+          
             if (isAwake == false) // enemy is not awake
             {
                 animator.SetBool("activated", true); // range detect animation
@@ -73,6 +71,8 @@ public class FrogScript : MonoBehaviour
         {
             other.GetComponent<Mover>().TakeDamage(); // Call the TakeDamage method of the player
         }
+
+        Debug.Log("FROG HIT");
     }
 
 

@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using static HealthSystem;
 
 
 public class Mover : MonoBehaviour
@@ -10,7 +11,7 @@ public class Mover : MonoBehaviour
 
     [Header("Player Settings")]
     [SerializeField] private int playerIndex = 0;
-    [SerializeField] private int health = 3;
+    //[SerializeField] private int health = 3;
 
     [Header("Cooldown Settings")]
     [SerializeField] private float cooldownTime = 3f;
@@ -48,13 +49,16 @@ public class Mover : MonoBehaviour
     private bool isRunning = false;
     private static readonly int isDead = Animator.StringToHash("isDead"); // Added Animator parameter hash
 
-    [Header("Player Life")]
-    [SerializeField] private int maxHealth = 10;
-    [SerializeField] private int currentHealth;
+    //[Header("Player Life")]
+    //[SerializeField] private int maxHealth = 10;
+    //[SerializeField] private int currentHealth;
 
     private bool isFireEnabled = true;
     private Coroutine fireCooldownCoroutine; // Added coroutine reference
-    public HealthBarScript healthBar;
+    //public HealthBarScript healthBar;
+
+    public HealthSystem healthsystem = new HealthSystem();
+ 
 
     private void Awake()
     {
@@ -62,8 +66,9 @@ public class Mover : MonoBehaviour
         respawnPoint = transform.position;
         shield = GetComponent<Shield>(); // Get the Shield script component
         animator = GetComponent<Animator>(); // Get the Animator component
-        currentHealth = maxHealth;
-        healthBar.setMaxHealth(maxHealth);
+        //currentHealth = maxHealth;
+        //
+        //healthBar.setMaxHealth(maxHealth);
     }
 
     public int GetPlayerIndex()
@@ -285,23 +290,27 @@ public class Mover : MonoBehaviour
 
     public void TakeDamage()
     {
-        currentHealth -= 1; // Deduct 1 health point
-        Debug.Log("Player Health: " + currentHealth);
+        //currentHealth -= 1; // Deduct 1 health point
+      
+      
+        healthsystem.setcurrentHealth();
+       
         animator.SetTrigger("takingDamage");
 
         // Set the "isDead" parameter to true when the player's health reaches zero
-        if (currentHealth <= 0)
+        if (healthsystem.getcurrentHealth() <= 0)
         {
             animator.SetBool(isDead, true);
             Debug.Log("Player is defeated!");
             transform.position = respawnPoint;
 
             // Reset health to maxHealth when respawning
-            currentHealth = maxHealth;
+            //currentHealth = maxHealth;
+            healthsystem.resethealth();
 
             // You can add more logic like respawning the player or triggering a game over screen.
         }
-        healthBar.SetHealth(currentHealth);
+        // healthBar.SetHealth(currentHealth);
     }
 
     private void Flip()
