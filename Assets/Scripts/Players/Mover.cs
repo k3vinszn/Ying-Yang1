@@ -294,7 +294,7 @@ public class Mover : MonoBehaviour
 
         if (other.gameObject.CompareTag("Fall Detector"))
         {
-            transform.position = respawnPoint;
+            RespawnPlayer();
         }
         else if (other.tag == "Checkpoint")
         {
@@ -302,31 +302,36 @@ public class Mover : MonoBehaviour
         }
     }
 
+
+
     public void TakeDamage()
     {
-        //currentHealth -= 1; // Deduct 1 health point
-
         healthsystem.setcurrentHealth();
-
         animator.SetTrigger("takingDamage");
-
-        // Set the "isDead" parameter to true when the player's health reaches zero
-        if (healthsystem.getcurrentHealth() < 1)  // Change the condition here
+        if (healthsystem.getcurrentHealth() < 1)
         {
             animator.SetTrigger("isDead");
-            transform.position = respawnPoint;
+            RespawnPlayer(); // Call the RespawnPlayer function
             healthsystem.resethealth();
-
-            // You can add more logic like respawning the player or triggering a game over screen.
         }
     }
 
+    private void RespawnPlayer()
+    {
+        transform.position = respawnPoint;
+        StartCoroutine(RespawnDelay());
+    }
+   
+    IEnumerator RespawnDelay()
+    {
+        animator.SetTrigger("isDead");
+        Debug.Log("2 SECONDS DELAY");
+        yield return new WaitForSeconds(2);
 
-
+    }
     private void Flip()
     {
         isFacingRight = !isFacingRight;
-
         // Flip the player's sprite
         Vector3 localScale = transform.localScale;
         localScale.x *= -1f;

@@ -25,7 +25,7 @@ public class FrogScript : MonoBehaviour
     private void HandlePlayerDistance()
     {
         float playerDistance = Vector3.Distance(transform.position, player.transform.position);
-        Debug.Log("PLAYER DISTANCE IS:" + playerDistance);
+        
 
         if (playerDistance <= Range)
         {
