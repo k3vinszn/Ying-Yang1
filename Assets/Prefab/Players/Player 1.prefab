@@ -310,9 +310,11 @@ MonoBehaviour:
   moveSpeed: 3
   jumpForce: 5
   playerIndex: 0
-  cooldownTime: 3
   fireCooldownDuration: 2
   postFireCooldownDuration: 1
+  bulletObject: {fileID: 0}
+  bulletSpawnPoint: {fileID: 0}
+  fireDuration: 2
   fallDetector: {fileID: 0}
   healthBar: {fileID: 0}
   healthsystem: {fileID: 0}

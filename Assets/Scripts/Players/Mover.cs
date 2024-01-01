@@ -49,7 +49,7 @@ public class Mover : MonoBehaviour
     private bool isRunning = false;
 
     private bool isFireEnabled = true;
-
+    private bool isPlayerAlive = true;
 
 
     private Coroutine fireDurationCoroutine; // Added coroutine reference for fire duration
@@ -282,9 +282,11 @@ public class Mover : MonoBehaviour
     {
         if (other.CompareTag("Bullet")) // Updated tag check
         {
+            Destroy(other.gameObject);
+            Debug.Log("TOOK DAMAGE");
             TakeDamage();
             // Destroy the bullet
-            Destroy(other.gameObject);
+            
 
         }
         else if (other.gameObject.CompareTag("Ground"))
@@ -306,27 +308,35 @@ public class Mover : MonoBehaviour
 
     public void TakeDamage()
     {
-        healthsystem.setcurrentHealth();
-        //animator.SetTrigger("takingDamage");
-        if (healthsystem.getcurrentHealth() < 1)
-        {
-            RespawnPlayer(); // Call the RespawnPlayer function
-            healthsystem.resethealth();
+        if (isPlayerAlive == true){
+            healthsystem.setcurrentHealth();
+            animator.SetTrigger("takingDamage");
+            if (healthsystem.getcurrentHealth() < 1)
+            {
+                isPlayerAlive = false;
+                Debug.Log("PLAYER HP LESS THAN 1");
+                RespawnPlayer(); // Call the RespawnPlayer function
+            }
         }
+            
     }
 
     private void RespawnPlayer()
     {
-        transform.position = respawnPoint;
+        Debug.Log("ENTERED RESPAWN PLAYER FUNCTION");
         StartCoroutine(RespawnDelay());
+        
     }
    
     IEnumerator RespawnDelay()
     {
-        animator.SetTrigger("isDead");
+        
         Debug.Log("2 SECONDS DELAY");
-        yield return new WaitForSeconds(2);
-
+        yield return new WaitForSeconds(0.3f);
+        animator.SetTrigger("isDead");
+        transform.position = respawnPoint;
+        healthsystem.resethealth();
+        isPlayerAlive = true;
     }
     private void Flip()
     {

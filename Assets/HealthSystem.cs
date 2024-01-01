@@ -6,7 +6,7 @@ public class HealthSystem : MonoBehaviour
 {
     [Header("Player Life")]
     [SerializeField] private int maxHealth = 3;
-    [SerializeField] private int damagenumber = 1;
+     public int damagenumber = 1;
     [SerializeField] private int currentHealth;
 
     public HealthBarScript healthBar;
