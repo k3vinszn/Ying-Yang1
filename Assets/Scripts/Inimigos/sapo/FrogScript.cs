@@ -85,4 +85,14 @@ public class FrogScript : MonoBehaviour
     {
         yield return new WaitForSeconds(2.0f);
     }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Player") && !other.isTrigger)
+        {
+            other.GetComponent<Mover>().TakeDamage(); // Call the TakeDamage method of the player
+            
+        }
+
+    }
 }
