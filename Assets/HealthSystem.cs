@@ -5,7 +5,7 @@ using UnityEngine;
 public class HealthSystem : MonoBehaviour
 {
     [Header("Player Life")]
-    [SerializeField] private int maxHealth = 10;
+    [SerializeField] private int maxHealth = 3;
     [SerializeField] private int damagenumber = 1;
     [SerializeField] private int currentHealth;
 
@@ -25,7 +25,6 @@ public class HealthSystem : MonoBehaviour
 
     public void setcurrentHealth()
     {
-        Debug.Log("FUNCTION TO REDUCE HEALTH CALLED");
         currentHealth -= damagenumber;
         healthBar.SetHealth(currentHealth);
     }
@@ -34,11 +33,5 @@ public class HealthSystem : MonoBehaviour
     {
         currentHealth = maxHealth;
         healthBar.SetHealth(maxHealth);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
     }
 }

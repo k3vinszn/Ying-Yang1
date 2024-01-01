@@ -307,10 +307,9 @@ public class Mover : MonoBehaviour
     public void TakeDamage()
     {
         healthsystem.setcurrentHealth();
-        animator.SetTrigger("takingDamage");
+        //animator.SetTrigger("takingDamage");
         if (healthsystem.getcurrentHealth() < 1)
         {
-            animator.SetTrigger("isDead");
             RespawnPlayer(); // Call the RespawnPlayer function
             healthsystem.resethealth();
         }
