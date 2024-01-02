@@ -6,6 +6,7 @@ public class DoorBehavior : MonoBehaviour
 {
 
     public bool isDoorOpen = false;
+    [SerializeField] 
     public float doorSpeed = 10f;
 
     Vector3 doorclosedPos;

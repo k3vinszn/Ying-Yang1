@@ -1763,11 +1763,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5404160260612663020, guid: 3bd8a06b391af924f9a861f4da2b94e7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.17
+      value: 41.8
       objectReference: {fileID: 0}
     - target: {fileID: 5404160260612663020, guid: 3bd8a06b391af924f9a861f4da2b94e7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.43
+      value: -1.2
       objectReference: {fileID: 0}
     - target: {fileID: 5404160260612663020, guid: 3bd8a06b391af924f9a861f4da2b94e7, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4024,7 +4024,7 @@ Transform:
   m_GameObject: {fileID: 878643481}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.17, y: -2.43, z: 0}
+  m_LocalPosition: {x: 41.8, y: -1.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4642,7 +4642,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0e24066e44f9f74997e8a93d860c8ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  doorBehavior: {fileID: 619992848}
+  doorBehavior: {fileID: 1564671766}
   isDoorOpenSwitch: 1
   isDoorClosedSwitch: 1
 --- !u!1 &952544855
@@ -4815,11 +4815,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1240643142295555372, guid: 7df74425a80d4ce489e0891dcef969ff, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 144
+      value: 79
       objectReference: {fileID: 0}
     - target: {fileID: 1240643142295555372, guid: 7df74425a80d4ce489e0891dcef969ff, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 70.9
+      value: 6.7
       objectReference: {fileID: 0}
     - target: {fileID: 1240643142295555372, guid: 7df74425a80d4ce489e0891dcef969ff, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4856,6 +4856,10 @@ PrefabInstance:
     - target: {fileID: 3469360980599868421, guid: 7df74425a80d4ce489e0891dcef969ff, type: 3}
       propertyPath: m_Name
       value: Player 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3469360980599868421, guid: 7df74425a80d4ce489e0891dcef969ff, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6186275042597225144, guid: 7df74425a80d4ce489e0891dcef969ff, type: 3}
       propertyPath: healthBar
@@ -6309,7 +6313,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0e24066e44f9f74997e8a93d860c8ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  doorBehavior: {fileID: 1564671766}
+  doorBehavior: {fileID: 619992848}
   isDoorOpenSwitch: 1
   isDoorClosedSwitch: 1
 --- !u!4 &1228525362 stripped
@@ -7752,7 +7756,7 @@ Transform:
   m_GameObject: {fileID: 1406808303}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 58.1, y: 60.29, z: 0}
+  m_LocalPosition: {x: 58.39, y: 60.29, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 0.008735224}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -94194,6 +94198,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8979214323581195935, guid: 01f236b495801ac4a9c82b8f82f84c0e, type: 3}
+      propertyPath: doorSpeed
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 9129718329436739972, guid: 01f236b495801ac4a9c82b8f82f84c0e, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -94792,7 +94800,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8204348825829582493, guid: 1869390a10254124b9873f2b306d12e2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 91
+      value: 94.79
       objectReference: {fileID: 0}
     - target: {fileID: 8204348825829582493, guid: 1869390a10254124b9873f2b306d12e2, type: 3}
       propertyPath: m_LocalPosition.y
