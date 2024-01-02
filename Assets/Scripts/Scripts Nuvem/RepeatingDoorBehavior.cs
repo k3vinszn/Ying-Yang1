@@ -15,7 +15,7 @@ public class RepeatingDoorBehavior : MonoBehaviour
     void Awake()
     {
         doorClosedPos = transform.position;
-        doorOpenPos = new Vector3(transform.position.x, transform.position.y + 15f, transform.position.z);
+        doorOpenPos = new Vector3(transform.position.x, transform.position.y + 20f, transform.position.z);
     }
 
     void Update()

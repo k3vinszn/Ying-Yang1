@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 471890180924481353}
   - component: {fileID: 6708808186794277688}
   m_Layer: 9
-  m_Name: Triangle
+  m_Name: shield
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -310,9 +310,14 @@ MonoBehaviour:
   moveSpeed: 3
   jumpForce: 5
   playerIndex: 0
-  health: 10
-  cooldownTime: 3
+  fireCooldownDuration: 2
+  postFireCooldownDuration: 1
+  bulletObject: {fileID: 0}
+  bulletSpawnPoint: {fileID: 0}
+  fireDuration: 2
   fallDetector: {fileID: 0}
+  healthBar: {fileID: 0}
+  healthsystem: {fileID: 0}
 --- !u!95 &8254223576773277284
 Animator:
   serializedVersion: 7

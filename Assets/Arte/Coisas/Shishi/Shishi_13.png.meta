@@ -1,10 +1,19 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Arte/Coisas/Shishi/Shishi_13.png.meta
 guid: a138e29d78abf2f429e5d576f455dfb6
 TextureImporter:
   internalIDToNameTable:
   - first:
       213: -9117602515011870668
     second: Shishi_13_0
+========
+guid: 331570aec2e752a429cfaafc13cb3d38
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -855298285791758126
+    second: 1_0
+>>>>>>>> 20176e879c5f1a94b9eb9864cbf341aeb9502f46:Assets/Arte/Menus/First Scene/After Pressed/1.png.meta
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -95,7 +104,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: iPhone
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -110,6 +119,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
+<<<<<<<< HEAD:Assets/Arte/Coisas/Shishi/Shishi_13.png.meta
       name: Shishi_13_0
       rect:
         serializedVersion: 2
@@ -117,6 +127,15 @@ TextureImporter:
         y: 318
         width: 255
         height: 206
+========
+      name: 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1920
+        height: 1080
+>>>>>>>> 20176e879c5f1a94b9eb9864cbf341aeb9502f46:Assets/Arte/Menus/First Scene/After Pressed/1.png.meta
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,8 +143,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
+<<<<<<<< HEAD:Assets/Arte/Coisas/Shishi/Shishi_13.png.meta
       spriteID: 4306289d1d4c77180800000000000000
       internalID: -9117602515011870668
+========
+      spriteID: 2d8b16a9dbe5124f0800000000000000
+      internalID: -855298285791758126
+>>>>>>>> 20176e879c5f1a94b9eb9864cbf341aeb9502f46:Assets/Arte/Menus/First Scene/After Pressed/1.png.meta
       vertices: []
       indices: 
       edges: []
@@ -141,7 +165,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+<<<<<<<< HEAD:Assets/Arte/Coisas/Shishi/Shishi_13.png.meta
       Shishi_13_0: -9117602515011870668
+========
+      1_0: -855298285791758126
+>>>>>>>> 20176e879c5f1a94b9eb9864cbf341aeb9502f46:Assets/Arte/Menus/First Scene/After Pressed/1.png.meta
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

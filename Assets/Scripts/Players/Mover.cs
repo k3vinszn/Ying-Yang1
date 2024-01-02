@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using static HealthSystem;
 
 
 public class Mover : MonoBehaviour
@@ -10,11 +11,10 @@ public class Mover : MonoBehaviour
 
     [Header("Player Settings")]
     [SerializeField] private int playerIndex = 0;
-    [SerializeField] private int health = 10;
 
     [Header("Cooldown Settings")]
-    [SerializeField] private float cooldownTime = 3f;
-    private float cooldownTimer = 0f;
+    [SerializeField] private float fireCooldownDuration = 2f; // Default duration for firing cooldown
+    [SerializeField] private float postFireCooldownDuration = 1f; // Default duration after stopping firing
 
     [Header("Components")]
     private Rigidbody2D rb;
@@ -25,8 +25,12 @@ public class Mover : MonoBehaviour
     private Vector2 inputVector = Vector2.zero;
 
     [Header("Bullet Settings")]
-    private GameObject currentBullet;
-    private bool isBulletActive = false;
+    public GameObject bulletObject; // Reference to the bullet GameObject in the Inspector
+    public Transform bulletSpawnPoint; // Reference to the spawn point of the bullet
+    public float fireDuration = 2f; // Duration for which the player can fire
+    private GameObject currentBullet; // Reference to the currently spawned bullet
+    private bool isFiring = false;
+
 
     [Header("Ground Check")]
     private bool isGrounded = true;
@@ -43,15 +47,16 @@ public class Mover : MonoBehaviour
     [Header("Animation")]
     private Animator animator;
     private bool isRunning = false;
-    private static readonly int isDead = Animator.StringToHash("isDead"); // Added Animator parameter hash
-    private static readonly int isJumping = Animator.StringToHash("isJumping"); // Added Animator parameter hash
-
-    [Header("Player Life")]
-    [SerializeField] private int maxHealth = 10;
-    [SerializeField] private int currentHealth;
 
     private bool isFireEnabled = true;
+    private bool isPlayerAlive = true;
+
+
+    private Coroutine fireDurationCoroutine; // Added coroutine reference for fire duration
     private Coroutine fireCooldownCoroutine; // Added coroutine reference
+
+    public HealthBarScript healthBar;
+    public HealthSystem healthsystem = new HealthSystem();
 
     private void Awake()
     {
@@ -59,7 +64,6 @@ public class Mover : MonoBehaviour
         respawnPoint = transform.position;
         shield = GetComponent<Shield>(); // Get the Shield script component
         animator = GetComponent<Animator>(); // Get the Animator component
-        currentHealth = maxHealth;
     }
 
     public int GetPlayerIndex()
@@ -79,70 +83,147 @@ public class Mover : MonoBehaviour
             rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
             isGrounded = false;
 
-            // Set the "isJumping" parameter to true in the Animator
-            animator.SetBool(isJumping, true);
+            // Trigger the jump animation
+            animator.SetBool("isJumping", true);
         }
     }
 
     public void Fire(bool isFiring)
     {
-        if (isFireEnabled)
+        this.isFiring = isFiring;
+
+        // Check if the player is grounded before allowing firing
+        if (isGrounded && isFireEnabled)
         {
             // Check if the fire button is being pressed
             if (isFiring)
             {
-                // Activate the bullet prefab
-                gameObject.transform.GetChild(0).gameObject.SetActive(true);
+                // Check if there is no currentBullet and the player is not already firing
+                if (currentBullet == null && fireDurationCoroutine == null)
+                {
+                    // Enable the existing bullet
+                    currentBullet = bulletObject;
+                    currentBullet.transform.position = bulletSpawnPoint.position;
+
+                    // Set the scale of the bullet based on the player's facing direction
+                    Vector3 bulletScale = currentBullet.transform.localScale;
+                    bulletScale.x = isFacingRight ? Mathf.Abs(bulletScale.x) : -Mathf.Abs(bulletScale.x);
+                    currentBullet.transform.localScale = bulletScale;
+
+                    currentBullet.SetActive(true);
+
+                    animator.SetBool("isFiring", true);
+
+                    // Start a coroutine to disable firing after the specified duration
+                    fireDurationCoroutine = StartCoroutine(DisableFireAfterDuration(fireCooldownDuration));
+                }
             }
             else
             {
-                // Deactivate the bullet prefab when the fire button is released
-                gameObject.transform.GetChild(0).gameObject.SetActive(false);
+                animator.SetBool("isFiring", false);
+
+                // Check if there is a currentBullet and disable it
+                if (currentBullet != null)
+                {
+                    currentBullet.SetActive(false);
+                    currentBullet = null;
+                }
+
+                // Stop the fire duration coroutine if it's running
+                if (fireDurationCoroutine != null)
+                {
+                    StopCoroutine(fireDurationCoroutine);
+                    fireDurationCoroutine = null;
+                }
             }
         }
     }
 
-    void OnTriggerEnter(Collider other)
+    private IEnumerator DisableFireAfterDuration(float duration)
     {
-        if (other.CompareTag("Bullet") && currentBullet != null)
+        yield return new WaitForSeconds(duration);
+
+        // Disable firing after the specified duration
+        if (currentBullet != null)
         {
-            Destroy(currentBullet);
-            isBulletActive = false;
+            currentBullet.SetActive(false);
+            currentBullet = null;
         }
+
+        animator.SetBool("isFiring", false);
+
+        // Wait for an additional duration before enabling fire again
+        yield return new WaitForSeconds(postFireCooldownDuration);
+
+        isFireEnabled = true;
+        fireDurationCoroutine = null;
+    }
+
+    public void DisableFire()
+    {
+        isFireEnabled = false;
+        if (fireCooldownCoroutine != null)
+        {
+            StopCoroutine(fireCooldownCoroutine);
+        }
+        fireCooldownCoroutine = StartCoroutine(EnableFireAfterCooldown());
+    }
+
+    public void EnableFire()
+    {
+        isFireEnabled = true;
+    }
+
+    private IEnumerator EnableFireAfterCooldown()
+    {
+        float waitTime = 3f; // Store the wait time in a local variable
+        yield return new WaitForSeconds(waitTime);
+
+        isFireEnabled = true;
     }
 
     void Update()
     {
-        moveDirection = new Vector2(inputVector.x, inputVector.y);
-        moveDirection.Normalize();
-
-        rb.velocity = new Vector2(moveDirection.x * moveSpeed, rb.velocity.y);
-
-        // Set the isRunning boolean based on whether the player is moving or not
-        isRunning = Mathf.Abs(moveDirection.x) > 0.1f;
-
-        // Update the animator parameter for the run animation
-        animator.SetBool("isRunning", isRunning);
-
-        fallDetector.transform.position = new Vector2(transform.position.x, fallDetector.transform.position.y);
-
-
-        // Flip the player and the fire position if moving left
-        if (moveDirection.x < 0 && isFacingRight)
+        // Check if the player is firing
+        if (isFiring && isFireEnabled)
         {
-            Flip();
+            // If firing animation is playing, freeze the X-axis movement
+            rb.velocity = new Vector2(0f, rb.velocity.y);
         }
-        // Flip back if moving right
-        else if (moveDirection.x > 0 && !isFacingRight)
+        else
         {
-            Flip();
-        }
+            // Player can move if not firing
+            moveDirection = new Vector2(inputVector.x, inputVector.y);
+            moveDirection.Normalize();
 
-        if (shield != null && shield.currentHits <= 0)
-        {
-            DisableFire();
+            // Set the velocity only along the Y-axis to allow jumping
+            rb.velocity = new Vector2(moveDirection.x * moveSpeed, rb.velocity.y);
+
+            // Set the isRunning boolean based on whether the player is moving or not
+            isRunning = Mathf.Abs(moveDirection.x) > 0.1f;
+
+            // Update the animator parameter for the run animation
+            animator.SetBool("isRunning", isRunning);
+
+            fallDetector.transform.position = new Vector2(transform.position.x, fallDetector.transform.position.y);
+
+            // Flip the player and the fire position if moving left
+            if (moveDirection.x < 0 && isFacingRight)
+            {
+                Flip();
+            }
+            // Flip back if moving right
+            else if (moveDirection.x > 0 && !isFacingRight)
+            {
+                Flip();
+            }
+
+            // If not firing or fire is disabled, set firing animation to false
+            animator.SetBool("isFiring", false);
         }
     }
+
+
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -170,8 +251,8 @@ public class Mover : MonoBehaviour
         {
             isGrounded = true;
 
-            // Set the "isJumping" parameter to false in the Animator
-            animator.SetBool(isJumping, false);
+            animator.SetBool("isJumping", false);
+
         }
         if (collision.collider.CompareTag("Key"))
         {
@@ -199,10 +280,14 @@ public class Mover : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("Bullet")) // Updated tag check
+        if (other.CompareTag("Bullet")) // Updated tag check
         {
-            TakeDamage(); // Call the TakeDamage method when hit by a bullet
-            Destroy(other.gameObject); // Destroy the bullet
+            Destroy(other.gameObject);
+            Debug.Log("TOOK DAMAGE");
+            TakeDamage();
+            // Destroy the bullet
+            
+
         }
         else if (other.gameObject.CompareTag("Ground"))
         {
@@ -211,7 +296,7 @@ public class Mover : MonoBehaviour
 
         if (other.gameObject.CompareTag("Fall Detector"))
         {
-            transform.position = respawnPoint;
+            RespawnPlayer();
         }
         else if (other.tag == "Checkpoint")
         {
@@ -219,43 +304,43 @@ public class Mover : MonoBehaviour
         }
     }
 
+
+
     public void TakeDamage()
     {
-        currentHealth -= 1; // Deduct 1 health point
-        Debug.Log("Player Health: " + currentHealth);
-
-        // Set the "isDead" parameter to true when the player's health reaches zero
-        if (currentHealth <= 0)
-        {
-            animator.SetBool(isDead, true);
-            Debug.Log("Player is defeated!");
-            // You can add more logic like respawning the player or triggering a game over screen.
+        if (isPlayerAlive == true){
+            healthsystem.setcurrentHealth();
+            animator.SetTrigger("takingDamage");
+            if (healthsystem.getcurrentHealth() < 1)
+            {
+                isPlayerAlive = false;
+                Debug.Log("PLAYER HP LESS THAN 1");
+                RespawnPlayer(); // Call the RespawnPlayer function
+            }
         }
+            
     }
 
-    public void DisableFire()
+    private void RespawnPlayer()
     {
-        isFireEnabled = false;
-        if (fireCooldownCoroutine != null)
-        {
-            StopCoroutine(fireCooldownCoroutine);
-        }
-        fireCooldownCoroutine = StartCoroutine(EnableFireAfterCooldown());
+        Debug.Log("ENTERED RESPAWN PLAYER FUNCTION");
+        StartCoroutine(RespawnDelay());
+        
     }
-
-    private IEnumerator EnableFireAfterCooldown()
+   
+    IEnumerator RespawnDelay()
     {
-        float waitTime = 3f; // Store the wait time in a local variable
-        yield return new WaitForSeconds(waitTime);
-
-        isFireEnabled = true;
-        shield.ResetHits(); // Reset shield hits when re-enabling fire
+        
+        Debug.Log("2 SECONDS DELAY");
+        yield return new WaitForSeconds(0.3f);
+        animator.SetTrigger("isDead");
+        transform.position = respawnPoint;
+        healthsystem.resethealth();
+        isPlayerAlive = true;
     }
-
     private void Flip()
     {
         isFacingRight = !isFacingRight;
-
         // Flip the player's sprite
         Vector3 localScale = transform.localScale;
         localScale.x *= -1f;

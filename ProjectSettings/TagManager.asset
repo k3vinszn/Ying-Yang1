@@ -11,6 +11,8 @@ TagManager:
   - FinalDoor
   - Fall Detector
   - Checkpoint
+  - Shield
+  - Spike
   layers:
   - Default
   - TransparentFX

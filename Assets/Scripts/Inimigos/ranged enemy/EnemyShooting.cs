@@ -4,16 +4,17 @@ using UnityEngine;
 
 public class EnemyShooting : MonoBehaviour
 {
-    private float timer;
-    private bool canStartShooting = false;
-
     public GameObject bullet;
     public Transform bulletPos;
-    private GameObject player;
+    private GameObject[] players;
+    private int currentPlayerIndex = 0;
 
-    
+    public int maxShots = 3;
+    public float shotInterval = 2f;
+    public float cooldownTime = 5f;
 
-    // Start is called before the first frame update
+    private bool canStartShooting = false;
+
     void Start()
     {
         StartCoroutine(DelayedStart());
@@ -22,34 +23,36 @@ public class EnemyShooting : MonoBehaviour
     IEnumerator DelayedStart()
     {
         yield return new WaitForSeconds(10f);
-        // Find the player object with the "Player" tag dynamically
-        player = GameObject.FindGameObjectWithTag("Player");
+        players = GameObject.FindGameObjectsWithTag("Player");
         canStartShooting = true;
+
+        StartCoroutine(ShootLoop());
     }
 
-    // Update is called once per frame
-    void Update()
+    IEnumerator ShootLoop()
     {
-        if (!canStartShooting)
-            return;
-
-        float distance = Vector2.Distance(transform.position, player.transform.position);
-        Debug.Log(distance);
-
-        if (distance < 20)
+        while (canStartShooting)
         {
-            timer += Time.deltaTime;
-
-            if (timer > 2)
+            for (int shotsFired = 0; shotsFired < maxShots; shotsFired++)
             {
-                timer = 0;
                 Shoot();
+                yield return new WaitForSeconds(shotInterval);
             }
+
+            yield return new WaitForSeconds(cooldownTime);
+
+            // Switch to the next player
+            currentPlayerIndex = (currentPlayerIndex + 1) % players.Length;
         }
     }
 
     void Shoot()
     {
-        Instantiate(bullet, bulletPos.position, Quaternion.identity);
+        float distance = Vector2.Distance(transform.position, players[currentPlayerIndex].transform.position);
+
+        if (distance < 20)
+        {
+            Instantiate(bullet, bulletPos.position, Quaternion.identity);
+        }
     }
 }

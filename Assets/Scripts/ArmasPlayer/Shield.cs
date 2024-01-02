@@ -18,29 +18,11 @@ public class Shield : MonoBehaviour
     {
         if (other.CompareTag("Bullet"))
         {
-            HandleBulletHit();
+            Debug.Log("Shield TAKE HIT ");
+            Destroy(other.gameObject);
+            Debug.Log("Bullet destroyed by PlayerShield");
         }
     }
 
-    private void HandleBulletHit()
-    {
-        currentHits++;
-
-        if (currentHits >= maxHits)
-        {
-            DisableShield();
-            ResetHits();
-        }
-    }
-
-    private void DisableShield()
-    {
-        gameObject.SetActive(false);
-        mover.DisableFire(); // Call the DisableFire method in the Mover script
-    }
-
-    public void ResetHits()
-    {
-        currentHits = 0;
-    }
+    
 }
