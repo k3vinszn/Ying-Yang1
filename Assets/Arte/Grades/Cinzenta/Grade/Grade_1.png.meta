@@ -116,12 +116,12 @@ TextureImporter:
       name: Grade_1_0
       rect:
         serializedVersion: 2
-        x: 1731
-        y: 923
-        width: 6
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1845
+        y: 328
+        width: 98
+        height: 657
+      alignment: 9
+      pivot: {x: 26.429892, y: 1.7763453}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -142,7 +142,7 @@ TextureImporter:
         width: 98
         height: 656
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -157,7 +157,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
