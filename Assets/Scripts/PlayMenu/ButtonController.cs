@@ -7,10 +7,9 @@ public class ButtonController : MonoBehaviour
     {
         SceneManager.LoadScene("LoadingScreenTest");
     }
-
-    public void LoadLevel2()
+    public void LoadLoadingScreenLevel2()
     {
-        SceneManager.LoadScene("Level2");
+        SceneManager.LoadScene("LoadingScreenTestLevel2");
     }
 
     public void LoadBossFight()
