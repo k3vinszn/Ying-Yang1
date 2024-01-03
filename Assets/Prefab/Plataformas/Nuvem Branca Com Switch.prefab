@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 8290532153571222697}
   - component: {fileID: 1008320082333639855}
   - component: {fileID: 6623319753653686657}
-  m_Layer: 0
-  m_Name: NuvemPreta
+  m_Layer: 7
+  m_Name: Nuvem Branca Com Switch
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29,8 +29,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 4.6240892, y: 4.471, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.30120483, y: 0.2912329, z: 0.0651382}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -75,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -4644079160548174698, guid: 0af7af209c53fcb4789fc548215faf10, type: 3}
+  m_Sprite: {fileID: 5649477150634197169, guid: c162aba67ff3d0041ac69314fa74ccfa, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
