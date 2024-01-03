@@ -221,8 +221,8 @@ TextureImporter:
       name: Tiles_Pedra_5
       rect:
         serializedVersion: 2
-        x: 900
-        y: 1074
+        x: 896
+        y: 1065
         width: 100
         height: 100
       alignment: 0

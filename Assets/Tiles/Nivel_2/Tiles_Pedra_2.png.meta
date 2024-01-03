@@ -1,0 +1,3100 @@
+fileFormatVersion: 2
+guid: c9487f43a890ee148ad4a409cc2b05d2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1910689613781762654
+    second: Tiles_Pedra_2_0
+  - first:
+      213: -4999505993132661676
+    second: Tiles_Pedra_2_1
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_0
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1175
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ad72866beddb75e0800000000000000
+      internalID: -1910689613781762654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_1
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1175
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45424eaa9cf2e9ab0800000000000000
+      internalID: -4999505993132661676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_2
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 1175
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2b5fa0dfff81e64b938683c7f250c54
+      internalID: -1412858372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_3
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1175
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb69f5ef6b4e29541ac1cb6eba6c9ed9
+      internalID: 1557910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_4
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1175
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e624a08210aee4198d1f280ad2e2b9
+      internalID: 442480806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_5
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1075
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b01432ef3ebf00e4d8659dc35c0588eb
+      internalID: -363579400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_6
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1075
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 164485eee64405647a83e436ee09ff49
+      internalID: -193508626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_7
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 1075
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29372c80b17454b4eb25863113115df1
+      internalID: -268962026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_8
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1075
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f842e9baf3b87994a8c3713d48001fc6
+      internalID: -1596596214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_9
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 1075
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 250ce2bd5e60be1479c7000fc72a4984
+      internalID: 1282299384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_10
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 975
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04451f2c9375fd343beafe989128ee81
+      internalID: -184246009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_11
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 975
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66111f4d235fcc946a5db54f71bd0b88
+      internalID: 1342441045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_12
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 975
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a8f5148ced024c4ba021902c284fe54
+      internalID: 2073053464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_13
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 975
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c2aba8f3e836e64d87b6f3de4ddb8bb
+      internalID: -904488405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_14
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 975
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c9509c46a02e384d88a2ef5015eb1cb
+      internalID: 319903138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_15
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 875
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae35fc9e5950f9544a5232f2ad1d6c67
+      internalID: -1042445255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_16
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 875
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d16e7fd3c4283fa45be64339e5d1a597
+      internalID: 554496362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_17
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 875
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 544cc213d782a364c9d446b46dddb11b
+      internalID: -562410170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_18
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 875
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7b0079b272e04f40adaf9c6fcb5e001
+      internalID: -740227921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_19
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 775
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5096fd8c1a24f34b8d45f5562a8bed9
+      internalID: -1910797234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_20
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 775
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a3991ae3a92ce46bb3b594cf7de3c8
+      internalID: -2089658433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_21
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 775
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26cfd37040ed3f04d917757c4010b655
+      internalID: -2052918085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_22
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 775
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bef2b80c1135a0d478047c5c3f63bdb5
+      internalID: -1327871714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_23
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 775
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91342d2475984354285b63d14681505d
+      internalID: 1927657132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_24
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 675
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6610429cc46480a41b673e68f829ea7a
+      internalID: -196689728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_25
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 675
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0002f7076e9ea6140a2cda8de30b4232
+      internalID: -1876261752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_26
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 675
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42b3f8f5a4415dd4cb804b1bf493b338
+      internalID: 762429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_27
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 675
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ae1c2c28ccfb7a4b8dd30e69fd1c598
+      internalID: -1970202091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_28
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 575
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5cd0e8c1c7c2d54288d0050f42f52b2
+      internalID: -1497911365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_29
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 575
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 831665b36120eef4c9093cc47412598f
+      internalID: 835778469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_30
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 575
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 549c08a08a064004daafee00f66473eb
+      internalID: -643961033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_31
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 575
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afc29f27b45c1b6498b92eac7eee158a
+      internalID: 1009582939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_32
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 575
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2acddb41b1b4e7045a370b1d2ead97b9
+      internalID: 1325409290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_33
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 575
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b9788c64890ee443b4bb18268cd18f3
+      internalID: 347130221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_34
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 575
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4da454ef6aa1a3a43b91477250bccd8d
+      internalID: 374807600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_35
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 575
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccfe72bc1e5543f4f8ce831e6b3b2982
+      internalID: 365560872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_36
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 575
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54673f02cbfa2ed4f86c9883b1c78ed2
+      internalID: 805938565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_37
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 575
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00f0d487d86075945a0eb82e30b65e29
+      internalID: -411960673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_38
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 575
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75404e9e7593a6f46ab401fd0a152718
+      internalID: 2056232834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_39
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 575
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e79574fce8c17946827a5920cc8171b
+      internalID: 2034662727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_40
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 475
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8be28ec98b38b3d429822666dbeabffc
+      internalID: 1601671415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_41
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 475
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c734fd81fb3d79648a279475802e3402
+      internalID: 795080955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_42
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 475
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0726206a91f48944a02c8b40f029d2a
+      internalID: -709273535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_43
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 475
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75c320395321b9645ba677770e8c88ef
+      internalID: 1068583479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_44
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 475
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5229e9be570f8134d8dcb4a0dafb6204
+      internalID: -431026984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_45
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 475
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7360b75813fc9d647bbe859771ba969f
+      internalID: -820587690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_46
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 475
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 343a4c29d57ba294c9adbe51dc418aeb
+      internalID: 469741787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_47
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 475
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9dffd1736483842b676e27c7431578
+      internalID: -1912513818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_48
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 475
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a7c887c267f1884c8450d81423e8f63
+      internalID: -397703762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_49
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 475
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56aca9e6cbc23c0488372e3f41a9e531
+      internalID: -322966999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_50
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 475
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2d5cd3758190f141a4376ffca072420
+      internalID: 1869760562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_51
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 475
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3e5cc3b98aeaac4bbf2726ff1c0efda
+      internalID: -254834133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_52
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 475
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a5c6d8b2256d844fb6ea0c593175c0e
+      internalID: -1827225793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_53
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 475
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b8958b06670e644b91e646a10de8907
+      internalID: 1985258316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_54
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 475
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efd03ff808b43a84989d9cfab5022493
+      internalID: -1312328544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_55
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 475
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc68d2220cec59845a30d1296b1fb4e9
+      internalID: 1314956056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_56
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 475
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7097ed37dde738945b13a46d47082c35
+      internalID: 426487883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_57
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 475
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6e17446fd9ef8943984597f453c2f4b
+      internalID: 1550410810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_58
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 475
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1844de94392753340b38efe9ff53a8e0
+      internalID: -489859135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_59
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 375
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19e607537b5cabf49b5b1dff3335a833
+      internalID: -804398420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_60
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 375
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 021c07a1dfcdefa42ab893974972abae
+      internalID: 884775627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_61
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 375
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f7161d706f4d2741a155b6bf6f936ab
+      internalID: 1562233635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_62
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 375
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64dee8c01f7ed214b9bb49e3ecb2dfed
+      internalID: 780933510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_63
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 375
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b70128a34aaca7a449cba564ace22ce2
+      internalID: 778407813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_64
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 375
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d230de74057b07244994a7fe35aed9eb
+      internalID: -126308530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_65
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 375
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc06bea898bbd64a82670bf661bd0ed
+      internalID: 1378550664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_66
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 375
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e62dd467059abcd41b3f6562ff677b3b
+      internalID: 1730309580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_67
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 375
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d772aaa6c8c1e742b12a09127aecef2
+      internalID: 1561887226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_68
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 375
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2448b4c7e547ecc4b8a1eef57566110b
+      internalID: -1588359068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_69
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 375
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49406f1026f686d4e929453093c7a516
+      internalID: 1801389641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_70
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 375
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f7225021122a84aa70f544623c9fb7
+      internalID: -309175485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_71
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 375
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 357612501eb36894b8df8590d4cc448e
+      internalID: 807579164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_72
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 375
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0370d2d445a311409386142b6da7bba
+      internalID: 1764465443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_73
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 375
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa8602a3ee146f04a9cef6aea5986e04
+      internalID: -1830777132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_74
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 375
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f1e30e5c59547f4197e01ec11501d5a
+      internalID: -1459369635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_75
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 375
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a2d4ca0fea090f4aae5a42f66feb234
+      internalID: -715543632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_76
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 375
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cec6ef5252d15914492ca55f25f3b7cf
+      internalID: 617359119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_77
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 375
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a778076365d6d7e40ae057acb966e280
+      internalID: -1566681153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_78
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 275
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b9b6344baad97c4987d1ab0d273a9e1
+      internalID: 456255736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_79
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 275
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 401fb5e73fad08147b35a54345572a15
+      internalID: 367432552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_80
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 275
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af40dc58b85e4034baa1886748d2150d
+      internalID: -1752507662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_81
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 275
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9e9a33b3262d55429b6acc95f9c855f
+      internalID: -1300965336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_82
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 275
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e84492a6e291d164da371946a37d80e4
+      internalID: 1484434219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_83
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 275
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb772ae49fd44464599b7661b6ce34d8
+      internalID: -1078176000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_84
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 275
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03da35d888f9eb4409050585031cf71a
+      internalID: -906942120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_85
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 275
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7fced2dfe7b91a488c9ba23c81d6279
+      internalID: -861583308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_86
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 275
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3a53ef2598dbd044b3bad0ad727048e
+      internalID: 26061374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_87
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 275
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 245b956330ebb754f971d4c20b6dfeb7
+      internalID: -2024144798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_88
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 275
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a055793a937a94989ba7953d51ee93
+      internalID: -1215677378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_89
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 275
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c1e6aef7362c0047b7e54e1ee7d9e31
+      internalID: 1062521786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_90
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 275
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dd80c491f2d8054b87d7a574dfa0834
+      internalID: -2013480538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_91
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 275
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a03c6a06952d9049b0ccedecf0cd672
+      internalID: 1484390130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_92
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 275
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8f047f0e2743cb49acf044ed10ea38f
+      internalID: 1648991273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_93
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 275
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81cdcd5dc17434a428865ea960df931e
+      internalID: -350362792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_94
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 275
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce1da5902f4658f43a776944e1f25352
+      internalID: 998433679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_95
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 275
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04dbb9aa1dffc0648a3749e7bd39095c
+      internalID: 29625002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_96
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 275
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 273893c644e385f49a8582118b587811
+      internalID: -2114826709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_97
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 175
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 111d1b12ca46bc04faea2d4375ebc752
+      internalID: 98241469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_98
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 175
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d84ac59623ad0f4e9ffeb3db29048f3
+      internalID: 833695921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_99
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 175
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47809db6d7ee250478fd41cbae1a88bf
+      internalID: -2088626128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_100
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 175
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d02c7ced784b8a40927eb7337d8cb88
+      internalID: -528405553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_101
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 175
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcc6adcedb3d65c4d9e5b64906165e4c
+      internalID: 1834988575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_102
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 175
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de17cc12682f66f47a132ac776ee0975
+      internalID: 1939649523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_103
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 175
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71ebc8f08c8a0f34fa76725702327e39
+      internalID: -1601992664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_104
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 175
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40921acc7bfecab4a9f5f885e9dac0ad
+      internalID: -415696761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_105
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 175
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 580874520368c7e4492f7948acc3f363
+      internalID: 1381391327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_106
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 175
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e10aa89de746964ab4e3c275a050e0c
+      internalID: -769299848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_107
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 175
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48c8c713815e21e4f815bba606952ebe
+      internalID: 483725431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_108
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 175
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7afc06f3ab104140b82ce55aff596f2
+      internalID: 804256499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_109
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 175
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c9221a7443f1d540851ab8751136947
+      internalID: 1536674639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_110
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 175
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acce9f95f389649419d95b955f89c1e5
+      internalID: 404226653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_111
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 175
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79adc615c58783c459392dc61f2a874b
+      internalID: -1247280265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_112
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 175
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3afc3daaa8d22584ab44e76aef8f4260
+      internalID: 849285321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_113
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 175
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6434a5ac67d6e347b566c744af2ce10
+      internalID: -1585042188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_114
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 175
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c7d111cf33e6d04b84cbd35ca97ef91
+      internalID: -1102221556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_115
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 175
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6bcd9471aaf15a43b2c5a3429a0bcfd
+      internalID: 1949321479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_116
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 75
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d475511a59284474181515b8fbdb9a7d
+      internalID: 378077142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_117
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 75
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de9ffc1477eb554e91480dc0abe33ce
+      internalID: 1762376482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_118
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 75
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17cb5d7401ac2c24ca41b255efdec071
+      internalID: -276277409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_119
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 75
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4d55cf01554d9740af139490dc8f9b4
+      internalID: 27657022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_120
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 75
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 105d286ba78fe344e90faf2a564dd3ec
+      internalID: -921710476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_121
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 75
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2961d5a093432b5479b15515f1c7ce11
+      internalID: 1728551103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_122
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 75
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9c4b15b583439642844edb74bb79a9c
+      internalID: 2100971349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_123
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 75
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a95525f9e4f3cd5488d78b68a34e8200
+      internalID: -1853828306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_124
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 75
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd432ef813ff7114fa61a14011359e23
+      internalID: 2009988106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_125
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 75
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b6b533e07614ec4bb6f50e78046ecc8
+      internalID: -1124149601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_126
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 75
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d5baeb6aa9c2044c977236661a5033a
+      internalID: 1569317943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_127
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 75
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dfaf180a1f6e03408e72b5d99c9c62a
+      internalID: 1590626603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_128
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 75
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70417149f9b5e5a41bd36ea38b05c955
+      internalID: 398351417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_129
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 75
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c704ebba2d70f5944ba3efa82014cd78
+      internalID: 637122312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_130
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 75
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad3a4dedf9864bb4c824d23f87e42c3f
+      internalID: -1335278567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_131
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 75
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f34e78f72f9dc1048997486b57315505
+      internalID: 1340349348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_132
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 75
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d77855bfa27d19040a15249787ec88ba
+      internalID: -1017243405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_133
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 75
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ad13ffe4fa6af9449917558c7ffbb4a
+      internalID: -1714617923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Pedra_2_134
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 75
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e1140b3d961ce24ba58848addc6d5fe
+      internalID: -1318314120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 508fa53e1e5993947b235d60f0990849
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Tiles_Pedra_2_0: -1910689613781762654
+      Tiles_Pedra_2_1: -4999505993132661676
+      Tiles_Pedra_2_10: -184246009
+      Tiles_Pedra_2_100: -528405553
+      Tiles_Pedra_2_101: 1834988575
+      Tiles_Pedra_2_102: 1939649523
+      Tiles_Pedra_2_103: -1601992664
+      Tiles_Pedra_2_104: -415696761
+      Tiles_Pedra_2_105: 1381391327
+      Tiles_Pedra_2_106: -769299848
+      Tiles_Pedra_2_107: 483725431
+      Tiles_Pedra_2_108: 804256499
+      Tiles_Pedra_2_109: 1536674639
+      Tiles_Pedra_2_11: 1342441045
+      Tiles_Pedra_2_110: 404226653
+      Tiles_Pedra_2_111: -1247280265
+      Tiles_Pedra_2_112: 849285321
+      Tiles_Pedra_2_113: -1585042188
+      Tiles_Pedra_2_114: -1102221556
+      Tiles_Pedra_2_115: 1949321479
+      Tiles_Pedra_2_116: 378077142
+      Tiles_Pedra_2_117: 1762376482
+      Tiles_Pedra_2_118: -276277409
+      Tiles_Pedra_2_119: 27657022
+      Tiles_Pedra_2_12: 2073053464
+      Tiles_Pedra_2_120: -921710476
+      Tiles_Pedra_2_121: 1728551103
+      Tiles_Pedra_2_122: 2100971349
+      Tiles_Pedra_2_123: -1853828306
+      Tiles_Pedra_2_124: 2009988106
+      Tiles_Pedra_2_125: -1124149601
+      Tiles_Pedra_2_126: 1569317943
+      Tiles_Pedra_2_127: 1590626603
+      Tiles_Pedra_2_128: 398351417
+      Tiles_Pedra_2_129: 637122312
+      Tiles_Pedra_2_13: -904488405
+      Tiles_Pedra_2_130: -1335278567
+      Tiles_Pedra_2_131: 1340349348
+      Tiles_Pedra_2_132: -1017243405
+      Tiles_Pedra_2_133: -1714617923
+      Tiles_Pedra_2_134: -1318314120
+      Tiles_Pedra_2_14: 319903138
+      Tiles_Pedra_2_15: -1042445255
+      Tiles_Pedra_2_16: 554496362
+      Tiles_Pedra_2_17: -562410170
+      Tiles_Pedra_2_18: -740227921
+      Tiles_Pedra_2_19: -1910797234
+      Tiles_Pedra_2_2: -1412858372
+      Tiles_Pedra_2_20: -2089658433
+      Tiles_Pedra_2_21: -2052918085
+      Tiles_Pedra_2_22: -1327871714
+      Tiles_Pedra_2_23: 1927657132
+      Tiles_Pedra_2_24: -196689728
+      Tiles_Pedra_2_25: -1876261752
+      Tiles_Pedra_2_26: 762429
+      Tiles_Pedra_2_27: -1970202091
+      Tiles_Pedra_2_28: -1497911365
+      Tiles_Pedra_2_29: 835778469
+      Tiles_Pedra_2_3: 1557910
+      Tiles_Pedra_2_30: -643961033
+      Tiles_Pedra_2_31: 1009582939
+      Tiles_Pedra_2_32: 1325409290
+      Tiles_Pedra_2_33: 347130221
+      Tiles_Pedra_2_34: 374807600
+      Tiles_Pedra_2_35: 365560872
+      Tiles_Pedra_2_36: 805938565
+      Tiles_Pedra_2_37: -411960673
+      Tiles_Pedra_2_38: 2056232834
+      Tiles_Pedra_2_39: 2034662727
+      Tiles_Pedra_2_4: 442480806
+      Tiles_Pedra_2_40: 1601671415
+      Tiles_Pedra_2_41: 795080955
+      Tiles_Pedra_2_42: -709273535
+      Tiles_Pedra_2_43: 1068583479
+      Tiles_Pedra_2_44: -431026984
+      Tiles_Pedra_2_45: -820587690
+      Tiles_Pedra_2_46: 469741787
+      Tiles_Pedra_2_47: -1912513818
+      Tiles_Pedra_2_48: -397703762
+      Tiles_Pedra_2_49: -322966999
+      Tiles_Pedra_2_5: -363579400
+      Tiles_Pedra_2_50: 1869760562
+      Tiles_Pedra_2_51: -254834133
+      Tiles_Pedra_2_52: -1827225793
+      Tiles_Pedra_2_53: 1985258316
+      Tiles_Pedra_2_54: -1312328544
+      Tiles_Pedra_2_55: 1314956056
+      Tiles_Pedra_2_56: 426487883
+      Tiles_Pedra_2_57: 1550410810
+      Tiles_Pedra_2_58: -489859135
+      Tiles_Pedra_2_59: -804398420
+      Tiles_Pedra_2_6: -193508626
+      Tiles_Pedra_2_60: 884775627
+      Tiles_Pedra_2_61: 1562233635
+      Tiles_Pedra_2_62: 780933510
+      Tiles_Pedra_2_63: 778407813
+      Tiles_Pedra_2_64: -126308530
+      Tiles_Pedra_2_65: 1378550664
+      Tiles_Pedra_2_66: 1730309580
+      Tiles_Pedra_2_67: 1561887226
+      Tiles_Pedra_2_68: -1588359068
+      Tiles_Pedra_2_69: 1801389641
+      Tiles_Pedra_2_7: -268962026
+      Tiles_Pedra_2_70: -309175485
+      Tiles_Pedra_2_71: 807579164
+      Tiles_Pedra_2_72: 1764465443
+      Tiles_Pedra_2_73: -1830777132
+      Tiles_Pedra_2_74: -1459369635
+      Tiles_Pedra_2_75: -715543632
+      Tiles_Pedra_2_76: 617359119
+      Tiles_Pedra_2_77: -1566681153
+      Tiles_Pedra_2_78: 456255736
+      Tiles_Pedra_2_79: 367432552
+      Tiles_Pedra_2_8: -1596596214
+      Tiles_Pedra_2_80: -1752507662
+      Tiles_Pedra_2_81: -1300965336
+      Tiles_Pedra_2_82: 1484434219
+      Tiles_Pedra_2_83: -1078176000
+      Tiles_Pedra_2_84: -906942120
+      Tiles_Pedra_2_85: -861583308
+      Tiles_Pedra_2_86: 26061374
+      Tiles_Pedra_2_87: -2024144798
+      Tiles_Pedra_2_88: -1215677378
+      Tiles_Pedra_2_89: 1062521786
+      Tiles_Pedra_2_9: 1282299384
+      Tiles_Pedra_2_90: -2013480538
+      Tiles_Pedra_2_91: 1484390130
+      Tiles_Pedra_2_92: 1648991273
+      Tiles_Pedra_2_93: -350362792
+      Tiles_Pedra_2_94: 998433679
+      Tiles_Pedra_2_95: 29625002
+      Tiles_Pedra_2_96: -2114826709
+      Tiles_Pedra_2_97: 98241469
+      Tiles_Pedra_2_98: 833695921
+      Tiles_Pedra_2_99: -2088626128
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
