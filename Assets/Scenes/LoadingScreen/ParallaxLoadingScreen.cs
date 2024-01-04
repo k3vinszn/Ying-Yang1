@@ -7,7 +7,7 @@ public class ParallaxLoadingScreen : MonoBehaviour
     public float parallaxSpeed = 1.0f;
     private Vector3 initialPosition;
 
-    void Start()
+    void Awake()
     {
         // Save the initial position of the object
         initialPosition = transform.position;
