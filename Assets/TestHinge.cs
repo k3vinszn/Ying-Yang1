@@ -5,7 +5,7 @@ using UnityEngine;
 public class TestHinge : MonoBehaviour
 {
     private HingeJoint2D hingeJoint;
-    private float maxAngle = 30f; // Adjust this according to your max angle limit
+    private float maxAngle = 20f; // Adjust this according to your max angle limit
     private bool movingForward = true;
 
     void Start()
