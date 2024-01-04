@@ -7,14 +7,12 @@ public class FrogScript : MonoBehaviour
     private bool isAwake = false;
     public float Range = 4.2f;
     private Animator animator;
-    private GameObject[] players;
     private GameObject player;
-    private float playerDistance;
     public float triggerRange;
 
     void Start()
     {
-        players = GameObject.FindGameObjectsWithTag("Player");
+        player = GameObject.FindWithTag("Player");
         animator = GetComponent<Animator>();
     }
 
@@ -26,25 +24,15 @@ public class FrogScript : MonoBehaviour
 
     private void HandlePlayerDistance()
     {
-
-        float player1Distance = Vector3.Distance(transform.position, players[0].transform.position);
-        float player2Distance = Vector3.Distance(transform.position, players[1].transform.position);
-
-        if (player1Distance <= player2Distance) {
-            player = players[0];
-            playerDistance = player1Distance;
-        }
-        else
-        {
-            player = players[1];
-            playerDistance = player2Distance;
-        }     
+        float playerDistance = Vector3.Distance(transform.position, player.transform.position);
+        
 
         if (playerDistance <= Range)
         {
             if (!isAwake)
             {
                 animator.SetBool("activated", true);
+                StartCoroutine(Wait2Seconds());
                 animator.SetBool("slapattack", true);
                 isAwake = true;
             }
@@ -59,7 +47,7 @@ public class FrogScript : MonoBehaviour
             {
                 animator.SetBool("activated", true);
                 animator.SetBool("slapattack", false);
-                animator.SetBool("iddle", false);
+                animator.SetBool("iddle", true);
                 isAwake = false;
             }
             else
