@@ -13,6 +13,7 @@ TagManager:
   - Checkpoint
   - Shield
   - Spike
+  - Sword
   layers:
   - Default
   - TransparentFX
