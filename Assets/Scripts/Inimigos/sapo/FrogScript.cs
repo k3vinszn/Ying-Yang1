@@ -106,6 +106,10 @@ public class FrogScript : MonoBehaviour
             other.GetComponent<Mover>().TakeDamage(); // Call the TakeDamage method of the player
 
         }
+        if (other.gameObject.CompareTag("Sword") )
+        {
+            animator.SetTrigger("deadfrog");
 
+        }
     }
 }
