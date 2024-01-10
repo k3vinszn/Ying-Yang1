@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Wotah_3_0: 6832505184940524025
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
