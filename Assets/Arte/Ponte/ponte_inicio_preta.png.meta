@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ponte_inicio_preta_0: 3889371508443896752
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      MIniTemple_2_0: -2867071386677967521
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
