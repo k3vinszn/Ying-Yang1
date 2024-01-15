@@ -112,9 +112,4 @@ public class FrogScript : MonoBehaviour
 
         }
     }
-
-    private void FrogDestroy()
-    {
-        Destroy(gameObject);
-    }
 }
