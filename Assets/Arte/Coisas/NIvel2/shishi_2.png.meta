@@ -94,6 +94,7 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< HEAD:Assets/Arte/Coisas/NIvel2/shishi_2.png.meta
   - serializedVersion: 3
     buildTarget: Android
     maxTextureSize: 2048
@@ -106,6 +107,8 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+=======
+>>>>>>> parent of 05a2c81 (NovasCoisas):Assets/Arte/Menus/Pratice/2.png.meta
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -140,8 +143,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+<<<<<<< HEAD:Assets/Arte/Coisas/NIvel2/shishi_2.png.meta
     nameFileIdTable:
       shishi_2_0: 1855649801916799522
+=======
+    nameFileIdTable: {}
+>>>>>>> parent of 05a2c81 (NovasCoisas):Assets/Arte/Menus/Pratice/2.png.meta
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

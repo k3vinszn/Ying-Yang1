@@ -94,6 +94,7 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< HEAD:Assets/Arte/Ponte/ponte_inicio_preta.png.meta
   - serializedVersion: 3
     buildTarget: Android
     maxTextureSize: 2048
@@ -106,6 +107,8 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+=======
+>>>>>>> parent of 05a2c81 (NovasCoisas):Assets/Arte/Menus/Paused Menu/Controlos/CONTROLOS MENU 1.png.meta
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -140,8 +143,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+<<<<<<< HEAD:Assets/Arte/Ponte/ponte_inicio_preta.png.meta
     nameFileIdTable:
       ponte_inicio_preta_0: 3889371508443896752
+=======
+    nameFileIdTable: {}
+>>>>>>> parent of 05a2c81 (NovasCoisas):Assets/Arte/Menus/Paused Menu/Controlos/CONTROLOS MENU 1.png.meta
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
