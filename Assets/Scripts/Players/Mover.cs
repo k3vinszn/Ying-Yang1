@@ -199,7 +199,7 @@ public class Mover : MonoBehaviour
             // Set the velocity only along the Y-axis to allow jumping
             rb.velocity = new Vector2(moveDirection.x * moveSpeed, rb.velocity.y);
 
-            // Set the isRunning boolean based on the magnitude of the x-component of moveDirection
+            // Set the isRunning boolean based on whether the player is moving or not
             isRunning = Mathf.Abs(moveDirection.x) > 0.1f;
 
             // Update the animator parameter for the run animation
@@ -222,8 +222,6 @@ public class Mover : MonoBehaviour
             animator.SetBool("isFiring", false);
         }
     }
-
-
 
 
 
