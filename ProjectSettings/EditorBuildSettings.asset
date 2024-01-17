@@ -30,6 +30,9 @@ EditorBuildSettings:
     path: Assets/Scenes/BossFight.unity
     guid: e6eb021f3a959cc41bcfdf3c2d097fd2
   - enabled: 1
+    path: Assets/Scenes/Pratice Menu.unity
+    guid: 4b9bbea8690002544b63df5b499ffbb1
+  - enabled: 1
     path: Assets/Scenes/Practice.unity
     guid: 60237844614aa5f4faee6770d3f7a310
   - enabled: 1
