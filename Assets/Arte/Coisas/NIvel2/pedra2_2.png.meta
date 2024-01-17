@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 38a8c79b575d64a47b1c47c8a84c3197
+guid: a8ac492bc0f9c054a9dfb3bba94427f1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8583967849780194395
-    second: pedra2_2_0
+      213: 6142907678014196546
+    second: CONTROLOS MENU 1_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pedra2_2_0
+      name: CONTROLOS MENU 1_0
       rect:
         serializedVersion: 2
-        x: 80
-        y: 47
-        width: 290
-        height: 215
+        x: 0
+        y: 0
+        width: 8000
+        height: 4500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5a35a7e68be9fd880800000000000000
-      internalID: -8583967849780194395
+      spriteID: 24b4e049cfdff3550800000000000000
+      internalID: 6142907678014196546
       vertices: []
       indices: 
       edges: []
@@ -141,7 +141,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      pedra2_2_0: -8583967849780194395
+      CONTROLOS MENU 1_0: 6142907678014196546
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

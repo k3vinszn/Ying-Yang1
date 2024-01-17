@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 47c5f90eeed0ae24fae173ad03b2d3cb
+guid: 866453966e895b5488c5313504d5e30c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5504656808599987648
-    second: naosei_2_0
+      213: 6937817954938267909
+    second: 2_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: naosei_2_0
+      name: 2_0
       rect:
         serializedVersion: 2
-        x: 99
-        y: 132
-        width: 168
-        height: 398
+        x: 0
+        y: 0
+        width: 1920
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 04a56f82cc78b93b0800000000000000
-      internalID: -5504656808599987648
+      spriteID: 5092c600ca4184060800000000000000
+      internalID: 6937817954938267909
       vertices: []
       indices: 
       edges: []
@@ -141,7 +141,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      naosei_2_0: -5504656808599987648
+      2_0: 6937817954938267909
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
