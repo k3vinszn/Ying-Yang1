@@ -55,15 +55,21 @@ public class Mover : MonoBehaviour
     private Coroutine fireDurationCoroutine; // Added coroutine reference for fire duration
     private Coroutine fireCooldownCoroutine; // Added coroutine reference
 
+
+    [Header("HealthSystem")]
     public HealthBarScript healthBar;
     public HealthSystem healthsystem = new HealthSystem();
 
+    AudioManager audioManager;
+
     private void Awake()
     {
+        
         rb = GetComponent<Rigidbody2D>();
         respawnPoint = transform.position;
         shield = GetComponent<Shield>(); // Get the Shield script component
         animator = GetComponent<Animator>(); // Get the Animator component
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
     }
 
     public int GetPlayerIndex()
@@ -318,6 +324,7 @@ public class Mover : MonoBehaviour
 
     private void RespawnPlayer()
     {
+        
         Debug.Log("ENTERED RESPAWN PLAYER FUNCTION");
         StartCoroutine(RespawnDelay());
         
@@ -325,7 +332,6 @@ public class Mover : MonoBehaviour
    
     IEnumerator RespawnDelay()
     {
-        
         Debug.Log("2 SECONDS DELAY");
         yield return new WaitForSeconds(0.3f);
         animator.SetTrigger("isDead");
