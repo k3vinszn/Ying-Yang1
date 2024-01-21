@@ -2674,6 +2674,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1900188050}
     - target: {fileID: 1014111585801333112, guid: 3bd8a06b391af924f9a861f4da2b94e7, type: 3}
+      propertyPath: playerIndex
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1014111585801333112, guid: 3bd8a06b391af924f9a861f4da2b94e7, type: 3}
       propertyPath: bulletObject
       value: 
       objectReference: {fileID: 937101564}
@@ -2685,6 +2689,10 @@ PrefabInstance:
       propertyPath: healthsystem
       value: 
       objectReference: {fileID: 728623198}
+    - target: {fileID: 1014111585801333112, guid: 3bd8a06b391af924f9a861f4da2b94e7, type: 3}
+      propertyPath: groundLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 5404160260612663020, guid: 3bd8a06b391af924f9a861f4da2b94e7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 30.2
@@ -7128,11 +7136,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1240643142295555372, guid: 7df74425a80d4ce489e0891dcef969ff, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.8999987
+      value: 54.78
       objectReference: {fileID: 0}
     - target: {fileID: 1240643142295555372, guid: 7df74425a80d4ce489e0891dcef969ff, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 66.09999
+      value: 59.1
       objectReference: {fileID: 0}
     - target: {fileID: 1240643142295555372, guid: 7df74425a80d4ce489e0891dcef969ff, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7175,6 +7183,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1900188050}
     - target: {fileID: 6186275042597225144, guid: 7df74425a80d4ce489e0891dcef969ff, type: 3}
+      propertyPath: playerIndex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6186275042597225144, guid: 7df74425a80d4ce489e0891dcef969ff, type: 3}
       propertyPath: bulletObject
       value: 
       objectReference: {fileID: 2019788200}
@@ -7186,6 +7198,10 @@ PrefabInstance:
       propertyPath: healthsystem
       value: 
       objectReference: {fileID: 728623198}
+    - target: {fileID: 6186275042597225144, guid: 7df74425a80d4ce489e0891dcef969ff, type: 3}
+      propertyPath: groundLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

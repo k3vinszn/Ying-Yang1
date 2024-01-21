@@ -82,6 +82,47 @@ public class Mover : MonoBehaviour
         inputVector = direction;
     }
 
+    void Update()
+    {
+        // Check if the player is firing
+        if (isFiring && isFireEnabled)
+        {
+            // If firing animation is playing, freeze the X-axis movement
+            rb.velocity = new Vector2(0f, rb.velocity.y);
+        }
+        else
+        {
+            // Player can move if not firing
+            moveDirection = new Vector2(inputVector.x, inputVector.y);
+            moveDirection.Normalize();
+
+            // Set the velocity only along the Y-axis to allow jumping
+            rb.velocity = new Vector2(moveDirection.x * moveSpeed, rb.velocity.y);
+
+            // Set the isRunning boolean based on the magnitude of the x-component of moveDirection
+            isRunning = Mathf.Abs(moveDirection.x) > 0.1f;
+
+            // Update the animator parameter for the run animation
+            animator.SetBool("isRunning", isRunning);
+
+            fallDetector.transform.position = new Vector2(transform.position.x, fallDetector.transform.position.y);
+
+            // Flip the player and the fire position if moving left
+            if (moveDirection.x < 0 && isFacingRight)
+            {
+                Flip();
+            }
+            // Flip back if moving right
+            else if (moveDirection.x > 0 && !isFacingRight)
+            {
+                Flip();
+            }
+
+            // If not firing or fire is disabled, set firing animation to false
+            animator.SetBool("isFiring", false);
+        }
+    }
+
     public void Jump()
     {
         if (isGrounded)
@@ -91,6 +132,9 @@ public class Mover : MonoBehaviour
 
             // Trigger the jump animation
             animator.SetBool("isJumping", true);
+
+            // Play the "Jump" sound effect
+            audioManager.PlaySFX(audioManager.Jump);
         }
     }
 
@@ -188,51 +232,6 @@ public class Mover : MonoBehaviour
         isFireEnabled = true;
     }
 
-    void Update()
-    {
-        // Check if the player is firing
-        if (isFiring && isFireEnabled)
-        {
-            // If firing animation is playing, freeze the X-axis movement
-            rb.velocity = new Vector2(0f, rb.velocity.y);
-        }
-        else
-        {
-            // Player can move if not firing
-            moveDirection = new Vector2(inputVector.x, inputVector.y);
-            moveDirection.Normalize();
-
-            // Set the velocity only along the Y-axis to allow jumping
-            rb.velocity = new Vector2(moveDirection.x * moveSpeed, rb.velocity.y);
-
-            // Set the isRunning boolean based on the magnitude of the x-component of moveDirection
-            isRunning = Mathf.Abs(moveDirection.x) > 0.1f;
-
-            // Update the animator parameter for the run animation
-            animator.SetBool("isRunning", isRunning);
-
-            fallDetector.transform.position = new Vector2(transform.position.x, fallDetector.transform.position.y);
-
-            // Flip the player and the fire position if moving left
-            if (moveDirection.x < 0 && isFacingRight)
-            {
-                Flip();
-            }
-            // Flip back if moving right
-            else if (moveDirection.x > 0 && !isFacingRight)
-            {
-                Flip();
-            }
-
-            // If not firing or fire is disabled, set firing animation to false
-            animator.SetBool("isFiring", false);
-        }
-    }
-
-
-
-
-
     private void OnCollisionEnter2D(Collision2D collision)
     {
        
@@ -283,6 +282,9 @@ public class Mover : MonoBehaviour
     {
         if (other.CompareTag("Bullet")) // Updated tag check
         {
+
+            audioManager.PlaySFX(audioManager.TakingDamage);
+
             Destroy(other.gameObject);
             Debug.Log("TOOK DAMAGE");
             TakeDamage();
@@ -305,8 +307,6 @@ public class Mover : MonoBehaviour
             audioManager.PlaySFX(audioManager.Checkpoint);
         }
     }
-
-
 
     public void TakeDamage()
     {
@@ -340,6 +340,7 @@ public class Mover : MonoBehaviour
         healthsystem.resethealth();
         isPlayerAlive = true;
     }
+
     private void Flip()
     {
         isFacingRight = !isFacingRight;
