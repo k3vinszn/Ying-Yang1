@@ -95,12 +95,6 @@ public class FrogScript : MonoBehaviour
             // If direction.x is 0, do nothing (preserving the current scale)
         }
     }
-
-    IEnumerator Wait2Seconds()
-    {
-        yield return new WaitForSeconds(2.0f);
-    }
-
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Player") && !other.isTrigger)
