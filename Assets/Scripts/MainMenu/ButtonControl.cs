@@ -14,7 +14,10 @@ public class ButtonControl : MonoBehaviour
     {
         SceneManager.LoadScene("PlayMenu");
     }
-
+    public void LoadPracticeMenu()
+    {
+        SceneManager.LoadScene("PracticeMenu");
+    }
     public void LoadPracticeScene()
     {
         SceneManager.LoadScene("Practice");
