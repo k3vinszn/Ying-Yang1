@@ -360,6 +360,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 20108576}
+  - component: {fileID: 20108577}
   m_Layer: 9
   m_Name: CamerasPlayer1
   m_TagString: Untagged
@@ -384,6 +385,14 @@ Transform:
   - {fileID: 1592367797}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!81 &20108577
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 20108575}
+  m_Enabled: 1
 --- !u!1 &24854327
 GameObject:
   m_ObjectHideFlags: 0
@@ -2688,11 +2697,11 @@ PrefabInstance:
       objectReference: {fileID: 728623198}
     - target: {fileID: 5404160260612663020, guid: 3bd8a06b391af924f9a861f4da2b94e7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.2
+      value: 101.1
       objectReference: {fileID: 0}
     - target: {fileID: 5404160260612663020, guid: 3bd8a06b391af924f9a861f4da2b94e7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.4
+      value: 62.4
       objectReference: {fileID: 0}
     - target: {fileID: 5404160260612663020, guid: 3bd8a06b391af924f9a861f4da2b94e7, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6320,7 +6329,7 @@ Transform:
   m_GameObject: {fileID: 878643481}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.2, y: -2.4, z: 0}
+  m_LocalPosition: {x: 101.1, y: 62.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7356,11 +7365,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1240643142295555372, guid: 7df74425a80d4ce489e0891dcef969ff, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.75
+      value: 104.2
       objectReference: {fileID: 0}
     - target: {fileID: 1240643142295555372, guid: 7df74425a80d4ce489e0891dcef969ff, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.25
+      value: 66.7
       objectReference: {fileID: 0}
     - target: {fileID: 1240643142295555372, guid: 7df74425a80d4ce489e0891dcef969ff, type: 3}
       propertyPath: m_LocalPosition.z
@@ -11513,7 +11522,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   musicSource: {fileID: 394585581}
   SFXSource: {fileID: 532018670}
-  Checkpoint: {fileID: 0}
+  Checkpoint: {fileID: 8300000, guid: 777042f7c580d3540930f3fe737e6e4c, type: 3}
   DoorOpen: {fileID: 0}
   KeyCollect: {fileID: 0}
   Portal: {fileID: 0}
@@ -96158,6 +96167,7 @@ SceneRoots:
   - {fileID: 2019788199}
   - {fileID: 334177531}
   - {fileID: 961295749}
+  - {fileID: 70190337}
   - {fileID: 284583496}
   - {fileID: 404928908}
   - {fileID: 6030606890712523841}
@@ -96185,4 +96195,3 @@ SceneRoots:
   - {fileID: 1740976022}
   - {fileID: 280610618}
   - {fileID: 185737608}
-  - {fileID: 70190337}

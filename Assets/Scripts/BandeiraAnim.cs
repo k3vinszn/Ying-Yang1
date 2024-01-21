@@ -11,11 +11,11 @@ public class FlagScript : MonoBehaviour
     {
         string playerName = other.gameObject.name;
 
-        if (playerName.Equals("Player1"))
+        if (playerName.Equals("Player 1"))
         {
             player1Crossed = true;
         }
-        else if (playerName.Equals("Player2"))
+        else if (playerName.Equals("Player 2"))
         {
             player2Crossed = true;
         }

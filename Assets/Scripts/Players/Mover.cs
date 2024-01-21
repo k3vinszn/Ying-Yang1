@@ -302,6 +302,7 @@ public class Mover : MonoBehaviour
         else if (other.tag == "Checkpoint")
         {
             respawnPoint = transform.position;
+            audioManager.PlaySFX(audioManager.Checkpoint);
         }
     }
 
