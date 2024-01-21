@@ -11,10 +11,12 @@ public class FrogScript : MonoBehaviour
     private GameObject player;
     private float playerDistance;
     public float triggerRange;
+    AudioManager audioManager;
 
     void Start()
     {
         players = GameObject.FindGameObjectsWithTag("Player");
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
         animator = GetComponent<Animator>();
     }
 
@@ -113,8 +115,28 @@ public class FrogScript : MonoBehaviour
         }
     }
 
+
+
+
     private void FrogDestroy()
     {
         Destroy(gameObject);
     }
+
+    private void AtaqueSFX()
+    {
+        audioManager.PlaySFX(audioManager.Frogattack);
+
+    }
+    private void TriggerSFX()
+    {
+        audioManager.PlaySFX(audioManager.Frogtrigger);
+    }
+
+    private void DeathSFX()
+    {
+        audioManager.PlaySFX(audioManager.Froghit);
+    }
+
+
 }
