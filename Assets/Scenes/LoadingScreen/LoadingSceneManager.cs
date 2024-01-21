@@ -2,7 +2,7 @@ using UnityEngine;
 using System.Collections; 
 using UnityEngine.SceneManagement;
 
-public class LoadingScreenManager2 : MonoBehaviour
+public class LoadingSceneManager : MonoBehaviour
 {
     public float loadingTime = 5f;
     public float moveDistance = 5f;
