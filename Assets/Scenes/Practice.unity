@@ -1505,6 +1505,14 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2870914936640354057, guid: 7df74425a80d4ce489e0891dcef969ff, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 2870914936640354057, guid: 7df74425a80d4ce489e0891dcef969ff, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.38
+      objectReference: {fileID: 0}
     - target: {fileID: 3469360980599868421, guid: 7df74425a80d4ce489e0891dcef969ff, type: 3}
       propertyPath: m_Name
       value: Player 2
@@ -1517,6 +1525,10 @@ PrefabInstance:
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 1044601792}
+    - target: {fileID: 6186275042597225144, guid: 7df74425a80d4ce489e0891dcef969ff, type: 3}
+      propertyPath: groundCheck
+      value: 
+      objectReference: {fileID: 314836641}
     - target: {fileID: 6186275042597225144, guid: 7df74425a80d4ce489e0891dcef969ff, type: 3}
       propertyPath: playerIndex
       value: 1
@@ -1533,11 +1545,24 @@ PrefabInstance:
       propertyPath: healthsystem
       value: 
       objectReference: {fileID: 1479532443}
+    - target: {fileID: 6186275042597225144, guid: 7df74425a80d4ce489e0891dcef969ff, type: 3}
+      propertyPath: groundCheckRadius
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6186275042597225144, guid: 7df74425a80d4ce489e0891dcef969ff, type: 3}
+      propertyPath: groundLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7df74425a80d4ce489e0891dcef969ff, type: 3}
+--- !u!4 &314836641 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2870914936640354057, guid: 7df74425a80d4ce489e0891dcef969ff, type: 3}
+  m_PrefabInstance: {fileID: 314836640}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &318437769 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8368946142015252082, guid: f8c5cfeef5959f541aa1de21cbab72ed, type: 3}
@@ -133841,6 +133866,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1044601792}
     - target: {fileID: 1014111585801333112, guid: 3bd8a06b391af924f9a861f4da2b94e7, type: 3}
+      propertyPath: groundCheck
+      value: 
+      objectReference: {fileID: 1847767326}
+    - target: {fileID: 1014111585801333112, guid: 3bd8a06b391af924f9a861f4da2b94e7, type: 3}
       propertyPath: playerIndex
       value: 0
       objectReference: {fileID: 0}
@@ -133856,6 +133885,14 @@ PrefabInstance:
       propertyPath: healthsystem
       value: 
       objectReference: {fileID: 1479532443}
+    - target: {fileID: 1014111585801333112, guid: 3bd8a06b391af924f9a861f4da2b94e7, type: 3}
+      propertyPath: groundCheckRadius
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1014111585801333112, guid: 3bd8a06b391af924f9a861f4da2b94e7, type: 3}
+      propertyPath: groundLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 5404160260612663020, guid: 3bd8a06b391af924f9a861f4da2b94e7, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10.33
@@ -133904,11 +133941,20 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8943938501793750217, guid: 3bd8a06b391af924f9a861f4da2b94e7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.06
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3bd8a06b391af924f9a861f4da2b94e7, type: 3}
+--- !u!4 &1847767326 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8943938501793750217, guid: 3bd8a06b391af924f9a861f4da2b94e7, type: 3}
+  m_PrefabInstance: {fileID: 1847767325}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1867848590
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      tabua_ponte_0: -8877413087759407782
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

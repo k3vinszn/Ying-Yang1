@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      shishi_2_0: 1855649801916799522
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

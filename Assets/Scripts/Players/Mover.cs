@@ -33,6 +33,9 @@ public class Mover : MonoBehaviour
 
 
     [Header("Ground Check")]
+    public Transform groundCheck;
+    public float groundCheckRadius;
+    public LayerMask groundLayer;
     private bool isGrounded = true;
 
     [Header("Respawn and Checkpoints")]
@@ -123,8 +126,56 @@ public class Mover : MonoBehaviour
         }
     }
 
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+
+        if (gameObject.layer == LayerMask.NameToLayer("PlayerBranco") && collision.gameObject.layer == LayerMask.NameToLayer("ParedePreta"))
+        {
+            Physics2D.IgnoreCollision(collision.collider, GetComponent<Collider2D>());
+        }
+        else if (gameObject.layer == LayerMask.NameToLayer("PlayerPreto") && collision.gameObject.layer == LayerMask.NameToLayer("ParedeBranca"))
+        {
+            Physics2D.IgnoreCollision(collision.collider, GetComponent<Collider2D>());
+        }
+        else if (gameObject.layer == LayerMask.NameToLayer("PlayerPreto") && collision.gameObject.layer == LayerMask.NameToLayer("PlayerBranco"))
+        {
+            Physics2D.IgnoreCollision(collision.collider, GetComponent<Collider2D>());
+        }
+        else if (collision.gameObject.CompareTag("Ground"))
+        {
+            isGrounded = true;
+
+            animator.SetBool("isJumping", false);
+
+        }
+        if (collision.collider.CompareTag("Key"))
+        {
+            KeyCollectible key = collision.collider.GetComponent<KeyCollectible>();
+
+            if (key != null)
+            {
+                key.CollectKey();
+
+                // Assuming the final door is tagged as "FinalDoor"
+                GameObject finalDoor = GameObject.FindGameObjectWithTag("FinalDoor");
+
+                if (finalDoor != null)
+                {
+                    FinalDoorBehavior finalDoorBehavior = finalDoor.GetComponent<FinalDoorBehavior>();
+
+                    if (finalDoorBehavior != null)
+                    {
+                        finalDoorBehavior.keysCollected++;
+                    }
+                }
+            }
+        }
+    }
+
     public void Jump()
     {
+        isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
+
         if (isGrounded)
         {
             rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
@@ -232,51 +283,7 @@ public class Mover : MonoBehaviour
         isFireEnabled = true;
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-       
-        if (gameObject.layer == LayerMask.NameToLayer("PlayerBranco") && collision.gameObject.layer == LayerMask.NameToLayer("ParedePreta"))
-        {
-            Physics2D.IgnoreCollision(collision.collider, GetComponent<Collider2D>());
-        }
-        else if (gameObject.layer == LayerMask.NameToLayer("PlayerPreto") && collision.gameObject.layer == LayerMask.NameToLayer("ParedeBranca"))
-        {
-            Physics2D.IgnoreCollision(collision.collider, GetComponent<Collider2D>());
-        }
-        else if (gameObject.layer == LayerMask.NameToLayer("PlayerPreto") && collision.gameObject.layer == LayerMask.NameToLayer("PlayerBranco"))
-        {
-            Physics2D.IgnoreCollision(collision.collider, GetComponent<Collider2D>());
-        }
-        else if (collision.gameObject.CompareTag("Ground"))
-        {
-            isGrounded = true;
-
-            animator.SetBool("isJumping", false);
-
-        }
-        if (collision.collider.CompareTag("Key"))
-        {
-            KeyCollectible key = collision.collider.GetComponent<KeyCollectible>();
-
-            if (key != null)
-            {
-                key.CollectKey();
-
-                // Assuming the final door is tagged as "FinalDoor"
-                GameObject finalDoor = GameObject.FindGameObjectWithTag("FinalDoor");
-
-                if (finalDoor != null)
-                {
-                    FinalDoorBehavior finalDoorBehavior = finalDoor.GetComponent<FinalDoorBehavior>();
-
-                    if (finalDoorBehavior != null)
-                    {
-                        finalDoorBehavior.keysCollected++;
-                    }
-                }
-            }
-        }
-    }
+    
 
     void OnTriggerEnter2D(Collider2D other)
     {
