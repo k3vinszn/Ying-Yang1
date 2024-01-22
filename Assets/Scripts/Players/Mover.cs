@@ -36,6 +36,7 @@ public class Mover : MonoBehaviour
     public Transform groundCheck;
     public float groundCheckRadius;
     public LayerMask groundLayer;
+    public LayerMask specialJumpLayer;
     private bool isGrounded = true;
 
     [Header("Respawn and Checkpoints")]
@@ -174,8 +175,13 @@ public class Mover : MonoBehaviour
 
     public void Jump()
     {
-        isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
+        // Define the layer mask for the common ground and the special jump layer
+        LayerMask jumpLayerMask = groundLayer | specialJumpLayer;
 
+        // Check if the player is grounded on the common ground layer or special jump layer
+        bool isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, jumpLayerMask);
+
+        // Check if the player can jump
         if (isGrounded)
         {
             rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
@@ -188,6 +194,7 @@ public class Mover : MonoBehaviour
             audioManager.PlaySFX(audioManager.Jump);
         }
     }
+
 
     public void Fire(bool isFiring)
     {
