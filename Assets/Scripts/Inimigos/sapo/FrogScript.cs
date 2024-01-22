@@ -99,13 +99,22 @@ public class FrogScript : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player") && !other.isTrigger)
         {
-            other.GetComponent<Mover>().TakeDamage(); // Call the TakeDamage method of the player
-
+            // Check if the Shield game object is active
+            GameObject shield = GameObject.FindWithTag("Shield");
+            if (shield != null && shield.activeSelf)
+            {
+                animator.SetBool("slapattack", false);
+            }
+            else
+            {
+                // Shield is not active, call the TakeDamage method of the player
+                other.GetComponent<Mover>().TakeDamage();
+            }
         }
-        if (other.gameObject.CompareTag("Sword") )
+
+        if (other.gameObject.CompareTag("Sword"))
         {
             animator.SetTrigger("deadfrog");
-
         }
     }
 
