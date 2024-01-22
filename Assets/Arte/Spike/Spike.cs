@@ -4,6 +4,11 @@ using UnityEngine;
 
 public class Spike : MonoBehaviour
 {
+    AudioManager audioManager;
+    void Start()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
 
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -12,4 +17,10 @@ public class Spike : MonoBehaviour
             other.GetComponent<Mover>().TakeDamage(); // Call the TakeDamage method of the player
         }
     }
+
+    private void SpikeSFX()
+    {
+        audioManager.PlaySFX(audioManager.Spike);
+    }
+
 }
