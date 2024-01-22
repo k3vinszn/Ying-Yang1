@@ -148,11 +148,11 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.21090138, y: -0.01124239}
+  m_Offset: {x: -0.0023616552, y: -0.1703906}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -162,7 +162,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.9614303, y: 4.395157}
+  m_Size: {x: 2.7297323, y: 4.318327}
   m_EdgeRadius: 0
 --- !u!61 &9096222437154729434
 BoxCollider2D:
@@ -194,11 +194,11 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.15728173, y: -0.16370368}
+  m_Offset: {x: -0.025572717, y: -0.16370368}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -208,7 +208,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 2.1138585, y: 4.1661167}
+  m_Size: {x: 2.3772764, y: 4.1661167}
   m_EdgeRadius: 0
 --- !u!114 &1014111585801333112
 MonoBehaviour:
@@ -230,6 +230,14 @@ MonoBehaviour:
   bulletObject: {fileID: 0}
   bulletSpawnPoint: {fileID: 7463500433653669242}
   fireDuration: 5
+  groundCheck: {fileID: 0}
+  groundCheckRadius: 0
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  specialJumpLayer:
+    serializedVersion: 2
+    m_Bits: 0
   fallDetector: {fileID: 0}
   healthBar: {fileID: 0}
   healthsystem: {fileID: 0}
