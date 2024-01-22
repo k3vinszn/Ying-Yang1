@@ -7,8 +7,9 @@ public class EnemyShooting : MonoBehaviour
     public GameObject bullet;
     public Transform bulletPos;
     private GameObject[] players;
-    private int currentPlayerIndex = 0;
 
+    private GameObject player;
+    private float playerDistance;
     public int maxShots = 3;
     public float shotInterval = 2f;
     public float cooldownTime = 5f;
@@ -22,7 +23,7 @@ public class EnemyShooting : MonoBehaviour
 
     IEnumerator DelayedStart()
     {
-        yield return new WaitForSeconds(10f);
+        yield return new WaitForSeconds(5f);
         players = GameObject.FindGameObjectsWithTag("Player");
         canStartShooting = true;
 
@@ -40,17 +41,25 @@ public class EnemyShooting : MonoBehaviour
             }
 
             yield return new WaitForSeconds(cooldownTime);
-
-            // Switch to the next player
-            currentPlayerIndex = (currentPlayerIndex + 1) % players.Length;
         }
     }
 
     void Shoot()
     {
-        float distance = Vector2.Distance(transform.position, players[currentPlayerIndex].transform.position);
+        float player1Distance = Vector3.Distance(transform.position, players[0].transform.position);
+        float player2Distance = Vector3.Distance(transform.position, players[1].transform.position);
 
-        if (distance < 20)
+        if (player1Distance <= player2Distance)
+        {
+            player = players[0];
+            playerDistance = player1Distance;
+        }
+        else
+        {
+            player = players[1];
+            playerDistance = player2Distance;
+        }
+        if (playerDistance < 20)
         {
             Instantiate(bullet, bulletPos.position, Quaternion.identity);
         }
