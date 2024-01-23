@@ -298,8 +298,6 @@ public class Mover : MonoBehaviour
         {
 
             audioManager.PlaySFX(audioManager.TakingDamage);
-
-            Destroy(other.gameObject);
             Debug.Log("TOOK DAMAGE");
             TakeDamage();
             // Destroy the bullet
@@ -347,10 +345,9 @@ public class Mover : MonoBehaviour
    
     IEnumerator RespawnDelay()
     {
-        Debug.Log("2 SECONDS DELAY");
         yield return new WaitForSeconds(0.3f);
-        animator.SetTrigger("isDead");
         transform.position = respawnPoint;
+        animator.SetTrigger("isDead");
         healthsystem.resethealth();
         isPlayerAlive = true;
     }
