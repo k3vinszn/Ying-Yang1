@@ -5,18 +5,19 @@ using UnityEngine;
 public class RepeatingDoorXBehavior : MonoBehaviour
 {
     private bool isDoorOpen = false;
-    
+
     public float doorSpeed = 1f;
     public float doorStayTime = 3f;
+    public float doorOpenOffsetX = 25f; // new variable for x-axis offset
     private bool isMoving = false;
-    
+
     private Vector3 doorClosedPos;
     private Vector3 doorOpenPos;
 
     void Awake()
     {
         doorClosedPos = transform.position;
-        doorOpenPos = new Vector3(transform.position.x - 25f, transform.position.y, transform.position.z);
+        doorOpenPos = new Vector3(transform.position.x - doorOpenOffsetX, transform.position.y, transform.position.z);
     }
 
     void Update()
@@ -31,13 +32,13 @@ public class RepeatingDoorXBehavior : MonoBehaviour
     {
         isMoving = true;
 
-        // Move the door up
+        // Move the door left
         yield return MoveDoor(doorOpenPos);
 
         // Wait for the specified time
         yield return new WaitForSeconds(doorStayTime);
 
-        // Move the door down
+        // Move the door right
         yield return MoveDoor(doorClosedPos);
 
         // Do not set isDoorOpen to false here; keep the door state unchanged

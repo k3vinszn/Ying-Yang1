@@ -5,17 +5,19 @@ using UnityEngine;
 public class RepeatingDoorBehavior : MonoBehaviour
 {
     private bool isDoorOpen = false;
-    
+
     public float doorSpeed = 1f;
     public float doorStayTime = 3f;
+    public float doorOpenOffset = 20f; // new variable for y-axis offset
     private bool isMoving = false;
 
     private Vector3 doorClosedPos;
     private Vector3 doorOpenPos;
+
     void Awake()
     {
         doorClosedPos = transform.position;
-        doorOpenPos = new Vector3(transform.position.x, transform.position.y + 20f, transform.position.z);
+        doorOpenPos = new Vector3(transform.position.x, transform.position.y + doorOpenOffset, transform.position.z);
     }
 
     void Update()
