@@ -54,10 +54,11 @@ public class EnemyBulletScript : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("Player") && !other.isTrigger)
+        if (other.gameObject.CompareTag("Player") )
         {
+            
             other.GetComponent<Mover>().TakeDamage(); // Call the TakeDamage method of the player
-            Destroy(gameObject); // destroy the bullet
+            Destroy(gameObject);
         }
     }
 }
