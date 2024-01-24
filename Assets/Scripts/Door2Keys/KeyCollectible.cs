@@ -1,11 +1,21 @@
+using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class KeyCollectible : MonoBehaviour
 {
+
+    AudioManager audioManager;
+
+
+    private void Start()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        
         if (collision.CompareTag("Player"))
         {
             // Assuming the key is collected when the player touches it
@@ -15,10 +25,14 @@ public class KeyCollectible : MonoBehaviour
 
     public void CollectKey()
     {
-        // You can add any specific logic here when the key is collected,
-        // such as playing a sound, disabling the key object, etc.
+        audioManager.PlaySFX(audioManager.KeyCollect);
 
-        // For example, you can deactivate the GameObject when the key is collected:
+        Invoke("DeactivateKey", 1f);
+    }
+
+    private void DeactivateKey()
+    {
+        // Deactivate the GameObject after the delay
         gameObject.SetActive(false);
     }
 }
