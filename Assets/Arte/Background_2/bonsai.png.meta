@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bonsai_0: -978044142549374847
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

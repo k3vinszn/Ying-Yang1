@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      folhinhas_0: 2362856946222199314
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
