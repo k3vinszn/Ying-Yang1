@@ -311,6 +311,7 @@ public class Mover : MonoBehaviour
 
         if (other.gameObject.CompareTag("Fall Detector"))
         {
+            animator.SetTrigger("takingDamage");
             RespawnPlayer();
         }
         else if (other.tag == "Checkpoint")
