@@ -3,7 +3,7 @@ using UnityEngine.UI;
 
 public class PauseManager : MonoBehaviour
 {
-    public GameObject pauseButton;
+    
     public GameObject pauseMenu; // Assign your pause menu GameObject in the Unity Inspector
     public Button resumeButton; // Assign your resume button in the Unity Inspector
 
@@ -44,7 +44,6 @@ public class PauseManager : MonoBehaviour
             if (pauseMenu != null)
             {
                 pauseMenu.SetActive(true); // Enable the pause menu GameObject
-                pauseButton.SetActive(false);
             }
         }
         else
@@ -53,7 +52,6 @@ public class PauseManager : MonoBehaviour
             if (pauseMenu != null)
             {
                 pauseMenu.SetActive(false); // Disable the pause menu GameObject
-                pauseButton.SetActive(true);
             }
         }
     }
