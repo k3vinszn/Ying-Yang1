@@ -46,7 +46,7 @@ public class EnemyBulletScript : MonoBehaviour
 
         timer += Time.deltaTime;
 
-        if (timer > 3)
+        if (timer > 4)
         {
             Destroy(gameObject); // destroy the projectile after a certain time in the scene
         }
